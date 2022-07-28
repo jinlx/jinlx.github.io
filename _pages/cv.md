@@ -11,9 +11,9 @@ redirect_from:
 
 Education
 ======
-* B.S. in GitHub, GitHub University, 2012
-* M.S. in Jekyll, GitHub University, 2014
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
+* Ph.D in Chemistry, University of Montana, 2019-2024 (expected)
+* B.S in Atmospheric Sciences, Lanzhou University, 2015-2019
+* Visiting student, University of Washington, 2018
 
 Work experience
 ======
@@ -27,7 +27,7 @@ Work experience
   * Duties included: Merging pull requests
   * Supervisor: Professor Hub
   
-Skills
+About Me
 ======
 * Skill 1
 * Skill 2
