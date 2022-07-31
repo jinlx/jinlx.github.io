@@ -1,5 +1,8 @@
 # main links links
 main:
+  - title: "Poster and Talk"
+    url: /talks/ 
+
   - title: "Publications"
     url: /publications/
 
