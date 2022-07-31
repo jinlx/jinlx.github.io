@@ -1,9 +1,9 @@
 ---
 title: "Volatile Organic Compounds in a Western Montana Valley: Roles of Residential Wood Burning and Impacts of SARS-CoV-2 Shutdowns"
 collection: talks and posters
-type: "Talk and Poster"
+type: "Poster"
 permalink: /talks/2020AGU_Damien
-venue: "remote"
+venue: "American Geophysical Union (AGU) Fall Meeting"
 date: 2020-12-08
 location: "remote due to covid"
 ---
