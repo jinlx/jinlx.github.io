@@ -11,9 +11,9 @@ title                    : "Lixu Jin's Homepage"
 title_separator          : "-"
 name                     : &name "Lixu Jin"
 description              : &description "study air quality and wildfires/modeller/Ph.D. student at the UM"
-url                      : https://lixujin.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url                      : https://jinlx.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "jinlx/lixujin.github.io"
+repository               : "jinlx/jinlx.github.io"
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 breadcrumbs              : false # true, false (default)
 words_per_minute         : 160
