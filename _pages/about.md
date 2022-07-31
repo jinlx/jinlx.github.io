@@ -1,14 +1,12 @@
 ---
 permalink: /
-title: "About"
+title: "Welcome!"
 excerpt: "About me"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
-Welcome!
-======
 to my website! I'm currently Ph.D. student in the Atmospheric Chemistry Observations and Modeling Group at the Unversity of Montana studying the atmospheric chemistry of VOCs by modelling. Here you can learn more [about me] (link needed), read about [my research] (link needed), check my [peer-reviewed publications] (web needed), my previous [talks or posters] (web needed). Please don't hesitate to contact me if there are anything you are interested in. 
 
 About Me
