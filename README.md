@@ -7,6 +7,5 @@ There are several things to be Done:
 1) get a nice and professional profile.
 2) add a new directory to include CV and things I did for fun afte work.
 3) add description of my research theme
-4) add co-author papers and AGU talks
-5) separate talk and posters
+4) add co-author papers
 
