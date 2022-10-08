@@ -1,30 +1,28 @@
 ---
 layout: archive
-title: "CV"
+#title: "CV"
 permalink: /cv/
 author_profile: true
 ---
 
 {% include base_path %}
 
-Education
+<ins>Education</ins>
 ======
 * Ph.D in Chemistry, University of Montana, 2019–2024 (expected)
 * B.S in Atmospheric Sciences, Lanzhou University, 2015–2019
 * Visiting student, University of Washington, 2018
 
-Experience
+<ins>Experience</ins>
 ======
 * 2019–2022: Graduate Research Assistant
     * University of Montana
     * Supervisor: Dr. Lu Hu
-
 * 2018 Fall: Undergraduate Visiting Researcher
     * University of Washington
     * Supervisor: Dr. Dan Jaffe
-  
-
-Honors and Awards
+    
+<ins>Honors and Awards</ins>
 ======
 * 2021 Fall: Fred Shafizadeh Memorial Scholarship
     * University of Montana
