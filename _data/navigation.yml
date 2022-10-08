@@ -1,13 +1,16 @@
 # main links links
 main:
-  - title: "Research"
+  - title: "RESEARCH"
     url: /research/
     
-  - title: "Poster and Talk"
-    url: /talks/ 
-
-  - title: "Publications"
+   - title: "PUBLICATIONS"
     url: /publications/
     
-  - title: "Activities"
+  - title: "PRESENTATION"
+    url: /talks/ 
+    
+  - title: "ACTIVITIES"
     url: /activities/
+    
+  - title: "CONTACT"
+    url: /contact/
