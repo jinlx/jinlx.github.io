@@ -5,9 +5,6 @@ main:
 
   - title: "Publication"
     url: /publications/    
-
-  #- title: "Talks"
-  #  url: /talks/  
     
   - title: "Presentations"
     url: /presentations/
@@ -15,35 +12,8 @@ main:
   - title: "Activities"
     url: /activities/
     
-  - title: "CONTACT"
+  - title: "Contact"
     url: /contact/
     
   - title: "CV"
     url: /CV/
-
-
-
-
-
-# main links links
-#main:
-#  - title: "Publications"
-#    url: /publications/
-#    
-#   - title: "Publication"
-#    url: /publications/
-    
-  #- title: "Talks"
-  #  url: /talks/ 
-  
-  #- title: "Presentations"
-  #  url: /presentations/
-  
-  #- title: "Activities"
-  #  url: /activities/
-    
-  # - title: "CONTACT"
-  #   url: /contact/
-  
-  # - title: "CV"
-  #   url: /CV/
