@@ -3,14 +3,17 @@ main:
   - title: "RESEARCH"
     url: /research/
     
-   - title: "PUBLICATIONS"
+   - title: "Publication"
     url: /publications/
     
-  - title: "PRESENTATION"
+  - title: "Talks"
     url: /talks/ 
     
-  - title: "ACTIVITIES"
+  - title: "Activities"
     url: /activities/
     
-  - title: "CONTACT"
-    url: /contact/
+  # - title: "CONTACT"
+  #   url: /contact/
+  
+  # - title: "CV"
+  #   url: /CV/
