@@ -12,5 +12,5 @@ I will provide GEOS-Chem simulations for collaborators to connect field data. In
 ## Biomass Burning Chemistry
 As the priority of this stage, I will work on exploring the missing OVOCs source and answering what uncharacterized VOCs are needed to include in the model based on the WE-CAN campaign. Specific focus will be on furan and its 4 derivatives (those VOCs containing 4-carbon and 1-oxygen aromatic ring). The GEOS-Chem mechanism will be evaluated along with the most explicit chemical mechanism of trace gas. The chemical impacts from fire smoke will be investigated from regional and global schale. 
 
-## Biomass Burning Transport and heath concerns
+## Biomass Burning Transport and Heath Concerns
 Post deployment I will work to evaluate current 5 available injections parametrizations on plume transport and plume evolution and provide recomm. Finally, I will use our fire-adapted GEOS-Chem to provide the fire impacts on human health from regional to global scale.
