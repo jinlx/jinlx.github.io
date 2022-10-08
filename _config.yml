@@ -8,7 +8,7 @@
 # Site Settings
 locale                   : "en-US"
 title                    : "Lixu Jin's Homepage"
-subtitle                 : "Atmospheric chemist / "
+#subtitle                 : "Atmospheric chemist / "
 title_separator          : "-"
 name                     : &name "Lixu Jin"
 description              : &description "study air quality and wildfires/modeller/Ph.D. student at the UM"
