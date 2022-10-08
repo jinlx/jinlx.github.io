@@ -1,3 +1,8 @@
+---
+title: "Contact information"
+permalink: /contact/
+author_profile: true
+---
 Email:
      lixu.jin (at) umconnect.umt.edu
 
