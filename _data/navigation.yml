@@ -8,12 +8,12 @@ main:
     
   - title: "Presentations"
     url: /presentations/
-        
-  - title: "Activities"
-    url: /activities/
-    
-  - title: "Contact"
-    url: /contact/
     
   - title: "CV"
     url: /cv/
+    
+  - title: "Contact"
+    url: /contact/
+  
+  - title: "Activities"
+    url: /activities/
