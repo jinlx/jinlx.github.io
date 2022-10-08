@@ -1,6 +1,7 @@
 ---
-title: "Talks & Posters"
 permalink: /presentations/
+title: "Talks & Posters"
+#excerpt: "Talks & Posters"
 author_profile: true
 ---
 
