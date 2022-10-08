@@ -8,6 +8,7 @@
 # Site Settings
 locale                   : "en-US"
 title                    : "Lixu Jin's Homepage"
+subtitle                 : "Atmospheric chemist / "
 title_separator          : "-"
 name                     : &name "Lixu Jin"
 description              : &description "study air quality and wildfires/modeller/Ph.D. student at the UM"
@@ -46,8 +47,6 @@ staticman:
       type               : "date"
       options:
         format           : "iso8601" # "iso8601" (default), "timestamp-seconds", "timestamp-milliseconds"
-atom_feed:
-  path                   : # blank (default) uses feed.xml
 
 # SEO Related
 google_site_verification :
