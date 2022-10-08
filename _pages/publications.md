@@ -4,7 +4,7 @@ permalink: /publications/
 author_profile: true
 ---
 
-## Biomass Burning Emissions
+## Biomass Burning Emission
 
 
 ## Biomass Burning Chemistry
