@@ -1,0 +1,10 @@
+Email:
+     lixu.jin (at) umconnect.umt.edu
+
+Office:
+     302 Chemistry building
+
+Campus mailing address: 
+     Lixu Jin
+     32 Campus Drive
+     Missoula, MT 59812
