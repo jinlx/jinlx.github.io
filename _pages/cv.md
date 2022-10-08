@@ -3,8 +3,6 @@ layout: archive
 title: "CV"
 permalink: /cv/
 author_profile: true
-redirect_from:
-  - /resume
 ---
 
 {% include base_path %}
@@ -36,5 +34,3 @@ Honors and Awards
   * Lanzhou University, Lanzhou, China
 * 2016, 2018–2019 Fall: Excellent Student Scholarship
   * Lanzhou University, Lanzhou, China
-  
-
