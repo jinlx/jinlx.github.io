@@ -6,9 +6,12 @@ main:
    - title: "Publication"
     url: /publications/
     
-  - title: "Talks"
-    url: /talks/ 
-    
+  # - title: "Talks"
+  #   url: /talks/ 
+  
+  - title: "Presentations"
+    url: /presentations/
+  
   - title: "Activities"
     url: /activities/
     
