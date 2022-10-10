@@ -7,6 +7,7 @@ author_profile: true
 
 {% include base_path %}
 
+###### $\textcolor{grey}{\text{Updated dates: 8/2/2022}}$
 
 <ins>Education</ins>
 ======
