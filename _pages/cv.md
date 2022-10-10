@@ -34,5 +34,5 @@ author_profile: true
 * 2016, 2018, 2019 Fall: Excellent Student Scholarship
     * Lanzhou University, Lanzhou, China
 
-###### </ins>Updated dates: 8/2/2022</ins>
+###### <ins>Updated dates: 8/2/2022</ins>
 
