@@ -7,6 +7,7 @@ author_profile: true
 
 {% include base_path %}
 
+
 <ins>Education</ins>
 ======
 * Ph.D in Chemistry, University of Montana, 2019–2024 (expected)
@@ -32,3 +33,6 @@ author_profile: true
     * Lanzhou University, Lanzhou, China
 * 2016, 2018–2019 Fall: Excellent Student Scholarship
     * Lanzhou University, Lanzhou, China
+
+###### </ins>Updated dates: 8/2/2022</ins>
+
