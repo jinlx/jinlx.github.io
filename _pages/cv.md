@@ -31,7 +31,7 @@ author_profile: true
     * University of Montana
 * 2019 Fall: Outstanding Graduate Award
     * Lanzhou University, Lanzhou, China
-* 2016, 2018–2019 Fall: Excellent Student Scholarship
+* 2016, 2018, 2019 Fall: Excellent Student Scholarship
     * Lanzhou University, Lanzhou, China
 
 ###### </ins>Updated dates: 8/2/2022</ins>
