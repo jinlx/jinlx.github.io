@@ -13,6 +13,11 @@ $\textcolor{grey}{\text{Updated dates: 8/2/2022}}$
 
 ###### *Updated dates: 8/2/2022*
 
+```diff
+# Updated dates: 8/2/2022
+```
+
+
 <ins>Education</ins>
 ======
 * Ph.D in Chemistry, University of Montana, 2019–2024 (expected)
