@@ -10,7 +10,8 @@ author_profile: true
 ###### Updated dates: 8/2/2022
 ###### $\textcolor{grey}{\text{Updated dates: 8/2/2022}}$
 $\textcolor{grey}{\text{Updated dates: 8/2/2022}}$
-###### *Updated dates: 8/2/2022
+
+###### *Updated dates: 8/2/2022*
 
 <ins>Education</ins>
 ======
