@@ -5,8 +5,8 @@ author_profile: true
 ---
 
 ## Biomass Burning Emission
-- **Lixu Jin**, Wade Permar, Vanessa Selimovic, Damien Ketcherside, Robert J. Yokelson, Rebecca S. Hornbrook, Eric C. Apel, I-Ting Ku, Jeffrey L. Collett, Amy P. Sullivan, Daniel A. Jaffe, Jeffrey R. Pierce, Alan Fried, Matthew M. Coggon, Georgios I. Gkatzelis, Carsten Warneke, Emily V. Fischer, and Lu Hu (submitted) <br>
-**Constraining emissions of volatile organic compounds from western US wildfires with WE-CAN and FIREX-AQ airborne observations.** [[manuscript](https://github.com/jinlx/jinlx.github.io/blob/master/files/ACP_BBemission_wus_manuscript.pdf)] [[supplement](https://github.com/jinlx/jinlx.github.io/blob/master/files/ACP_BBemission_wus_supplement.pdf)] <br>
+- **Lixu Jin**, Wade Permar, Vanessa Selimovic, Damien Ketcherside, Robert J. Yokelson, Rebecca S. Hornbrook, Eric C. Apel, I-Ting Ku, Jeffrey L. Collett, Amy P. Sullivan, Daniel A. Jaffe, Jeffrey R. Pierce, Alan Fried, Matthew M. Coggon, Georgios I. Gkatzelis, Carsten Warneke, Emily V. Fischer, and Lu Hu <br>
+**Constraining emissions of volatile organic compounds from western US wildfires with WE-CAN and FIREX-AQ airborne observations.(submitted)** [[manuscript](https://github.com/jinlx/jinlx.github.io/blob/master/files/ACP_BBemission_wus_manuscript.pdf)] [[supplement](https://github.com/jinlx/jinlx.github.io/blob/master/files/ACP_BBemission_wus_supplement.pdf)] <br>
   *Atmospheric Chemistry and Physics Discussion*.<br>
   *[Corresponding analysis scripts are provided on request (Python, IDL, and R)](https://github.com/jinlx/Western-US-emission-packages)*<br>
 ## Biomass Burning Chemistry
