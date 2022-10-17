@@ -13,4 +13,4 @@ author_profile: true
 - Permar W., **L. Jin**, Q. Peng, K. O’Dell, E. Lill, V. Selimovic, R. J. Yokelson, R. S. Hornbrook, A. J. Hills, E. C. Apel, I-T. Ku, Y. Zhou, B. C. Sive, A. P. Sullivan, J. L. Collett Jr., B. B. Palm, J. A. Thornton, F. Flocke, E. V. Fischer, L. Hu (2022) <br>
   ***[Atmospheric OH reactivity in the western United States determined from comprehensive gas-phase measurements during WE-CAN](http://ToBeDone.com).*** <br>
   ***Environmental Science: Atmospheres***.<br>
-  *[Corresponding F0AM and GEOS-Chem analysis scripts are provided on request (Matlab, Python, and IDL)](http://ToBeDone.com)*<br>
+  *[Corresponding F0AM and GEOS-Chem data are provided on request (Matlab, Python, and IDL)](http://ToBeDone.com)*<br>
