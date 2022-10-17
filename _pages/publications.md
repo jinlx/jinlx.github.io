@@ -6,7 +6,7 @@ author_profile: true
 
 ## Biomass Burning Emission
 - **Lixu Jin**, Wade Permar, Vanessa Selimovic, Damien Ketcherside, Robert J. Yokelson, Rebecca S. Hornbrook, Eric C. Apel, I-Ting Ku, Jeffrey L. Collett, Amy P. Sullivan, Daniel A. Jaffe, Jeffrey R. Pierce, Alan Fried, Matthew M. Coggon, Georgios I. Gkatzelis, Carsten Warneke, Emily V. Fischer, and Lu Hu (submitted) <br>
-[Constraining emissions of volatile organic compounds from western US wildfires with WE-CAN and FIREX-AQ airborne observations](https://editor.copernicus.org/index.php?_mdl=msover_md&_jrl=778&_lcm=oc73lcm74a&_acm=get_manuscript_file&_ms=107198&id=2025482&salt=10938023841309685508). <br>
+[Constraining emissions of volatile organic compounds from western US wildfires with WE-CAN and FIREX-AQ airborne observations]([https://editor.copernicus.org/index.php?_mdl=msover_md&_jrl=778&_lcm=oc73lcm74a&_acm=get_manuscript_file&_ms=107198&id=2025482&salt=10938023841309685508](https://github.com/jinlx/jinlx.github.io/blob/master/files/ACP_BBemission_wus_manuscript.pdf)). <br>
   *Atmospheric Chemistry and Physics*.
 
 ## Biomass Burning Chemistry
