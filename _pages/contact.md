@@ -7,7 +7,7 @@ author_profile: true
     * lixu.jin (at) umconnect.umt.edu
 
 * Office
-    * 302 Chemistry building
+    * 301 Chemistry building
 
 * Campus mailing address 
     * Lixu Jin
