@@ -3,6 +3,7 @@ title: "Representative Publications"
 permalink: /publications/
 author_profile: true
 ---
+###### *Updated dates: 10/16/2022*
 
 ## Biomass Burning Emission
 - **Lixu Jin**, Wade Permar, Vanessa Selimovic, Damien Ketcherside, Robert J. Yokelson, Rebecca S. Hornbrook, Eric C. Apel, I-Ting Ku, Jeffrey L. Collett, Amy P. Sullivan, Daniel A. Jaffe, Jeffrey R. Pierce, Alan Fried, Matthew M. Coggon, Georgios I. Gkatzelis, Carsten Warneke, Emily V. Fischer, and Lu Hu <br>
