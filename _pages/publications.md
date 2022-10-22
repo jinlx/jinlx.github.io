@@ -7,7 +7,7 @@ author_profile: true
 
 ## Biomass Burning Emission
 - **Lixu Jin**, Wade Permar, Vanessa Selimovic, Damien Ketcherside, Robert J. Yokelson, Rebecca S. Hornbrook, Eric C. Apel, I-Ting Ku, Jeffrey L. Collett, Amy P. Sullivan, Daniel A. Jaffe, Jeffrey R. Pierce, Alan Fried, Matthew M. Coggon, Georgios I. Gkatzelis, Carsten Warneke, Emily V. Fischer, and Lu Hu <br>
-**Constraining emissions of volatile organic compounds from western US wildfires with WE-CAN and FIREX-AQ airborne observations(submitted)** [[manuscript](https://github.com/jinlx/jinlx.github.io/blob/master/files/ACP_BBemission_wus_manuscript.pdf)] [[supplement](https://github.com/jinlx/jinlx.github.io/blob/master/files/ACP_BBemission_wus_supplement.pdf)] <br>
+**Constraining emissions of volatile organic compounds from western US wildfires with WE-CAN and FIREX-AQ airborne observations(submitted)** [[manuscript](https://jinlx.github.io/files/ACP_BBemission_wus_manuscript.pdf)] [[supplement](https://jinlx.github.io/files/ACP_BBemission_wus_supplement.pdf)] <br>
   *Atmospheric Chemistry and Physics Discussion*<br>
   *[Corresponding input data and analysis scripts are provided on request (Python, IDL, Unix shell, and R)](https://github.com/jinlx/Western-US-emission-packages)*<br>
 ## Biomass Burning Chemistry
@@ -15,7 +15,4 @@ author_profile: true
   **Atmospheric OH reactivity in the western United States determined from comprehensive gas-phase measurements during WE-CAN** [[manuscript](http://ToBeDone.com)] [[supplement](http://ToBeDone.com)] <br> 
   *Environmental Science: Atmospheres*<br>
   *[Corresponding F0AM and GEOS-Chem data are provided on request (Matlab, Python, and IDL)](http://ToBeDone.com)*<br>
-  
-  
-  
   
