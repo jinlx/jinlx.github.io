@@ -12,5 +12,5 @@ to my website! I'm currently Ph.D. student in the Atmospheric Chemistry Observat
 Prior to joining the UM, I received my B.S. in Atmospheric Science with Honors (top 10%) from Lanzhou University in China. The interest in air quality modelling took me to Seattle, the University of Washington for one semester, where I studied atmospheric chemistry and F0AM ([The Framework for 0-D Atmospheric Modeling](https://sites.google.com/site/wolfegm/models)) with [Prof. Dan Jaffe](https://blogs.uw.edu/djaffe/pi-dan-jaffe/). Beyond research, my interests include hiking, travel, cooking, workout, cool things in industries. You can learn more about those [activities](https://jinlx.github.io/publications/) here.
 
 
-[test_resume](https://docs.google.com/viewer?url={[link_to_pdf](https://github.com/jinlx/jinlx.github.io/blob/master/files/Resume.pdf)})
+[test_resume](https://docs.google.com/viewer?url={[https://github.com/jinlx/jinlx.github.io/blob/master/files/Resume.pdf]})
 
