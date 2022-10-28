@@ -1,7 +1,6 @@
 ---
-permalink: /presentations/
 title: "Talks & Posters"
-#excerpt: "Talks & Posters"
+permalink: /presentations/
 author_profile: true
 ---
 
