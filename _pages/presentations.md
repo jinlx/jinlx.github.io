@@ -6,7 +6,7 @@ author_profile: true
 
 ## Talks
 - **L. Jin**, *et al.* (2022) <br>
-  [Constraining VOC emission from western US wildfires with WE-CAN and FIREX-AQ airborne observations](https://github.com/jinlx/jinlx.github.io/blob/master/files/IGC10_JIN.pdf). <br>
+  [Constraining VOC emission from western US wildfires with WE-CAN and FIREX-AQ airborne observations](https://jinlx.github.io/files/IGC10_JIN.pdf). <br>
   *The 10th International GEOS-Chem Meeting, June, Washington University in St Louis, Missouri*.
   
 ## Posters
