@@ -11,7 +11,7 @@ title                    : "Lixu Jin's Homepage"
 subtitle                 : "Atmospheric Modeler / Atmospheric Chemist"
 title_separator          : "-"
 name                     : &name "Lixu Jin"
-description              : &description "study air quality and wildfires/modeller/Ph.D. student at the UM"
+description              : &description "study air quality and wildfires/modeller/Ph.D. candidate at the UM"
 url                      : https://jinlx.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "jinlx/jinlx.github.io"
@@ -81,7 +81,7 @@ analytics:
 author:
   name             : "Lixu Jin"
   avatar           : "profile.png"
-  bio              : "Ph.D. student in chemistry (2019.9 - current)"
+  bio              : "Ph.D. candidate in chemistry"
   location         : "Missoula, MT"
   employer         :
   pubmed           : #"https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
