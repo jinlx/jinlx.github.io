@@ -7,4 +7,4 @@ A quick tour for the design logics (just in case if anyone wants to rebuild the 
 There are several things TBD (I can foresee this will be growing due to my procrastination):
 1) get a nice and professional profile;
 2) upload some figures of my personal activities (e.g., food, travelling, workout progress, and game).
-3) update some blog post and add the link in the homepage (https://jinlx.github.io/year-archive/). This would be a hidden website for posts.
+3) update some blog postin posts section and add the link in the homepage (https://jinlx.github.io/year-archive/). This would be a hidden website for posts.
