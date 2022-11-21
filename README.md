@@ -8,4 +8,4 @@ There are several things TBD (I can foresee this will be growing due to my procr
 1) get a nice and professional profile;
 2) upload some figures of my personal activities (e.g., food, travelling, workout progress, and game).
 3) update some blog postin posts section and add the link in the homepage (https://jinlx.github.io/year-archive/). This would be a hidden website for posts.
-4) For figures, here goes an exampel for how other people make live figure collection (https://raw.githubusercontent.com/ehsong/ehsong.github.io/master/_pages/personal.md)
+4) For figures, here goes an example for how other people make live figure or video collection (https://raw.githubusercontent.com/ehsong/ehsong.github.io/master/_pages/personal.md; https://github.com/academicpages/academicpages.github.io/issues/829)
