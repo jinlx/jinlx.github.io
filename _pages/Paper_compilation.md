@@ -11,3 +11,6 @@ Formaldehyde
 
 Ozone
 - Large contribution of biomass burning emissions to ozone throughout the global remote troposphere
+
+PM
+- Prescribed burn: Prescribed burns as a tool to mitigate future wildfire smoke exposure: Lessons for states and rural environmental justice communities
