@@ -3,6 +3,7 @@ title: "Research"
 permalink: /researches/
 author_profile: true
 ---
+
 ## Overall
 My research aims to improve how air-quality and chemical transport models (CTMs) represent wildfire smoke—from emissions to chemistry to community exposure. My Ph.D. work at the University of Montana (Atmospheric Chemistry Observations and Modeling Group) focused on constraining wildfire VOC emissions, diagnosing smoke photochemistry using aircraft and ground observations, and translating multi-day aged smoke episodes into health-relevant exposure metrics. I am now a postdoctoral researcher at Rutgers University in Prof. Xiaomeng Jin’s group, extending this work toward chemically informed exposure indicators and model–measurement frameworks that connect smoke composition to public-health outcomes.
 
@@ -17,7 +18,7 @@ A central theme across my projects is building a **fire-adapted modeling framewo
 ---
 
 ## Wildfire Emissions
-I constrain wildfire emissions of VOCs using aircraft observations and complementary measurements, with an emphasis on why models can reproduce some primary tracers (e.g., CO) but still miss key oxygenated VOCs (OVOCs).
+I constrain wildfire emissions of VOCs using aircraft observations and complementary measurements, with an emphasis on identifying why models can reproduce some primary tracers (e.g., CO) but still miss key oxygenated VOCs (OVOCs). This work is summarized in my peer-reviewed ACP paper (Jin *et al.*, 2023), which shows that commonly used fire inventories substantially underestimate western U.S. wildfire VOC emissions and that scaling total emissions alone does not fully resolve OVOC biases.
 
 **What I do in this area:**
 - Use aircraft campaign datasets (e.g., WE-CAN, FIREX-AQ) to constrain emission ratios and evaluate inventory biases.
@@ -26,8 +27,8 @@ I constrain wildfire emissions of VOCs using aircraft observations and complemen
 
 ---
 
-## Smoke Chemistry (Science Advances highlight)
-A key outcome of my research is an observation-constrained framework for understanding **OH–O₃–PAN chemistry in fresh wildfire smoke**, accepted in *Science Advances* (**“Ozone Photochemistry in Fresh Biomass Burning Smoke”**).
+## Smoke Chemistry
+A key outcome of my Ph.D. research is an observation-constrained framework for understanding **OH–O₃–PAN chemistry in fresh wildfire smoke**, accepted in *Science Advances* (**“Ozone Photochemistry in Fresh Biomass Burning Smoke”**).
 
 In this work, we show that fresh biomass-burning plumes can be chemically intense:
 - **OH peaks at ~5–20 × 10⁶ molecules cm⁻³ in the first 1–2 hours**, largely driven by high HONO early on, with OVOC photolysis and O₃ becoming more important later.
@@ -47,6 +48,8 @@ A specific focus is **furanoids** (furan and substituted furans), which are abun
 - **3-D CTM simulations** for regional-to-global impacts,
 - and **observational constraints** to ensure mechanism updates are supported by measurements.
 
+This work directly informs simplified but chemically faithful mechanism development for 3-D models, enabling improved representation of wildfire smoke chemistry without prohibitive computational cost.
+
 ---
 
 ## Aged Smoke in Communities: Exposure and Health-Relevant Metrics
@@ -57,7 +60,7 @@ Using the Missoula, Montana 2020 wildfire episode as a case study (submitted to 
 - CTM simulations of smoke transport and chemistry,
 - and exposure/risk-relevant indicators (e.g., chronic inhalation risk metrics and noncancer hazard proxies, when appropriate).
 
-In my postdoctoral work, I am extending these ideas toward **chemically informed exposure metrics** that can be scaled across regions (e.g., integrating satellite-derived chemical context, meteorology, and mixture indicators alongside wildfire PM₂.₅).
+This line of work motivates my current postdoctoral focus on developing chemically informed exposure indicators that can be integrated with epidemiological and machine-learning frameworks.
 
 ---
 
