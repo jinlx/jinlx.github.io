@@ -5,6 +5,7 @@ author_profile: true
 ---
 * Email
     * lixu.jin (at) umconnect.umt.edu
+    * jinlx15 (at) outlook.com
 
 * Office
     * 301 Chemistry building
