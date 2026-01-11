@@ -27,7 +27,7 @@ I constrain wildfire emissions of VOCs using aircraft observations and complemen
 ---
 
 ## Smoke Chemistry (Science Advances highlight)
-A key outcome of my dissertation is an observation-constrained framework for understanding **OH–O₃–PAN chemistry in fresh wildfire smoke**, accepted in *Science Advances* (**“Ozone Photochemistry in Fresh Biomass Burning Smoke”**).
+A key outcome of my research is an observation-constrained framework for understanding **OH–O₃–PAN chemistry in fresh wildfire smoke**, accepted in *Science Advances* (**“Ozone Photochemistry in Fresh Biomass Burning Smoke”**).
 
 In this work, we show that fresh biomass-burning plumes can be chemically intense:
 - **OH peaks at ~5–20 × 10⁶ molecules cm⁻³ in the first 1–2 hours**, largely driven by high HONO early on, with OVOC photolysis and O₃ becoming more important later.
@@ -50,7 +50,7 @@ A specific focus is **furanoids** (furan and substituted furans), which are abun
 ---
 
 ## Aged Smoke in Communities: Exposure and Health-Relevant Metrics
-A core motivation of my dissertation is that **community-scale smoke measurements beyond PM₂.₅ are rare**, limiting model evaluation and health interpretation. I study multi-day aged smoke that impacts communities and quantify how smoke alters not only PM₂.₅ but also chemically specific hazardous air pollutants (HAPs) and oxidant-related conditions.
+A core motivation of my research is that **community-scale smoke measurements beyond PM₂.₅ are rare**, limiting model evaluation and health interpretation. I study multi-day aged smoke that impacts communities and quantify how smoke alters not only PM₂.₅ but also chemically specific hazardous air pollutants (HAPs) and oxidant-related conditions.
 
 Using the Missoula, Montana 2020 wildfire episode as a case study (submitted to *Atmospheric Chemistry and Physics*: **“Characterizing emissions, chemistry, and health impacts of aged wildfire smoke in a western US city”**), I connect:
 - ground observations (criteria pollutants + speciated VOCs where available),
