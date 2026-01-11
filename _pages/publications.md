@@ -13,7 +13,9 @@ author_profile: true
 
 ## Submitted / In Review
 - **Jin, L.**, *et al.* (submitted) <br>
-  **Characterizing Emissions, Chemistry, and Health Impacts of Aged Biomass Burning Smoke: A Case Study in Missoula, Montana in September 2020**.
+  **Characterizing emissions, chemistry, and health impacts of aged wildfire smoke in a western US city** <br>
+  *Atmospheric Chemistry and Physics* (submitted). <br>
+  *Data:* [[Zenodo repository](https://zenodo.org/records/18209325)]
 
 ## Peer-reviewed
 - **Jin, L.**, *et al.* (2023) <br>
