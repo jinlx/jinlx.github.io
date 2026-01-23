@@ -7,7 +7,7 @@ author_profile: true
 ## Invited Talks
 - **L. Jin** *et al.* (2025): Constraining the emissions, chemistry, and health impacts of western U.S. smoke. *Rutgers University, RAQL Lab (online), August 2025.*
 
-- **L. Jin** *et al.* (2024):Improving fire VOC representations of emissions and chemistry in air quality models. *NCAR ACOM TropChem meeting, Boulder, CO, July 2024.* 
+- **L. Jin** *et al.* (2024): Improving fire VOC representations of emissions and chemistry in air quality models. *NCAR ACOM TropChem meeting, Boulder, CO, July 2024.* 
 
 - **L. Jin** *et al.* (2023): Constraining fire emission and chemistry in 3D and 0D atmospheric models. *Westlake University, ACCESS Lab, Hangzhou, China, May 2023.*
 
