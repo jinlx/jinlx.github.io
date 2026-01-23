@@ -13,7 +13,7 @@ author_profile: true
 - **Jin, L.**, *et al.* (submitted): Characterizing emissions, chemistry, and health impacts of aged wildfire smoke in a western US city. *Atmospheric Chemistry and Physics* (submitted). [[paper](https://egusphere.copernicus.org/preprints/2026/egusphere-2026-114/)]; [[data](https://zenodo.org/records/18209325)]; [[code](https://github.com/jinlx/Aged-wildfire-smoke-emission-chemistry-health)];
 
 ## Peer-reviewed
-- **Jin, L.**, *et al.* (2023): Constraining emissions of volatile organic compounds from western US wildfires with WE-CAN and FIREX-AQ airborne observations. *Atmospheric Chemistry and Physics*, 23, 5969–5991. [[paper](https://doi.org/10.5194/acp-23-5969-2023)]; [[data](10.5281/zenodo.15021583)]; [[code](https://github.com/jinlx/Western-US-emission-packages)]; 
+- **Jin, L.**, *et al.* (2023): Constraining emissions of volatile organic compounds from western US wildfires with WE-CAN and FIREX-AQ airborne observations. *Atmospheric Chemistry and Physics*, 23, 5969–5991. [[paper](https://doi.org/10.5194/acp-23-5969-2023)]; [[data](https://doi.org/10.5281/zenodo.15021583)]; [[code](https://github.com/jinlx/Western-US-emission-packages)]; 
 
 - Permar, W., **Jin, L.**, *et al.* (2023): Atmospheric OH reactivity in the western United States determined from comprehensive gas-phase measurements during WE-CAN. *Environmental Science: Atmospheres*. [[paper](https://doi.org/10.1039/D2EA00063F)]
 
