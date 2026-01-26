@@ -17,6 +17,6 @@ author_profile: true
 
 - Permar, W., **Jin, L.**, *et al.* (2023): Atmospheric OH reactivity in the western United States determined from comprehensive gas-phase measurements during WE-CAN. *Environmental Science: Atmospheres*. [[paper](https://doi.org/10.1039/D2EA00063F)]
 
-- Cope, E. M., Ketcherside, D. T., **Jin, L.**, *et al.* (2024): Sources of atmospheric volatile organic compounds during the Salt Lake regional smoke, ozone and aerosol study (SAMOZA) 2022**. *Journal of Geophysical Research: Atmospheres*, 129(17), e2024JD041640. [[paper](https://doi.org/10.1029/2024JD041640)]
+- Cope, E. M., Ketcherside, D. T., **Jin, L.**, *et al.* (2024): Sources of atmospheric volatile organic compounds during the Salt Lake regional smoke, ozone and aerosol study (SAMOZA) 2022. *Journal of Geophysical Research: Atmospheres*, 129(17), e2024JD041640. [[paper](https://doi.org/10.1029/2024JD041640)]
 
 - Jaffe, D., *et al.* (including **Jin, L.**) (2024): Key Results from the Salt Lake regional Smoke, Ozone and Aerosol Study (SAMOZA). *Journal of the Air & Waste Management Association*. [[paper](https://doi.org/10.1080/10962247.2024.2301956)]
