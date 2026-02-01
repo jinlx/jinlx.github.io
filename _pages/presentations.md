@@ -12,6 +12,8 @@ author_profile: true
 - **L. Jin** *et al.* (2023): Constraining fire emission and chemistry in 3D and 0D atmospheric models. *Westlake University, ACCESS Lab, Hangzhou, China, May 2023.*
 
 ## Conference Talks
+- **L. Jin** *et al.* (2024): [Global emissions and chemistry of furanoids: 3-D model analysis and constraints from in-situ observations](https://agu.confex.com/agu/agu24/meetingapp.cgi/Paper/1649115). *AGU Fall Meeting, December 2024.*
+
 - **L. Jin** *et al.* (2024): [Global chemical impacts of furanoids: model analysis and constraints from in-situ observations](https://agu.confex.com/agu/agu24/meetingapp.cgi/Paper/1649115). *11th International GEOS-Chem Meeting (IGC11), June 2024.*
 
 - **L. Jin** *et al.* (2023): [Underestimated Fire Emissions in Inventories: Evidence from Model Simulations and Aircraft Observations](https://www.epa.gov/system/files/documents/2023-11/0900am_lixu.pdf). *EPA Emissions Inventory Conference (EIC), September 2023.*
