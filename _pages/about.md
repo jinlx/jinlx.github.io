@@ -7,7 +7,7 @@ redirect_from:
   - /about/
   - /about.html
 ---
-to my website! I recently graduated with a Ph.D. from the Atmospheric Chemistry Observations and Modeling Group at the University of Montana, where I studied wildfire emissions and the atmospheric chemistry of VOCs through observational constraints and modeling with [Prof. Lu Hu](https://scholar.google.com/citations?user=7WP7T3QAAAAJ&hl=en). I am now a postdoctoral researcher in [Prof. Xiaomeng Jin](https://scholar.google.com/citations?hl=en&user=)’s group at Rutgers University.
+to my website! I recently graduated with a Ph.D. from the Atmospheric Chemistry Observations and Modeling Group at the University of Montana, where I studied wildfire emissions and the atmospheric chemistry of VOCs through observational constraints and modeling with [Prof. Lu Hu](https://scholar.google.com/citations?user=7WP7T3QAAAAJ&hl=en). I am now a postdoctoral researcher in [Prof. Xiaomeng Jin](https://scholar.google.com/citations?user=RoWh6MEAAAAJ)’s group at Rutgers University.
 
 My research focuses on improving our understanding of wildfire smoke chemistry and its impacts on air quality and public health. A core component of my work is developing fire-adapted chemical mechanisms and improving chemical transport model (CTM) representations based on [the GEOS-Chem CTM](https://geos-chem.seas.harvard.edu/#:~:text=GEOS%2DChem%20is%20a%20global,range%20of%20atmospheric%20composition%20problems).
 
