@@ -9,7 +9,12 @@ redirect_from:
 ---
 to my website! I recently graduated with a Ph.D. from the Atmospheric Chemistry Observations and Modeling Group at the University of Montana, where I studied wildfire emissions and the atmospheric chemistry of VOCs through observational constraints and modeling with [Prof. Lu Hu](https://scholar.google.com/citations?user=7WP7T3QAAAAJ&hl=en). I am now a postdoctoral researcher in [Prof. Xiaomeng Jin](https://scholar.google.com/citations?user=RoWh6MEAAAAJ)’s group at Rutgers University.
 
-My research focuses on improving our understanding of wildfire smoke chemistry and its impacts on air quality and public health. A core component of my work is developing fire-adapted chemical mechanisms and improving chemical transport model (CTM) representations based on [the GEOS-Chem CTM](https://geos-chem.seas.harvard.edu/#:~:text=GEOS%2DChem%20is%20a%20global,range%20of%20atmospheric%20composition%20problems).
+My research focuses on improving our understanding of wildfire smoke chemistry and its impacts on air quality and public health. A core component of my work is developing fire-adapted chemical mechanisms and improving chemical transport model (CTM) representations based on [the GEOS-Chem CTM](https://geoschem.github.io/index.html). I combine 0-D box modeling (e.g., [F0AM](https://sites.google.com/site/wolfegm/models)) with field observations to diagnose key chemical processes and develop fire-adapted chemical mechanisms, reducing biases in simulated ozone and other secondary pollutants and strengthening exposure metrics for public-health applications.
+
+ 
+
+My research aims to improve representation of wildfire smoke chemistry in chemical transport models (CTMs), with a focus on GEOS-Chem. I combine 0-D box modeling (e.g., F0AM) with field observations to diagnose key chemical processes and develop fire-adapted chemical mechanisms, reducing biases in simulated ozone and other secondary pollutants and strengthening exposure metrics for public-health applications.
+
 
 **Key research questions I aim to address include:**
 - How can wildfire emissions and atmospheric chemistry be better represented in CTMs to reduce biases in simulated air quality?
