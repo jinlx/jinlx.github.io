@@ -17,7 +17,7 @@ My research focuses on improving our understanding of wildfire smoke chemistry a
 - What roles do reactive VOC classes (e.g., furanoids and other oxygenated species) play in ozone formation and secondary pollution in smoke-impacted regions?
 - How can chemically resolved wildfire smoke exposure metrics improve population-scale health assessments beyond PM₂.₅ mass alone?
 
-Here you can read [my CV](https://jinlx.github.io/files/CV_Lixu.pdf), check out [my research](https://jinlx.github.io/researches/), browse my [peer-reviewed publications](https://jinlx.github.io/publications/), and see my past [talks or posters](https://jinlx.github.io/presentations/), as well as my [interests beyond science](https://jinlx.github.io/activities/). Please don’t hesitate to [contact me](https://jinlx.github.io/contact/) if there is anything you’d like to discuss.
+Here you can read [my CV](https://jinlx.github.io/files/CV_Lixu.pdf), check out [my research](https://jinlx.github.io/researches/), and browse my [peer-reviewed publications](https://jinlx.github.io/publications/), as well as my past [talks or posters](https://jinlx.github.io/presentations/). Please don’t hesitate to [contact me](https://jinlx.github.io/contact/) if there is anything you’d like to discuss.
 
 <img
   src="/images/research_theme.jpg"
