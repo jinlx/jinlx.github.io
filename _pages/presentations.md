@@ -16,7 +16,7 @@ author_profile: true
 
 - **L. Jin** *et al.* (2024): [Global chemical impacts of furanoids: model analysis and constraints from in-situ observations](https://drive.google.com/file/d/1k07wsJk6IO2TytaaRB1hi7lyWq-ynW2L/view). *11th International GEOS-Chem Meeting (IGC11), June 2024.*
 
-- **L. Jin** *et al.* (2023): [Underestimated Fire Emissions in Inventories: Evidence from Model Simulations and Aircraft Observations](https://www.epa.gov/system/files/documents/2023-11/0900am_lixu.pdf). *EPA Emissions Inventory Conference (EIC), September 2023.*
+- **L. Jin** *et al.* (2023): [Underestimated Fire Emissions in Inventories: Evidence from Model Simulations and Aircraft Observations](https://www.epa.gov/system/files/documents/2023-11/0900am_lixu.pdf). *EPA Emissions Inventory Conference (EIC), September 2023.*  ([Video Record](https://www.youtube.com/watch?v=YSYVgQEXJys))
 
 - **L. Jin** *et al.* (2022): [Constraining VOC emission from western US wildfires with WE-CAN and FIREX-AQ airborne observations](https://jinlx.github.io/files/IGC10_JIN.pdf). *10th International GEOS-Chem Meeting (IGC10), June 2022.*
 
