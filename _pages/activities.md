@@ -1,5 +1,5 @@
 ---
-title: "Life beyond science"
+title: "A Glimpse Beyond Research"
 permalink: /activities/
 author_profile: true
 ---
