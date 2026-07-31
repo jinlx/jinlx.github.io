@@ -8,70 +8,56 @@ redirect_from:
 
 ## From plumes to people
 
-My research follows wildfire smoke from emissions at the source, through chemical transformation and regional transport, to community exposure. I combine aircraft and ground-based observations, satellite remote sensing, GEOS-Chem, F0AM, trajectory analysis, and data-driven methods to determine why models miss important reactive species and secondary pollutants. My long-term goal is to improve smoke predictions and develop chemically informed exposure metrics for air-quality and public-health applications.
+Wildfire smoke is not a single pollutant. Its air-quality and health impacts depend on what fires emit, how those emissions react and mix during transport, where secondary pollutants such as ozone form, and what ultimately reaches communities. I combine aircraft, surface, and satellite observations with chemical box models and three-dimensional atmospheric models to answer four connected questions spanning wildfire emissions, smoke chemistry, regional air quality, and human exposure.
 
-The research themes below follow that source-to-receptor progression: emissions, fresh-plume chemistry, chemical mechanisms and aging, ozone-production regimes, satellite-supported transport analysis, and the effects of aged smoke on communities. Because each observing system represents a different spatial and temporal scale, I use explicit model-to-observation sampling rather than treating aircraft transects, surface time series, satellite columns, and model grid cells as directly interchangeable.
+## Wildfire emissions are systematically underestimated
 
-## Wildfire emissions and aircraft constraints
+**Research question.** Are the magnitude and chemical diversity of wildfire emissions accurately represented in atmospheric models?
 
-- **Research question:** How accurately do widely used inventories represent wildfire emissions of VOCs and OVOCs?
-- **Approach:** I use aircraft observations from campaigns including WE-CAN and FIREX-AQ to constrain emissions and evaluate species-level model performance.
-- **Key finding:** My 2023 *Atmospheric Chemistry and Physics* study showed that inventories substantially underestimate western U.S. wildfire VOC emissions and that scaling total emissions alone cannot resolve species-specific biases.
-- **Model implication:** I separate the effects of dry matter burned and fire activity, species-specific emission factors and ratios, plume injection and transport, dilution and background mixing, and chemical loss and secondary formation. This framework translates observations into model-ready emission updates without attributing every mismatch to a single inventory correction.
+**Approach.** I combine satellite-derived fire inventories with aircraft observations of fresh plumes, ground measurements of multi-day-old smoke, and GEOS-Chem sensitivity simulations.
 
-**Related work:** [[paper](https://doi.org/10.5194/acp-23-5969-2023)] [[data](https://doi.org/10.5281/zenodo.15021583)] [[code](https://github.com/jinlx/Western-US-emission-packages)]
+**Key finding.** For western U.S. fires, widely used inventories underestimated primary wildfire emissions by about a factor of three, while the VOC species represented in GEOS-Chem accounted for only about half of the measured VOC emission burden. Correcting both biases raised the estimated wildfire contribution to 45% of western U.S. primary VOC emissions during the active 2018 fire season—comparable to biogenic emissions and about five times anthropogenic emissions.
 
-## Fresh-smoke chemistry and oxidant formation
+**Implication.** Standard models therefore understate wildfire contributions to regional air pollution and downwind exposure. Correcting emissions improves primary gases in aged smoke, but accurate air-quality and health predictions also require improved VOC chemistry and aerosol representation.
 
-- **Research question:** Which chemical and physical processes control OH, ozone, and PAN formation during the first hours after wildfire emission?
-- **Approach:** My 2026 *Science Advances* study combines aircraft observations with F0AM and GEOS-Chem to evaluate HONO, VOC speciation, OVOC photolysis, nitrogen chemistry, dilution, and mechanism complexity.
-- **Key finding:** Fresh smoke can be highly photochemically active, and chemical processing can progress faster than physical plume aging.
-- **Model implication:** Evaluating individual species, reaction families, and oxidant budgets, rather than only aggregate correlation or bias, reveals missing or simplified pathways that influence ozone predictions in fire-impacted regions.
+**Related publications.** [Jin et al., 2023, *ACP*](https://doi.org/10.5194/acp-23-5969-2023) · [Jin et al., 2026, *ACP* (accepted; preprint)](https://doi.org/10.5194/egusphere-2026-114)
 
-**Related work:** [[paper](https://doi.org/10.1126/sciadv.ads2157)] [[data](https://doi.org/10.5281/zenodo.18226363)] [[code](https://github.com/jinlx/Fresh-smoke-chemistry-packages)]
+## Wildfire smoke chemistry evolves rapidly during transport
 
-## Chemical mechanisms and reactive VOCs
+**Research question.** How does wildfire smoke chemistry evolve from fresh plumes to aged downwind air masses, and do atmospheric models capture that evolution?
 
-- **Research question:** Which reactive wildfire VOC pathways materially affect oxidants and secondary pollutants but remain simplified or absent in standard mechanisms?
-- **Chemical focus:** Furanoids are a particular target because they are abundant in biomass-burning emissions and can affect OH reactivity and oxygenated-product formation.
-- **Approach:** I combine observations, mechanism comparisons, detailed box-model chemistry, and regional-to-global simulations.
-- **Model contribution:** I develop fire-adapted representations that connect chemical detail with computationally practical 3-D mechanisms, supporting chemically faithful mechanism reduction and more reliable smoke predictions.
+**Approach.** I combine aircraft and ground-based observations with chemical box models, chemical-age diagnostics, and three-dimensional atmospheric modeling.
 
-**Related work:** [[AGU abstract](https://agu.confex.com/agu/agu24/meetingapp.cgi/Paper/1649115)] [[IGC11 presentation](https://drive.google.com/file/d/1k07wsJk6IO2TytaaRB1hi7lyWq-ynW2L/view)]
+**Key finding.** Chemical aging explained 40–70% of the variability among fires in VOC oxidation and ozone and PAN production, while ozone formation shifted from usually VOC-limited during the first two hours to NOₓ-limited downwind. In multi-day-old smoke, GEOS-Chem overestimated OH exposure by about twofold, removed reactive VOCs too rapidly, and missed substantial secondary oxygenated-VOC production.
 
-## Chemical aging: OH exposure and photochemical age
+**Implication.** Predicting downwind ozone and chemical exposure requires models to represent both the initial wildfire VOC mixture and its evolving chemistry throughout transport.
 
-- **Objective:** Describe smoke oxidation history without treating chemical processing and physical transport as interchangeable.
-- **OH exposure:** This is the time-integrated OH concentration, not automatically the elapsed transport time.
-- **Photochemical age:** A VOC-ratio clock also depends on reaction-rate coefficients, source ratios, mixing, and assumptions about the OH history.
-- **Interpretation:** I report the chemical clock, kinetics, source and background assumptions, and uncertainty. Any conversion from OH exposure to elapsed time requires an explicitly stated and supported OH concentration or time history.
+**Related publications.** [Jin et al., 2026, Science Advances](https://doi.org/10.1126/sciadv.ads2157) · [Jin et al., 2026, ACP (accepted; preprint)](https://doi.org/10.5194/egusphere-2026-114)
 
-**Related work:** [[paper](https://doi.org/10.1126/sciadv.ads2157)] [[code](https://github.com/jinlx/Fresh-smoke-chemistry-packages)]
+**Current direction.** I am extending this plume-scale framework to regional ozone using satellite and surface observations, trajectory analysis, and CMAQ.
 
-## Ozone-production regimes and isopleths
+## Resolving the atmospheric chemistry of wildfire-emitted furanoids
 
-- **Research question:** How do emissions and aging chemistry shape ozone production as a wildfire plume evolves?
-- **Approach:** I use VOC-NOx ozone isopleths and controlled sensitivity simulations to test responses across chemical regimes.
-- **Key insight:** Ozone responses are not necessarily monotonic with smoke loading, and the governing regime can shift during plume evolution.
-- **Interpretation:** Each isopleth is evaluated within its VOC and NOx perturbations, integration time, meteorology, dilution, initial conditions, and boundary conditions. I do not infer a universal regime from one VOC-to-NOx ratio or transfer an urban threshold directly to wildfire smoke without testing the relevant chemistry.
+**Research question.** How do wildfire-emitted furanoids oxidize and contribute to secondary pollutants, and how should their chemistry be represented in atmospheric models?
 
-**Related work:** [[paper](https://doi.org/10.1126/sciadv.ads2157)] [[code](https://github.com/jinlx/Fresh-smoke-chemistry-packages)]
+**Approach.** I integrate laboratory-derived secondary organic aerosol yields, explicit chemical-mechanism development, aircraft constraints, and global chemical transport modeling.
 
-## Satellite plume transects and model evaluation
+**Emerging finding.** Aircraft studies identify furanoids as important missing contributors to wildfire VOC reactivity and ozone chemistry. My ongoing work evaluates how their oxidation affects oxygenated products, glyoxal, and secondary organic aerosol from plume to global scales.
 
-- **Objective:** Extend observation-model integration to regional wildfire plumes observed by instruments such as TROPOMI and TEMPO.
-- **Approach:** I construct satellite-sampled along-plume and cross-plume transects for consistent comparison with model output and complementary aircraft or surface observations.
-- **Retrieval and sampling controls:** The analysis accounts for pixel quality, footprint, retrieval sensitivity, transect geometry, background selection, overpass timing, winds, plume height, and column-to-model mapping.
-- **Interpretation:** A satellite transect is not automatically a Lagrangian aging trajectory. I test how distance relates to transport or chemical age and evaluate spatial, temporal, and chemical representativeness before diagnosing plume evolution or model bias.
-- **Project status:** This is current Rutgers research; public outputs are forthcoming.
+**Implication.** Resolving furanoid emissions and chemistry addresses a specific model gap identified in both fresh- and aged-smoke evaluations and can improve predictions of smoke oxidation and secondary pollution.
 
-## Aged smoke, community exposure, and public health
+**Related work.** [Jin et al., 2026, Science Advances](https://doi.org/10.1126/sciadv.ads2157) · [Permar et al., 2023, Environmental Science: Atmospheres](https://doi.org/10.1039/D2EA00063F) · Furanoid mechanism manuscript in preparation
 
-- **Research question:** How do transport and chemical aging shape the pollutants and health-relevant exposures experienced by smoke-affected communities?
-- **Case study:** I examine the multi-day aged plume that reached Missoula, Montana, during the 2020 wildfire-smoke episode.
-- **Approach:** I combine surface measurements of criteria pollutants and speciated VOCs with GEOS-Chem to evaluate transport, chemistry, exposure, and health-relevant indicators.
-- **Health relevance:** The analysis moves beyond a PM2.5-only description by considering chemically resolved hazardous air pollutants and propagating emissions and chemistry biases into exposure and risk metrics. Interpretations are tied to named toxicity sources, averaging periods, populations, and uncertainty rather than treating modeled concentrations as error-free inputs.
+## Aged wildfire smoke poses substantial downwind health risks
 
-**Related work:** [[preprint](https://doi.org/10.5194/egusphere-2026-114)] [[data](https://zenodo.org/records/18209325)] [[code](https://github.com/jinlx/Aged-wildfire-smoke-emission-chemistry-health)]
+**Research question.** What reaches communities after wildfire smoke has aged, and which pollutants drive its health risks?
+
+**Approach.** I combine long-term air-quality records, hourly measurements of 75 VOCs, chemical transport modeling, and toxicity-based exposure metrics.
+
+**Key finding.** Multi-day-old smoke increased CO, PM₂.₅, and measured VOCs by factors of 2–8. PM₂.₅ accounted for about 90% of the estimated cancer risk, whereas hazardous air pollutants—including formaldehyde, benzene, acrolein, and acetaldehyde—dominated noncancer risks.
+
+**Implication.** PM₂.₅-based assessments capture most of the estimated cancer risk but miss the gaseous hazardous air pollutants that dominate noncancer risk. Chemically resolved observations and improved atmospheric models are therefore needed for a more complete assessment of wildfire-smoke exposure.
+
+**Related publication.** [Jin et al., 2026, ACP (accepted; preprint)](https://doi.org/10.5194/egusphere-2026-114)
 
 If you are interested in collaboration on wildfire emissions, smoke chemistry, satellite integration, atmospheric modeling, or exposure and health applications, please use my [contact page](/contact/).
