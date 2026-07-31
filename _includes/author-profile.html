@@ -22,11 +22,11 @@
   <div class="author__urls-wrapper">
     <button class="btn btn--inverse">Follow</button>
     <ul class="author__urls social-icons">
-      {% if author.location %}
-        <li><i class="fa fa-fw fa-map-marker" aria-hidden="true"></i> {{ author.location }}</li>
-      {% endif %}
-      {% if author.employer %}
-        <li><i class="fa fa-fw fa-map-marker" aria-hidden="true"></i> {{ author.employer }}</li>
+      {% if author.employer or author.location %}
+        <li>
+          <i class="fas fa-fw fa-university" aria-hidden="true"></i>
+          {% if author.employer %}{{ author.employer }}{% endif %}{% if author.employer and author.location %}<br><span aria-hidden="true" class="fa fa-fw"></span>{% endif %}{% if author.location %}{{ author.location }}{% endif %}
+        </li>
       {% endif %}
       {% if author.uri %}
         <li><a href="{{ author.uri }}"><i class="fas fa-fw fa-link" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].website_label | default: "Website" }}</a></li>

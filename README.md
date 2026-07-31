@@ -9,7 +9,7 @@ The site presents research on wildfire-smoke emissions and chemistry, atmospheri
 - `_config.yml`: site identity, author profile, social links, and global settings
 - `_data/navigation.yml`: main navigation
 - `_pages/about.md`: homepage and research introduction
-- `_pages/researches.md`: detailed research overview
+- `_pages/research.md`: detailed research overview
 - `_pages/publications.md`: representative publications
 - `_pages/presentations.md`: talks and posters
 - `_pages/cv.md`: web CV and PDF download

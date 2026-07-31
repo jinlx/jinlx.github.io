@@ -10,7 +10,7 @@ author_profile: true
 A concise directory of the site's current content. An [XML sitemap]({{ base_path }}/sitemap.xml) is also available for search engines.
 
 - [Home]({{ base_path }}/)
-- [Research]({{ base_path }}/researches/)
+- [Research]({{ base_path }}/research/)
 - [Publications]({{ base_path }}/publications/)
 - [Presentations]({{ base_path }}/presentations/)
 - [Curriculum Vitae]({{ base_path }}/cv/)
