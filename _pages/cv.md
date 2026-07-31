@@ -1,42 +1,45 @@
 ---
-layout: archive
-#title: "CV"
+layout: single
+title: "Curriculum Vitae"
 permalink: /cv/
 author_profile: true
 ---
 
-{% include base_path %}
+###### *Updated: July 31, 2026*
 
-###### *Updated date: 1/11/2026*
-----
+[Download the current CV (PDF)](/files/CV_Lixu.pdf){: .btn .btn--primary }
 
-<ins>Education</ins>
-======
-* Ph.D. in Chemistry, University of Montana, 2019–2025
-* B.S. in Atmospheric Science (Honors, top 10%), Lanzhou University, 2015–2019
-* Visiting Student, University of Washington (Seattle), 2018
+## Current position
 
-<ins>Experience</ins>
-======
-* 2026–present: Postdoctoral Researcher
-    * Rutgers University
-    * Supervisor: Dr. Xiaomeng Jin
-* 2019–2025: Graduate Research Assistant (Ph.D.)
-    * University of Montana, Department of Chemistry and Biochemistry
-    * Supervisor: Dr. Lu Hu
-* 2018 Fall: Undergraduate Visiting Researcher
-    * University of Washington Bothell, Physical Sciences Division
-    * Supervisor: Dr. Dan Jaffe
+**Postdoctoral Scholar**, Rutgers University, 2026-present<br>
+Research group: Prof. Xiaomeng Jin<br>
+Focus: wildfire-smoke chemistry, satellite-observation integration, air quality, and public health
 
-<ins>Honors and Awards</ins>
-======
-* 2021 Fall: Fred Shafizadeh Memorial Scholarship
-    * University of Montana
-* 2019 Fall: Stewart Scholarship
-    * University of Montana
-* 2019 Fall: Outstanding Graduate Award
-    * Lanzhou University, Lanzhou, China
-* 2016, 2018, 2019 Fall: Excellent Student Scholarship
-    * Lanzhou University, Lanzhou, China
+## Education
 
-###### <ins>Updated date: 1/11/2026</ins>
+- Ph.D. in Chemistry, University of Montana, 2025
+- B.S. (Honors) in Meteorology/Atmospheric Sciences, Lanzhou University, 2019
+- Visiting Student, University of Washington, 2018
+
+## Research expertise
+
+- Wildfire VOC and OVOC emissions
+- Fresh- and aged-smoke atmospheric chemistry
+- OH exposure and photochemical-age diagnostics
+- VOC-NOx ozone isopleths and ozone-production regimes
+- Satellite-sampled along-plume and cross-plume transects
+- GEOS-Chem, F0AM, HYSPLIT, and model-to-observation sampling
+- Chemically resolved exposure and public-health assessment
+
+## Selected appointments
+
+- **2026-present:** Postdoctoral Scholar, Rutgers University
+- **2019-2025:** Teaching and Graduate Research Assistant, University of Montana
+- **2018:** Visiting Student, University of Washington
+- **2016-2019:** Undergraduate Research Assistant, Lanzhou University
+
+## Professional service
+
+- **2027:** Session convener, "Impacts of Wildfires on Atmospheric Chemistry: From Surface to Stratosphere," [29th Conference on Atmospheric Chemistry, 107th AMS Annual Meeting](https://annual.ametsoc.org/2027/program-events/conferences-and-symposia/29th-conference-on-atmospheric-chemistry/), Denver, CO.
+
+For publications, honors, grants, professional service, and presentations, please use the downloadable PDF above. My persistent researcher identifier is [ORCID 0000-0003-1346-5352](https://orcid.org/0000-0003-1346-5352).

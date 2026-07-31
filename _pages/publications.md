@@ -4,21 +4,25 @@ permalink: /publications/
 author_profile: true
 ---
 
-###### *Updated: 2026-03-06*  
+###### *Updated: July 31, 2026*
 ###### \* Corresponding author
 
-## Submitted / In Review
-- **Jin, L.\***, *et al.* (submitted): Characterizing emissions, chemistry, and health impacts of aged wildfire smoke in a western US city. *Atmospheric Chemistry and Physics*. [[paper](https://egusphere.copernicus.org/preprints/2026/egusphere-2026-114/)]; [[data](https://zenodo.org/records/18209325)]; [[code](https://github.com/jinlx/Aged-wildfire-smoke-emission-chemistry-health)]
+## In production
+
+- **Jin, L.\***, Tan, L., Ketcherside, D. T., Selimovic, V., Nauman, K., Yokelson, R. J., and Hu, L. (2026): Characterizing emissions, chemistry, and health impacts of aged wildfire smoke in a western US city. *Atmospheric Chemistry and Physics*, in production. [[preprint](https://egusphere.copernicus.org/preprints/2026/egusphere-2026-114/)] [[data](https://zenodo.org/records/18209325)] [[code](https://github.com/jinlx/Aged-wildfire-smoke-emission-chemistry-health)]
 
 ## Peer-reviewed
-- **Jin, L.\***, *et al.* (2026): Ozone Photochemistry in Fresh Biomass Burning Smoke. *Science Advances*. [[paper](https://www.science.org/doi/10.1126/sciadv.ads2157)]; [[data](https://doi.org/10.5281/zenodo.18226363)]; [[code](https://github.com/jinlx/Fresh-smoke-chemistry-packages)]; [[NSF Features](https://www.nsf.gov/geo/updates/researchers-improve-ability-predict-wildfire-smoke-impacts)]; [[NBC Montana News](https://nbcmontana.com/newsletter-daily/um-graduate-publishes-in-science-advances)]; [[UM News](https://www.umt.edu/news/2026/03/030326smok.php)]; [[Wechat Feastures](https://mp.weixin.qq.com/s/LuKFe-23Xa6CxjPyr1epcg)]
 
-- **Jin, L.\***, *et al.* (2023): Constraining emissions of volatile organic compounds from western US wildfires with WE-CAN and FIREX-AQ airborne observations. *Atmospheric Chemistry and Physics*, 23, 5969–5991. [[paper](https://doi.org/10.5194/acp-23-5969-2023)]; [[data](https://doi.org/10.5281/zenodo.15021583)]; [[code](https://github.com/jinlx/Western-US-emission-packages)]; [[NOAA Climate.gov News & Features](https://www.climate.gov/news-features/feed/understanding-volatile-organic-compound-emissions-wildfires-western-united)]
+- **Jin, L.\***, *et al.* (2026): Ozone photochemistry in fresh biomass burning smoke over the United States. *Science Advances*, 12, eads2157. [[paper](https://doi.org/10.1126/sciadv.ads2157)] [[data](https://doi.org/10.5281/zenodo.18226363)] [[code](https://github.com/jinlx/Fresh-smoke-chemistry-packages)] [[NSF feature](https://www.nsf.gov/geo/updates/researchers-improve-ability-predict-wildfire-smoke-impacts)] [[NBC Montana](https://nbcmontana.com/newsletter-daily/um-graduate-publishes-in-science-advances)] [[UM News](https://www.umt.edu/news/2026/03/030326smok.php)] [[WeChat feature](https://mp.weixin.qq.com/s/LuKFe-23Xa6CxjPyr1epcg)]
 
-- Permar, W., **Jin, L.**, *et al.* (2023): Atmospheric OH reactivity in the western United States determined from comprehensive gas-phase measurements during WE-CAN. *Environmental Science: Atmospheres*. [[paper](https://doi.org/10.1039/D2EA00063F)]; [[NOAA Climate Program Office News](https://cpo.noaa.gov/finding-missing-sources-of-abundant-atmospheric-pollutants-formic-and-acetic-acid/)]
+- **Jin, L.\***, *et al.* (2023): Constraining emissions of volatile organic compounds from western US wildfires with WE-CAN and FIREX-AQ airborne observations. *Atmospheric Chemistry and Physics*, 23, 5969-5991. [[paper](https://doi.org/10.5194/acp-23-5969-2023)] [[data](https://doi.org/10.5281/zenodo.15021583)] [[code](https://github.com/jinlx/Western-US-emission-packages)] [[NOAA Climate.gov feature](https://www.climate.gov/news-features/feed/understanding-volatile-organic-compound-emissions-wildfires-western-united)]
 
-- Permar, W., Wielgasz, C., **Jin, L.**, *et al.* (2023): Assessing formic and acetic acid emissions and chemistry in western US wildfire smoke: implications for atmospheric modeling. *Environmental Science: Atmospheres*, 3(11), 1620–1641. [[paper](https://doi.org/10.1039/D3EA00098B)]
+- Permar, W., **Jin, L.**, *et al.* (2023): Atmospheric OH reactivity in the western United States determined from comprehensive gas-phase measurements during WE-CAN. *Environmental Science: Atmospheres*, 3, 97-114. [[paper](https://doi.org/10.1039/D2EA00063F)]
 
-- Cope, E. M., Ketcherside, D. T., **Jin, L.**, *et al.* (2024): Sources of atmospheric volatile organic compounds during the Salt Lake regional smoke, ozone and aerosol study (SAMOZA) 2022. *Journal of Geophysical Research: Atmospheres*, 129(17), e2024JD041640. [[paper](https://doi.org/10.1029/2024JD041640)]
+- Permar, W., Wielgasz, C., **Jin, L.**, *et al.* (2023): Assessing formic and acetic acid emissions and chemistry in western U.S. wildfire smoke: implications for atmospheric modeling. *Environmental Science: Atmospheres*, 3, 1620-1641. [[paper](https://doi.org/10.1039/D3EA00098B)]
 
-- Jaffe, D., *et al.* (including **Jin, L.**) (2024): Key Results from the Salt Lake regional Smoke, Ozone and Aerosol Study (SAMOZA). *Journal of the Air & Waste Management Association*. [[paper](https://doi.org/10.1080/10962247.2024.2301956)]
+- Cope, E. M., Ketcherside, D. T., **Jin, L.**, *et al.* (2024): Sources of atmospheric volatile organic compounds during the Salt Lake regional Smoke, Ozone and Aerosol Study (SAMOZA) 2022. *Journal of Geophysical Research: Atmospheres*, 129, e2024JD041640. [[paper](https://doi.org/10.1029/2024JD041640)]
+
+- Jaffe, D. A., *et al.* (including **Jin, L.**) (2024): Key results from the Salt Lake regional Smoke, Ozone and Aerosol Study (SAMOZA). *Journal of the Air & Waste Management Association*, 74, 1-18. [[paper](https://doi.org/10.1080/10962247.2024.2301956)]
+
+For a fuller publication record, see my [ORCID profile](https://orcid.org/0000-0003-1346-5352) or download my [CV](/files/CV_Lixu.pdf).
