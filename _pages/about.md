@@ -12,12 +12,6 @@ I am a postdoctoral scholar at Rutgers University in [Prof. Xiaomeng Jin's group
 
 I earned my Ph.D. in Chemistry from the University of Montana, where I worked with [Prof. Lu Hu](https://scholar.google.com/citations?user=7WP7T3QAAAAJ&hl=en) and [Prof. Robert Yokelson](https://scholar.google.com/citations?user=aHNl6RwAAAAJ&hl=en) on wildfire VOC emissions and smoke photochemistry. I received my B.S. in Atmospheric Science (Honors) from Lanzhou University and was a visiting student in [Prof. Dan Jaffe's group](https://scholar.google.com/citations?user=iDUkPfAAAAAJ&hl=en) at the University of Washington.
 
-## Recent highlights
-
-- **Science Advances (2026):** Published research on ozone photochemistry in fresh biomass-burning smoke. [[paper](https://doi.org/10.1126/sciadv.ads2157)] [[data](https://doi.org/10.5281/zenodo.18226363)] [[code](https://github.com/jinlx/Fresh-smoke-chemistry-packages)]
-- **Atmospheric Chemistry and Physics (2026):** Paper on aged wildfire-smoke emissions, chemistry, and health impacts is in production. [[preprint](https://doi.org/10.5194/egusphere-2026-114)] [[data](https://zenodo.org/records/18209325)] [[code](https://github.com/jinlx/Aged-wildfire-smoke-emission-chemistry-health)]
-- **AMS Annual Meeting (2027):** Invited speaker in the Regional Air Quality session and convener of “Impacts of Wildfires on Atmospheric Chemistry: From Surface to Stratosphere.” [[meeting](https://annual.ametsoc.org/2027/program-events/conferences-and-symposia/29th-conference-on-atmospheric-chemistry/)]
-
 ## Research focus
 
 - **Wildfire emissions:** Constraining VOC and OVOC emissions with WE-CAN, FIREX-AQ, surface observations, and GEOS-Chem.
