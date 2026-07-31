@@ -12,7 +12,7 @@ A concise directory of the site's current content. An [XML sitemap]({{ base_path
 - [Home]({{ base_path }}/)
 - [Research]({{ base_path }}/research/)
 - [Publications]({{ base_path }}/publications/)
-- [Presentations]({{ base_path }}/presentations/)
+- [Talks & Posters]({{ base_path }}/presentations/)
 - [Curriculum Vitae]({{ base_path }}/cv/)
 - [Contact]({{ base_path }}/contact/)
 - [Beyond Research]({{ base_path }}/activities/)

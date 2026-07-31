@@ -2,9 +2,10 @@
 title: "Talks & Posters"
 permalink: /presentations/
 author_profile: true
+excerpt: "Invited talks, conference presentations, and posters on wildfire smoke, atmospheric chemistry, and air quality."
 ---
 
-###### *Updated: July 31, 2026*
+*Updated July 31, 2026*
 
 ## Invited Talks
 - **L. Jin** (2027, title forthcoming): Invited presentation in the Regional Air Quality session. *[29th Conference on Atmospheric Chemistry, 107th AMS Annual Meeting](https://annual.ametsoc.org/2027/program-events/conferences-and-symposia/29th-conference-on-atmospheric-chemistry/), Denver, CO, January 10-14, 2027.*
