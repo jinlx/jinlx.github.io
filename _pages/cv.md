@@ -3,9 +3,10 @@ layout: single
 title: "Curriculum Vitae"
 permalink: /cv/
 author_profile: true
+excerpt: "Academic CV of Lixu Jin, a postdoctoral atmospheric chemist studying wildfire smoke, air quality, and health impacts."
 ---
 
-###### *Updated: July 31, 2026*
+*Updated July 31, 2026*
 
 [Download the current CV (PDF)](/files/CV_Lixu.pdf){: .btn .btn--primary }
 
@@ -23,17 +24,15 @@ Focus: wildfire-smoke chemistry, satellite-observation integration, air quality,
 
 ## Research expertise
 
-- Wildfire VOC and OVOC emissions
-- Fresh- and aged-smoke atmospheric chemistry
-- OH exposure and photochemical-age diagnostics
-- VOC-NOx ozone isopleths and ozone-production regimes
-- Satellite-sampled along-plume and cross-plume transects
-- GEOS-Chem, F0AM, HYSPLIT, and model-to-observation sampling
+- Wildfire-emission constraints and model evaluation
+- Fresh- and aged-smoke chemistry, including ozone formation and chemical aging
+- Chemical-mechanism development for reactive wildfire VOCs
+- Aircraft, surface, and satellite integration for regional plume analysis
 - Chemically resolved exposure and public-health assessment
+- GEOS-Chem, CMAQ, F0AM, HYSPLIT, and model-to-observation sampling
 
 ## Selected appointments
 
-- **2026-present:** Postdoctoral Scholar, Rutgers University
 - **2019-2025:** Teaching and Graduate Research Assistant, University of Montana
 - **2018:** Visiting Student, University of Washington
 - **2016-2019:** Undergraduate Research Assistant, Lanzhou University
