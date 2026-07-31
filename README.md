@@ -26,6 +26,10 @@ bundle exec jekyll serve
 
 Then open `http://localhost:4000`.
 
+## Automated checks
+
+Pull requests and pushes to `master` automatically build the Jekyll site and verify that generated internal links resolve. The workflow is defined in `.github/workflows/site-check.yml`.
+
 ## Profile identifiers
 
 - ORCID: [0000-0003-1346-5352](https://orcid.org/0000-0003-1346-5352)

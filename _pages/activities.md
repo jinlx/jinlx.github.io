@@ -3,10 +3,10 @@ title: "A Glimpse Beyond Research"
 permalink: /activities/
 author_profile: true
 ---
-Here you can find a glimpse of my life beyond science.
+Here is a glimpse of my life beyond science.
 
-I’m an INTJ-A (at least according to a very astrology-like personality test). I love thinking in systems, planning ahead, and turning messy ideas into something clean, structured, and actually doable. Outside of research, I try to keep a steady routine: running, hiking, and gym training (a mix of cardio and strength). I also enjoy cooking, aka slowly upgrading from “it’s edible” to “wait… this is actually good.”
+I enjoy thinking in systems, planning ahead, and turning complicated ideas into something clear and workable. Outside research, I try to maintain a steady routine that includes running, hiking, and a mix of cardiovascular and strength training. I also enjoy cooking and gradually expanding what I can make well.
 
-I’m also into personal finance and markets, especially the strategy side—risk control, frameworks, and long-term positioning. In practice, though, I’m still in the “tuition phase,” and I’ve definitely paid the market a few learning fees along the way. I’m also the kind of person who casually checks AI news—new models, tools, and “what this means next” updates are genuinely fun to follow.
+I follow personal finance and markets, especially questions of risk management, decision frameworks, and long-term positioning. I also enjoy keeping up with developments in artificial intelligence and thinking about how new tools may change scientific work.
 
-On the more personal and creative side, I’m a big music person—R&B, jazz, and gospel are my go-to genres, whether I’m working, relaxing, or just trying to reset my brain.
+Music is another important part of my life. R&B, jazz, and gospel are my usual choices while working, relaxing, or resetting after a busy day.
