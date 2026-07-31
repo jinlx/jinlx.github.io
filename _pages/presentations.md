@@ -4,7 +4,13 @@ permalink: /presentations/
 author_profile: true
 ---
 
+###### *Updated: July 31, 2026*
+
 ## Invited Talks
+- **L. Jin** (2027, title forthcoming): Invited presentation in the Regional Air Quality session. *[29th Conference on Atmospheric Chemistry, 107th AMS Annual Meeting](https://annual.ametsoc.org/2027/program-events/conferences-and-symposia/29th-conference-on-atmospheric-chemistry/), Denver, CO, January 10-14, 2027.*
+
+- **L. Jin** *et al.* (2026): Plumes to People: Constraining Wildfire Smoke Emissions, Chemistry, and Health Impacts. *Rutgers University departmental seminar, New Brunswick, NJ, May 2026.*
+
 - **L. Jin** *et al.* (2025): Constraining the emissions, chemistry, and health impacts of western U.S. smoke. *Rutgers University, RAQL Lab (online), August 2025.*
 
 - **L. Jin** *et al.* (2024): Improving fire VOC representations of emissions and chemistry in air quality models. *NCAR ACOM TropChem meeting, Boulder, CO, July 2024.* 
@@ -21,6 +27,8 @@ author_profile: true
 - **L. Jin** *et al.* (2022): [Constraining VOC emission from western US wildfires with WE-CAN and FIREX-AQ airborne observations](https://jinlx.github.io/files/IGC10_JIN.pdf). *10th International GEOS-Chem Meeting (IGC10), June 2022.*
 
 ## Posters
+- **L. Jin** *et al.* (2026): [Characterizing emissions, chemistry, and health impacts of aged wildfire smoke in Missoula, Montana: constraints from surface observations and GEOS-Chem](https://geoschem.github.io/igc12-presentations.html). *12th International GEOS-Chem Meeting (IGC12), June 2026.*
+
 - **L. Jin** *et al.* (2025): [Characterizing Emissions, Chemistry, and Health Impacts of Aged Biomass Burning Smoke in the Wildland–Urban Interface: A Missoula, Montana Case Study](https://agu.confex.com/agu/agu25/meetingapp.cgi/Paper/2001179). *AGU Fall Meeting, December 2025.*
 
 - **L. Jin** *et al.* (2024): [Evaluating Ozone Photochemistry in Biomass Burning Plumes: Insights from Aircraft Campaign Data](https://agu.confex.com/agu/agu24/meetingapp.cgi/Paper/1650491). *AGU Fall Meeting, December 2024.*

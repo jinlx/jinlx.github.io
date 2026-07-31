@@ -1,11 +1,33 @@
-This is a github page for Lixu Jin. This was forked (then detached) by [Stuart Geiger](https://github.com/staeiou) from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/), which is © 2016 Michael Rose and released under the MIT License. See LICENSE.md. Later, the forked codes are customized by Lixu Jin, the configuration is provided below.
+# Lixu Jin's professional website
 
-A quick tour for the design logics (just in case if anyone wants to rebuild the wheel):
-1) ./_data/navigation: sector navigator (e.g., research, publication, and presentations)
-2) ./_pages/about.md : welcome page for texts
+This repository contains the source for [jinlx.github.io](https://jinlx.github.io/), the professional website of Lixu Jin, a postdoctoral atmospheric chemist at Rutgers University.
 
-There are several things TBD (I can foresee this will be growing due to my procrastination):
-1) get a nice and professional profile in _config.yml
-2) upload some figures of my personal activities (e.g., food, travelling, workout progress, and game).
-3) update some blog postin posts section and add the link in the homepage (https://jinlx.github.io/year-archive/). This would be a hidden website for posts.
-4) For figures, here goes an example for how other people make live figure or video collection (https://raw.githubusercontent.com/ehsong/ehsong.github.io/master/_pages/personal.md; https://github.com/academicpages/academicpages.github.io/issues/829)
+The site presents research on wildfire-smoke emissions and chemistry, atmospheric modeling, satellite and in situ observation integration, air quality, exposure, and public health. It also hosts a current CV, representative publications, and talks and posters.
+
+## Content structure
+
+- `_config.yml`: site identity, author profile, social links, and global settings
+- `_data/navigation.yml`: main navigation
+- `_pages/about.md`: homepage and research introduction
+- `_pages/researches.md`: detailed research overview
+- `_pages/publications.md`: representative publications
+- `_pages/presentations.md`: talks and posters
+- `_pages/cv.md`: web CV and PDF download
+- `_pages/contact.md`: professional contact information
+- `files/CV_Lixu.pdf`: current public CV
+
+## Local preview
+
+This site uses Jekyll and the Academic Pages/Minimal Mistakes template lineage. After installing the Ruby dependencies, run:
+
+```bash
+bundle exec jekyll serve
+```
+
+Then open `http://localhost:4000`.
+
+## Profile identifiers
+
+- ORCID: [0000-0003-1346-5352](https://orcid.org/0000-0003-1346-5352)
+- GitHub: [jinlx](https://github.com/jinlx)
+- Email: [lixu.jin@rutgers.edu](mailto:lixu.jin@rutgers.edu)
