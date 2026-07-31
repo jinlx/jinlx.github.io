@@ -69,6 +69,7 @@ social:
   name                   : "Lixu Jin"
   links:
     - "https://orcid.org/0000-0003-1346-5352"
+    - "https://scholar.google.com/citations?user=Q_sLQJIAAAAJ&hl=en"
     - "https://github.com/jinlx"
     - "https://www.linkedin.com/in/lixu-jin-a30102134/"
 
@@ -88,7 +89,7 @@ author:
   location         : "New Brunswick, NJ"
   employer         : "Rutgers University"
   pubmed           : #"https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
-  googlescholar    : #"http://yourfullgooglescholarurl.com"
+  googlescholar    : "https://scholar.google.com/citations?user=Q_sLQJIAAAAJ&hl=en"
   email            : lixu.jin@rutgers.edu
   researchgate     : # example: "https://www.researchgate.net/profile/yourprofile"
   uri              : "https://jinlx.github.io/"
@@ -227,35 +228,6 @@ whitelist:
   - jekyll-gist
   - jekyll-feed
   - jemoji
-
-
-# Archives
-#  Type
-#  - GitHub Pages compatible archive pages built with Liquid ~> type: liquid (default)
-#  - Jekyll Archives plugin archive pages ~> type: jekyll-archives
-#  Path (examples)
-#  - Archive page should exist at path when using Liquid method or you can
-#    expect broken links (especially with breadcrumbs enabled)
-#  - <base_path>/tags/my-awesome-tag/index.html ~> path: /tags/
-#  - <base_path/categories/my-awesome-category/index.html ~> path: /categories/
-#  - <base_path/my-awesome-category/index.html ~> path: /
-category_archive:
-  type: liquid
-  path: /categories/
-tag_archive:
-  type: liquid
-  path: /tags/
-# https://github.com/jekyll/jekyll-archives
-# jekyll-archives:
-#   enabled:
-#     - categories
-#     - tags
-#   layouts:
-#     category: archive-taxonomy
-#     tag: archive-taxonomy
-#   permalinks:
-#     category: /categories/:name/
-#     tag: /tags/:name/
 
 
 # HTML Compression

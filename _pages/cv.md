@@ -38,8 +38,4 @@ Focus: wildfire-smoke chemistry, satellite-observation integration, air quality,
 - **2018:** Visiting Student, University of Washington
 - **2016-2019:** Undergraduate Research Assistant, Lanzhou University
 
-## Professional service
-
-- **2027:** Session convener, "Impacts of Wildfires on Atmospheric Chemistry: From Surface to Stratosphere," [29th Conference on Atmospheric Chemistry, 107th AMS Annual Meeting](https://annual.ametsoc.org/2027/program-events/conferences-and-symposia/29th-conference-on-atmospheric-chemistry/), Denver, CO.
-
 For publications, honors, grants, professional service, and presentations, please use the downloadable PDF above. My persistent researcher identifier is [ORCID 0000-0003-1346-5352](https://orcid.org/0000-0003-1346-5352).

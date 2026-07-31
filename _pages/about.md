@@ -12,6 +12,12 @@ I am a postdoctoral scholar at Rutgers University in [Prof. Xiaomeng Jin's group
 
 I earned my Ph.D. in Chemistry from the University of Montana, where I worked with [Prof. Lu Hu](https://scholar.google.com/citations?user=7WP7T3QAAAAJ&hl=en) and [Prof. Robert Yokelson](https://scholar.google.com/citations?user=aHNl6RwAAAAJ&hl=en) on wildfire VOC emissions and smoke photochemistry. I received my B.S. in Atmospheric Science (Honors) from Lanzhou University and was a visiting student in [Prof. Dan Jaffe's group](https://scholar.google.com/citations?user=iDUkPfAAAAAJ&hl=en) at the University of Washington.
 
+## Recent highlights
+
+- **Science Advances (2026):** Published research on ozone photochemistry in fresh biomass-burning smoke. [[paper](https://doi.org/10.1126/sciadv.ads2157)] [[data](https://doi.org/10.5281/zenodo.18226363)] [[code](https://github.com/jinlx/Fresh-smoke-chemistry-packages)]
+- **Atmospheric Chemistry and Physics (2026):** Paper on aged wildfire-smoke emissions, chemistry, and health impacts is in production. [[preprint](https://doi.org/10.5194/egusphere-2026-114)] [[data](https://zenodo.org/records/18209325)] [[code](https://github.com/jinlx/Aged-wildfire-smoke-emission-chemistry-health)]
+- **AMS Annual Meeting (2027):** Invited speaker in the Regional Air Quality session and convener of “Impacts of Wildfires on Atmospheric Chemistry: From Surface to Stratosphere.” [[meeting](https://annual.ametsoc.org/2027/program-events/conferences-and-symposia/29th-conference-on-atmospheric-chemistry/)]
+
 ## Research focus
 
 - **Wildfire emissions:** Constraining VOC and OVOC emissions with WE-CAN, FIREX-AQ, surface observations, and GEOS-Chem.
@@ -23,7 +29,7 @@ I earned my Ph.D. in Chemistry from the University of Montana, where I worked wi
 
 My work uses [GEOS-Chem](https://geoschem.github.io/) for regional-to-global chemical transport modeling and [F0AM](https://sites.google.com/site/wolfegm/models) for detailed box-model and mechanism analysis. The goal is to make wildfire-smoke predictions more chemically realistic, observationally constrained, and useful for health applications.
 
-You can download my [current CV](/files/CV_Lixu.pdf), explore my [research](/researches/), browse [publications](/publications/), or view recent [talks and posters](/presentations/). My ORCID is [0000-0003-1346-5352](https://orcid.org/0000-0003-1346-5352). Please [contact me](/contact/) if you would like to discuss research or collaboration.
+You can download my [current CV](/files/CV_Lixu.pdf), explore my [research](/research/), browse [publications](/publications/), or view recent [talks and posters](/presentations/). My ORCID is [0000-0003-1346-5352](https://orcid.org/0000-0003-1346-5352). Please [contact me](/contact/) if you would like to discuss research or collaboration.
 
 <img
   src="/images/research_theme.jpg"
