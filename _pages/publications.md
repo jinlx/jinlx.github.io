@@ -5,7 +5,7 @@ author_profile: true
 excerpt: "Selected peer-reviewed studies of wildfire emissions, smoke chemistry, atmospheric modeling, and air quality."
 ---
 
-*Updated July 31, 2026 · \* Corresponding author*
+<p class="page__updated">Updated August 1, 2026 · * Corresponding author</p>
 
 ## Accepted / in production
 
@@ -17,7 +17,9 @@ excerpt: "Selected peer-reviewed studies of wildfire emissions, smoke chemistry,
 
   **Media:** [NSF](https://www.nsf.gov/geo/updates/researchers-improve-ability-predict-wildfire-smoke-impacts) · [UM News](https://www.umt.edu/news/2026/03/030326smok.php) · [NBC Montana](https://nbcmontana.com/newsletter-daily/um-graduate-publishes-in-science-advances) · [Chinese-language feature](https://mp.weixin.qq.com/s/LuKFe-23Xa6CxjPyr1epcg)
 
-- **Jin, L.\***, *et al.* (2023). Constraining emissions of volatile organic compounds from western US wildfires with WE-CAN and FIREX-AQ airborne observations. *Atmospheric Chemistry and Physics*, 23, 5969–5991. [Paper](https://doi.org/10.5194/acp-23-5969-2023) · [Data](https://doi.org/10.5281/zenodo.15021583) · [Code](https://github.com/jinlx/Wildfire-pollutants-emission-packages) · [NOAA Climate.gov feature](https://www.climate.gov/news-features/feed/understanding-volatile-organic-compound-emissions-wildfires-western-united)
+- **Jin, L.\***, *et al.* (2023). Constraining emissions of volatile organic compounds from western US wildfires with WE-CAN and FIREX-AQ airborne observations. *Atmospheric Chemistry and Physics*, 23, 5969–5991. [Paper](https://doi.org/10.5194/acp-23-5969-2023) · [Data](https://doi.org/10.5281/zenodo.15021583) · [Code](https://github.com/jinlx/Wildfire-pollutants-emission-packages)
+
+  **Media:** [NOAA Climate.gov feature](https://www.climate.gov/news-features/feed/understanding-volatile-organic-compound-emissions-wildfires-western-united)
 
 ## Selected coauthored publications
 

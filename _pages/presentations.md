@@ -5,7 +5,7 @@ author_profile: true
 excerpt: "Invited talks, conference presentations, and posters on wildfire smoke, atmospheric chemistry, and air quality."
 ---
 
-*Updated July 31, 2026*
+<p class="page__updated">Updated August 1, 2026</p>
 
 ## Invited Talks
 - **L. Jin** (2027, title forthcoming): Invited presentation in the Regional Air Quality session. *[29th Conference on Atmospheric Chemistry, 107th AMS Annual Meeting](https://annual.ametsoc.org/2027/program-events/conferences-and-symposia/29th-conference-on-atmospheric-chemistry/), Denver, CO, January 10-14, 2027.*
@@ -21,7 +21,7 @@ excerpt: "Invited talks, conference presentations, and posters on wildfire smoke
 ## Conference Talks
 - **L. Jin** *et al.* (2024): [Global emissions and chemistry of furanoids: 3-D model analysis and constraints from in-situ observations](https://agu.confex.com/agu/agu24/meetingapp.cgi/Paper/1649115). *AGU Fall Meeting, December 2024.*
 
-- **L. Jin** *et al.* (2024): [Global chemical impacts of furanoids: model analysis and constraints from in-situ observations](https://drive.google.com/file/d/1k07wsJk6IO2TytaaRB1hi7lyWq-ynW2L/view). *11th International GEOS-Chem Meeting (IGC11), June 2024.*
+- **L. Jin** *et al.* (2024): [Global chemical impacts of furanoids: model analysis and constraints from in-situ observations](/files/IGC11-D3-P05-Jin.pdf). *11th International GEOS-Chem Meeting (IGC11), June 2024.*
 
 - **L. Jin** *et al.* (2023): [Underestimated Fire Emissions in Inventories: Evidence from Model Simulations and Aircraft Observations](https://www.epa.gov/system/files/documents/2023-11/0900am_lixu.pdf). *EPA Emissions Inventory Conference (EIC), September 2023.*  ([Video Record](https://www.youtube.com/watch?v=YSYVgQEXJys))
 

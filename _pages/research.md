@@ -7,6 +7,8 @@ redirect_from:
   - /researches/
 ---
 
+<p class="page__updated">Updated August 1, 2026</p>
+
 ## From plumes to people
 
 Wildfire smoke is not a single pollutant. Its air-quality and health impacts depend on what fires emit, how those emissions react and mix during transport, where secondary pollutants such as ozone form, and what ultimately reaches communities. I combine aircraft, surface, and satellite observations with chemical box models and three-dimensional atmospheric models to answer four connected questions across the wildfire-smoke source-to-receptor continuum.
@@ -60,7 +62,7 @@ Wildfire smoke is not a single pollutant. Its air-quality and health impacts dep
 
 **Published foundation.** [Jin et al., 2026, *Science Advances*](https://doi.org/10.1126/sciadv.ads2157) · [Permar et al., 2023, *Environmental Science: Atmospheres*](https://doi.org/10.1039/D2EA00063F)
 
-**Project outputs.** [AGU 2024 abstract](https://agu.confex.com/agu/agu24/meetingapp.cgi/Paper/1649115) · [IGC11 presentation](https://drive.google.com/file/d/1k07wsJk6IO2TytaaRB1hi7lyWq-ynW2L/view) · Furanoid mechanism manuscript in preparation
+**Project outputs.** [AGU 2024 abstract](https://agu.confex.com/agu/agu24/meetingapp.cgi/Paper/1649115) · [IGC11 slides](/files/IGC11-D3-P05-Jin.pdf) · Furanoid mechanism manuscript in preparation
 
 ## 4. Aged wildfire smoke exposes communities to particles and hazardous gases {#exposure-health}
 
