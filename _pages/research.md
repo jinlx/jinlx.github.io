@@ -2,7 +2,7 @@
 title: "Research"
 permalink: /research/
 author_profile: true
-excerpt: "Four connected studies of wildfire-smoke emissions, evolving chemistry, chemical mechanisms, and health impacts."
+excerpt: "Four connected research themes spanning wildfire-smoke emissions, evolving chemistry, chemical mechanisms, and health impacts."
 redirect_from:
   - /researches/
 ---
@@ -38,7 +38,7 @@ Wildfire smoke is not a single pollutant. Its air-quality and health impacts dep
 
 **Approach.** I combine aircraft and ground-based observations with chemical box models, chemical-age diagnostics, and three-dimensional atmospheric modeling.
 
-**Key finding.** Chemical aging explained 40–70% of the variability among fires in VOC oxidation and in ozone and peroxyacetyl nitrate (PAN) production, while ozone formation shifted from usually VOC-limited during the first two hours to nitrogen-oxide (NOₓ)-limited conditions downwind. In multi-day-old smoke, GEOS-Chem overestimated hydroxyl-radical (OH) exposure by about twofold, removed reactive VOCs too rapidly, and missed substantial secondary oxygenated-VOC production.
+**Key finding.** Chemical aging explained 40–70% of fire-to-fire variability in VOC oxidation and O₃ and PAN production, while O₃ production shifted from usually VOC-limited at 0–2 h to NOₓ-limited downwind. In multi-day-old smoke, GEOS-Chem overestimated OH exposure by ~2×, overpredicted reactive-VOC loss, and underpredicted secondary OVOC formation.
 
 **Implication.** Predicting downwind ozone and chemical exposure requires models to represent both the initial wildfire VOC mixture and its evolving chemistry throughout transport.
 
@@ -52,11 +52,13 @@ Wildfire smoke is not a single pollutant. Its air-quality and health impacts dep
 
 **Approach.** I integrate laboratory-derived secondary organic aerosol yields, explicit chemical-mechanism development, aircraft constraints, and global chemical transport modeling.
 
-**Emerging finding.** Aircraft studies identify furanoids as important missing contributors to wildfire VOC reactivity and ozone chemistry. My ongoing work evaluates how their oxidation affects oxygenated products, glyoxal, and secondary organic aerosol from plume to global scales.
+**Current focus.** Aircraft studies identify furanoids as important missing contributors to wildfire VOC reactivity and O₃ chemistry. My ongoing work evaluates how their oxidation affects OVOCs, glyoxal, and SOA from plume to global scales.
 
 **Implication.** Resolving furanoid emissions and chemistry addresses a specific model gap identified in both fresh- and aged-smoke evaluations and can improve predictions of smoke oxidation and secondary pollution.
 
-**Related public work.** [Jin et al., 2026, *Science Advances*](https://doi.org/10.1126/sciadv.ads2157) · [Permar et al., 2023, *Environmental Science: Atmospheres*](https://doi.org/10.1039/D2EA00063F) · [AGU 2024 abstract](https://agu.confex.com/agu/agu24/meetingapp.cgi/Paper/1649115) · [IGC11 presentation](https://drive.google.com/file/d/1k07wsJk6IO2TytaaRB1hi7lyWq-ynW2L/view) · Furanoid mechanism manuscript in preparation
+**Published foundation.** [Jin et al., 2026, *Science Advances*](https://doi.org/10.1126/sciadv.ads2157) · [Permar et al., 2023, *Environmental Science: Atmospheres*](https://doi.org/10.1039/D2EA00063F)
+
+**Project outputs.** [AGU 2024 abstract](https://agu.confex.com/agu/agu24/meetingapp.cgi/Paper/1649115) · [IGC11 presentation](https://drive.google.com/file/d/1k07wsJk6IO2TytaaRB1hi7lyWq-ynW2L/view) · Furanoid mechanism manuscript in preparation
 
 ## 4. Aged wildfire smoke exposes communities to particles and hazardous gases
 

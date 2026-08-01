@@ -11,7 +11,7 @@ title                    : "Lixu Jin | Atmospheric Chemist"
 subtitle                 : "Wildfire Smoke | Air Quality | Atmospheric Modeling"
 title_separator          : "-"
 name                     : &name "Lixu Jin"
-description              : &description "Lixu Jin is a postdoctoral atmospheric chemist at Rutgers University studying wildfire-smoke emissions, chemistry, air quality, and public-health impacts."
+description              : &description "Lixu Jin is a Postdoctoral Scholar at Rutgers University studying wildfire-smoke emissions, chemistry, air quality, and public-health impacts."
 url                      : https://jinlx.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "jinlx/jinlx.github.io"
@@ -61,7 +61,7 @@ facebook:
   username               :
   app_id                 :
   publisher              :
-og_image                 :  # Open Graph/Twitter default site image
+og_image                 : /images/research_theme.jpg # Open Graph/Twitter default site image
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
@@ -85,7 +85,7 @@ analytics:
 author:
   name             : "Lixu Jin"
   avatar           : "profile.png"
-  bio              : "Postdoctoral atmospheric chemist studying wildfire smoke, ozone, air quality, and public health."
+  bio              : "Postdoctoral Scholar at Rutgers University studying wildfire smoke, ozone, air quality, and public health."
   location         : "New Brunswick, NJ"
   employer         : "Rutgers University"
   pubmed           : #"https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"

@@ -19,7 +19,7 @@ Focus: wildfire-smoke chemistry, satellite-observation integration, air quality,
 ## Education
 
 - Ph.D. in Chemistry, University of Montana, 2025
-- B.S. (Honors) in Meteorology/Atmospheric Sciences, Lanzhou University, 2019
+- B.S. (Honors) in Atmospheric Science, Lanzhou University, 2019
 - Visiting Student, University of Washington, 2018
 
 ## Research expertise

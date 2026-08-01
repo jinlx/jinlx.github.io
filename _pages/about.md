@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-I am a postdoctoral scholar at Rutgers University in [Prof. Xiaomeng Jin's group](https://scholar.google.com/citations?user=RoWh6MEAAAAJ). I study how wildfire emissions, atmospheric chemistry, and transport shape air quality and public-health risks.
+I am a Postdoctoral Scholar at Rutgers University in [Prof. Xiaomeng Jin's group](https://scholar.google.com/citations?user=RoWh6MEAAAAJ). I study how wildfire emissions, atmospheric chemistry, and transport shape air quality and public-health risks.
 
 I earned my Ph.D. in Chemistry from the University of Montana, where I worked with [Prof. Lu Hu](https://scholar.google.com/citations?user=7WP7T3QAAAAJ&hl=en) and [Prof. Robert Yokelson](https://scholar.google.com/citations?user=aHNl6RwAAAAJ&hl=en) on wildfire VOC emissions and smoke photochemistry. I received my B.S. in Atmospheric Science (Honors) from Lanzhou University and was a visiting student in [Prof. Dan Jaffe's group](https://scholar.google.com/citations?user=iDUkPfAAAAAJ&hl=en) at the University of Washington.
 
