@@ -1,17 +1,14 @@
 ---
 title: "Contact"
 permalink: /contact/
-author_profile: true
-excerpt: "Contact Lixu Jin about wildfire-smoke chemistry, atmospheric modeling, air quality, and research collaboration."
+author_profile: false
+excerpt: "Contact Lixu Jin about research collaborations, invited talks, media inquiries, and wildfire-smoke chemistry."
 ---
 
-I welcome conversations about wildfire-smoke emissions and chemistry, satellite-observation integration, atmospheric modeling, air quality, exposure, and public health.
+Please contact me about research collaborations, invited talks, media inquiries, or questions related to wildfire-smoke chemistry, air quality, and exposure.
 
-- **Professional email:** [lixu.jin@rutgers.edu](mailto:lixu.jin@rutgers.edu)
+- **Email:** [lixu.jin@rutgers.edu](mailto:lixu.jin@rutgers.edu)
+- **Affiliation:** Postdoctoral Scholar, Rutgers University, New Brunswick, NJ
 - **ORCID:** [0000-0003-1346-5352](https://orcid.org/0000-0003-1346-5352)
-- **Google Scholar:** [Lixu Jin](https://scholar.google.com/citations?user=Q_sLQJIAAAAJ&hl=en)
-- **GitHub:** [github.com/jinlx](https://github.com/jinlx)
-- **LinkedIn:** [Lixu Jin](https://www.linkedin.com/in/lixu-jin-a30102134/)
-- **Affiliation:** Rutgers, The State University of New Jersey, New Brunswick, NJ
 
-For research context before contacting me, please see my [research overview](/research/), [publications](/publications/), or [current CV](/files/CV_Lixu.pdf).
+For research context, see my [research overview](/research/), [publications](/publications/), or [current CV](/files/CV_Lixu.pdf).
