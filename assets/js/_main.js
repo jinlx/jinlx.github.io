@@ -41,6 +41,7 @@ $(document).ready(function(){
       // unfix
       Stickyfill.stop();
       $(".author__urls").hide();
+      $(".author__urls-wrapper button").attr("aria-expanded", "false").removeClass("open");
     }
   };
 
@@ -53,8 +54,10 @@ $(document).ready(function(){
   // Follow menu drop down
 
   $(".author__urls-wrapper button").on("click", function() {
+    var expanded = $(this).attr("aria-expanded") === "true";
     $(".author__urls").fadeToggle("fast", function() {});
-    $(".author__urls-wrapper button").toggleClass("open");
+    $(this).toggleClass("open");
+    $(this).attr("aria-expanded", (!expanded).toString());
   });
 
   // init smooth scroll

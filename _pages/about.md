@@ -1,7 +1,7 @@
 ---
 permalink: /
 title: "Wildfire Smoke, Atmospheric Chemistry, and Air Quality"
-excerpt: "Lixu Jin - atmospheric chemist at Rutgers University"
+excerpt: "Lixu Jin is a Postdoctoral Scholar at Rutgers University studying wildfire-smoke emissions, chemistry, air quality, and public-health impacts."
 author_profile: true
 redirect_from:
   - /about/
@@ -14,14 +14,16 @@ I earned my Ph.D. in Chemistry from the University of Montana, where I worked wi
 
 ## Research questions
 
-- **Wildfire emissions:** How accurately are the magnitude and chemical diversity of wildfire emissions represented in atmospheric models?
-- **Smoke evolution:** How does smoke chemistry change from fresh plumes to aged downwind air masses?
-- **Chemical mechanisms:** Which missing reactive-VOC pathways matter for smoke oxidation and secondary pollution?
-- **Exposure and health:** Which pollutants reach communities after smoke ages, and how do they shape health risks?
+- [**Wildfire emissions**](/research/#emissions): How accurately are the magnitude and chemical diversity of wildfire emissions represented in atmospheric models?
+- [**Smoke evolution**](/research/#smoke-evolution): How does smoke chemistry change from fresh plumes to aged downwind air masses?
+- [**Chemical mechanisms**](/research/#furanoid-chemistry): Which missing reactive-VOC pathways matter for smoke oxidation and secondary pollution?
+- [**Exposure and health**](/research/#exposure-health): Which pollutants reach communities after smoke ages, and how do they shape health risks?
 
 <img
   src="/images/research_theme.jpg"
   alt="From plumes to people: aircraft, surface, and satellite observations connected with atmospheric models to understand wildfire-smoke impacts."
+  width="871"
+  height="400"
   class="inline"
   style="display:block; margin:1.5rem auto; width:100%; max-width:1100px; height:auto;"
 />

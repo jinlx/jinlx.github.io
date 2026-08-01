@@ -2,6 +2,7 @@
 title: "Contact"
 permalink: /contact/
 author_profile: true
+excerpt: "Contact Lixu Jin about wildfire-smoke chemistry, atmospheric modeling, air quality, and research collaboration."
 ---
 
 I welcome conversations about wildfire-smoke emissions and chemistry, satellite-observation integration, atmospheric modeling, air quality, exposure, and public health.

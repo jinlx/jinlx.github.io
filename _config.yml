@@ -62,6 +62,7 @@ facebook:
   app_id                 :
   publisher              :
 og_image                 : research_theme.jpg # Open Graph/Twitter default site image
+og_image_alt             : "From plumes to people: observations and atmospheric models connecting wildfire emissions with community exposure."
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
@@ -85,7 +86,7 @@ analytics:
 author:
   name             : "Lixu Jin"
   avatar           : "profile.png"
-  bio              : "Postdoctoral Scholar at Rutgers University studying wildfire smoke, ozone, air quality, and public health."
+  bio              : "Postdoctoral Scholar at Rutgers University"
   location         : "New Brunswick, NJ"
   employer         : "Rutgers University"
   pubmed           : #"https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"

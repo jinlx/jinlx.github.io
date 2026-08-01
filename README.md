@@ -1,8 +1,8 @@
 # Lixu Jin's professional website
 
-This repository contains the source for [jinlx.github.io](https://jinlx.github.io/), the professional website of Lixu Jin, a postdoctoral atmospheric chemist at Rutgers University.
+This repository contains the source for [jinlx.github.io](https://jinlx.github.io/), the professional website of Lixu Jin, a Postdoctoral Scholar at Rutgers University.
 
-The site presents research on wildfire-smoke emissions and chemistry, atmospheric modeling, satellite and in situ observation integration, air quality, exposure, and public health. It also hosts a current CV, representative publications, and talks and posters.
+The site presents research on wildfire-smoke emissions and chemistry, atmospheric modeling, satellite and in situ observation integration, air quality, exposure, and public health. It also hosts a current CV, selected publications, and talks and posters.
 
 ## Content structure
 
@@ -10,7 +10,7 @@ The site presents research on wildfire-smoke emissions and chemistry, atmospheri
 - `_data/navigation.yml`: main navigation
 - `_pages/about.md`: homepage and research introduction
 - `_pages/research.md`: detailed research overview
-- `_pages/publications.md`: representative publications
+- `_pages/publications.md`: selected publications
 - `_pages/presentations.md`: talks and posters
 - `_pages/cv.md`: web CV and PDF download
 - `_pages/contact.md`: professional contact information

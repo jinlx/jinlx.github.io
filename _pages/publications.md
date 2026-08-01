@@ -23,10 +23,10 @@ excerpt: "Selected peer-reviewed studies of wildfire emissions, smoke chemistry,
 
 - Cope, E. M., Ketcherside, D. T., **Jin, L.**, *et al.* (2024). Sources of atmospheric volatile organic compounds during the Salt Lake regional Smoke, Ozone and Aerosol Study (SAMOZA) 2022. *Journal of Geophysical Research: Atmospheres*, 129, e2024JD041640. [Paper](https://doi.org/10.1029/2024JD041640)
 
-- Jaffe, D. A., *et al.* (including **Jin, L.**) (2024). Key results from the Salt Lake regional Smoke, Ozone and Aerosol Study (SAMOZA). *Journal of the Air & Waste Management Association*, 74, 1–18. [Paper](https://doi.org/10.1080/10962247.2024.2301956)
+- Jaffe, D. A., *et al.* (including **Jin, L.**) (2024). Key results from the Salt Lake regional Smoke, Ozone and Aerosol Study (SAMOZA). *Journal of the Air & Waste Management Association*, 74(3), 163–180. [Paper](https://doi.org/10.1080/10962247.2024.2301956)
 
 - Permar, W., **Jin, L.**, *et al.* (2023). Atmospheric OH reactivity in the western United States determined from comprehensive gas-phase measurements during WE-CAN. *Environmental Science: Atmospheres*, 3, 97–114. [Paper](https://doi.org/10.1039/D2EA00063F)
 
 - Permar, W., Wielgasz, C., **Jin, L.**, *et al.* (2023). Assessing formic and acetic acid emissions and chemistry in western U.S. wildfire smoke: implications for atmospheric modeling. *Environmental Science: Atmospheres*, 3, 1620–1641. [Paper](https://doi.org/10.1039/D3EA00098B)
 
-For a fuller publication record, see my [ORCID profile](https://orcid.org/0000-0003-1346-5352) or download my [CV](/files/CV_Lixu.pdf).
+For a fuller publication record, see my [Google Scholar profile](https://scholar.google.com/citations?user=Q_sLQJIAAAAJ&hl=en), [ORCID profile](https://orcid.org/0000-0003-1346-5352), or [current CV](/files/CV_Lixu.pdf).
