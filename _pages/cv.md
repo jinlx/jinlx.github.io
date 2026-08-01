@@ -20,7 +20,6 @@ Focus: wildfire-smoke chemistry, satellite-observation integration, air quality,
 
 - Ph.D. in Chemistry, University of Montana, 2025
 - B.S. (Honors) in Atmospheric Science, Lanzhou University, 2019
-- Visiting Student, University of Washington, 2018
 
 ## Research expertise
 
@@ -29,6 +28,7 @@ Focus: wildfire-smoke chemistry, satellite-observation integration, air quality,
 - Chemical-mechanism development for reactive wildfire VOCs
 - Aircraft, surface, and satellite integration for regional plume analysis
 - Chemically resolved exposure and public-health assessment
+- OH exposure, photochemical-age diagnostics, and VOC-NOx ozone isopleths
 - GEOS-Chem, CMAQ, F0AM, HYSPLIT, and model-to-observation sampling
 
 ## Selected appointments
