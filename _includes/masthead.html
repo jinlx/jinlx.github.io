@@ -6,7 +6,12 @@
       <nav id="site-nav" class="greedy-nav" aria-label="Primary navigation">
         <button type="button" aria-label="Toggle navigation" aria-controls="site-nav-hidden-links" aria-expanded="false"><span class="navicon" aria-hidden="true"></span></button>
         <ul class="visible-links">
-          <li class="masthead__menu-item masthead__menu-item--lg"><a href="{{ base_path }}/">{{ site.title }}</a></li>
+          <li class="masthead__menu-item masthead__menu-item--lg">
+            <a class="site-brand" href="{{ base_path }}/" aria-label="{{ site.title }}">
+              <img class="site-brand__icon" src="{{ base_path }}/images/site-logo.png" alt="" aria-hidden="true">
+              <span class="site-brand__name" aria-hidden="true"><span>LIXU</span><span>JIN</span></span>
+            </a>
+          </li>
           {% for link in site.data.navigation.main %}
             {% if link.url contains 'http' %}
               {% assign domain = '' %}
