@@ -74,21 +74,12 @@
   }
 
   &__name {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    font-size: 0.98rem;
-    font-weight: 800;
-    letter-spacing: 0.1em;
-    line-height: 0.95;
-
-    span:first-child {
-      color: #123b61;
-    }
-
-    span:last-child {
-      color: #e87722;
-    }
+    display: inline-block;
+    color: #123b61;
+    font-size: 1rem;
+    font-weight: 700;
+    letter-spacing: 0.02em;
+    line-height: 1.1;
   }
 }
 
@@ -103,7 +94,7 @@
     }
 
     &__name {
-      font-size: 0.82rem;
+      font-size: 0.9rem;
     }
   }
 }
