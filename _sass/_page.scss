@@ -48,6 +48,36 @@
   font-size: $type-size-4;
 }
 
+.research-figure {
+  display: block;
+  max-width: 1100px;
+  margin: 1.5rem auto 2rem;
+
+  img {
+    margin-bottom: 0.5rem;
+  }
+
+  figcaption {
+    text-align: center;
+  }
+}
+
+.cv-page {
+  .page__content {
+    h2 {
+      margin-top: 2em;
+    }
+
+    ul {
+      margin-top: 0.4em;
+    }
+
+    li + li {
+      margin-top: 0.25em;
+    }
+  }
+}
+
 .page__content {
 
   h2 {
