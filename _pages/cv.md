@@ -7,7 +7,7 @@ classes: cv-page
 excerpt: "Academic CV of Lixu Jin, a Postdoctoral Scholar at Rutgers University studying wildfire smoke, air quality, and health impacts."
 ---
 
-<p class="page__updated">Updated August 1, 2026</p>
+<p class="page__updated">Updated August 7, 2026</p>
 
 [Download the current CV (PDF)](/files/CV_Lixu.pdf){: .btn .btn--primary }
 

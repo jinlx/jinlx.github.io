@@ -5,7 +5,7 @@ author_profile: true
 excerpt: "Selected peer-reviewed studies of wildfire emissions, smoke chemistry, atmospheric modeling, and air quality."
 ---
 
-<p class="page__updated">Updated August 1, 2026 · * Corresponding author</p>
+<p class="page__updated">Updated August 7, 2026 · * Corresponding author</p>
 
 ## First-author publications
 

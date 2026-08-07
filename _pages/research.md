@@ -7,7 +7,7 @@ redirect_from:
   - /researches/
 ---
 
-<p class="page__updated">Updated August 1, 2026</p>
+<p class="page__updated">Updated August 7, 2026</p>
 
 ## From plumes to people
 
