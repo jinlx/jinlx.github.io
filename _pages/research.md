@@ -13,14 +13,15 @@ redirect_from:
 
 Wildfire smoke is not a single pollutant. Its air-quality and health impacts depend on what fires emit, how those emissions react and mix during transport, where secondary pollutants such as ozone form, and what ultimately reaches communities. I combine aircraft, surface, and satellite observations with chemical box models and three-dimensional atmospheric models to answer four connected questions across the wildfire-smoke source-to-receptor continuum.
 
-<img
-  src="/images/research_theme.jpg"
-  alt="From plumes to people: aircraft, surface, and satellite observations connected with atmospheric models to understand wildfire-smoke impacts."
-  width="871"
-  height="400"
-  class="inline"
-  style="display:block; margin:1.5rem auto; width:100%; max-width:1100px; height:auto;"
-/>
+<figure class="research-figure">
+  <img
+    src="/images/research_theme.jpg"
+    alt="Schematic linking satellite, aircraft, and surface observations with atmospheric models to trace wildfire smoke from emissions to community exposure."
+    width="871"
+    height="400"
+  />
+  <figcaption>From plumes to people: observations and atmospheric models connect wildfire emissions to downwind air quality and health impacts.</figcaption>
+</figure>
 
 *[Emissions](#emissions) · [Smoke evolution](#smoke-evolution) · [Furanoid chemistry](#furanoid-chemistry) · [Exposure and health](#exposure-health)*
 

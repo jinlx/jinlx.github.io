@@ -3,6 +3,7 @@ layout: single
 title: "Curriculum Vitae"
 permalink: /cv/
 author_profile: true
+classes: cv-page
 excerpt: "Academic CV of Lixu Jin, a Postdoctoral Scholar at Rutgers University studying wildfire smoke, air quality, and health impacts."
 ---
 
@@ -12,7 +13,7 @@ excerpt: "Academic CV of Lixu Jin, a Postdoctoral Scholar at Rutgers University 
 
 ## Current position
 
-**Postdoctoral Scholar**, Rutgers University, 2026-present<br>
+**Postdoctoral Scholar**, Rutgers University, 2026–present<br>
 Research group: Prof. Xiaomeng Jin<br>
 Focus: wildfire-smoke chemistry, satellite-observation integration, air quality, and public health
 
