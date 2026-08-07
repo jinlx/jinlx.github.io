@@ -25,7 +25,7 @@ excerpt: "Invited talks, conference presentations, and posters on wildfire smoke
 
 - **L. Jin** *et al.* (2023): [Underestimated Fire Emissions in Inventories: Evidence from Model Simulations and Aircraft Observations](https://www.epa.gov/system/files/documents/2023-11/0900am_lixu.pdf). *EPA Emissions Inventory Conference (EIC), September 2023.*  ([Video Record](https://www.youtube.com/watch?v=YSYVgQEXJys))
 
-- **L. Jin** *et al.* (2022): [Constraining VOC emission from western US wildfires with WE-CAN and FIREX-AQ airborne observations](https://jinlx.github.io/files/IGC10_JIN.pdf). *10th International GEOS-Chem Meeting (IGC10), June 2022.*
+- **L. Jin** *et al.* (2022): [Constraining VOC emission from western US wildfires with WE-CAN and FIREX-AQ airborne observations](/files/IGC10_JIN.pdf). *10th International GEOS-Chem Meeting (IGC10), June 2022.*
 
 ## Posters
 - **L. Jin** *et al.* (2026): [Characterizing emissions, chemistry, and health impacts of aged wildfire smoke in Missoula, Montana: constraints from surface observations and GEOS-Chem](https://geoschem.github.io/igc12-presentations.html). *12th International GEOS-Chem Meeting (IGC12), June 2026.*

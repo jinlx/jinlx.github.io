@@ -23,7 +23,7 @@
   cursor: pointer;
 
   &:hover {
-    background-color: mix(white, #000, 20%);
+    background-color: mix(#000, $primary-color, 20%);
   }
 
   &:focus {
@@ -67,6 +67,16 @@
   &--light-outline {
     border: 1px solid #fff !important; /* override*/
     background-color: transparent;
+  }
+
+  /* primary — mirrors the default button color */
+
+  &--primary {
+    background-color: $primary-color;
+
+    &:hover {
+      background-color: mix(#000, $primary-color, 20%);
+    }
   }
 
   /* information */

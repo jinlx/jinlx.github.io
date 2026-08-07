@@ -1,6 +1,7 @@
 ---
 permalink: /terms/
 title: "Terms and Privacy Policy"
+author_profile: false
 modified: 2026-07-31
 ---
 
