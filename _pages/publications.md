@@ -7,11 +7,9 @@ excerpt: "Selected peer-reviewed studies of wildfire emissions, smoke chemistry,
 
 <p class="page__updated">Updated August 1, 2026 · * Corresponding author</p>
 
-## Accepted / in production
-
-- **Jin, L.\***, *et al.* (2026). Characterizing emissions, chemistry, and health impacts of aged wildfire smoke in a western US city. *Atmospheric Chemistry and Physics*, accepted, in production. [Preprint](https://egusphere.copernicus.org/preprints/2026/egusphere-2026-114/) · [Data](https://zenodo.org/records/18209325) · [Code](https://github.com/jinlx/Aged-wildfire-smoke-emission-chemistry-health)
-
 ## First-author publications
+
+- **Jin, L.\***, *et al.* (2026). Characterizing emissions, chemistry, and health impacts of aged wildfire smoke in a western US city. *Atmospheric Chemistry and Physics*, 26, 11047–11066. [Paper](https://doi.org/10.5194/acp-26-11047-2026) · [Data](https://zenodo.org/records/18209325) · [Code](https://github.com/jinlx/Aged-wildfire-smoke-emission-chemistry-health)
 
 - **Jin, L.\***, *et al.* (2026). Ozone photochemistry in fresh biomass burning smoke over the United States. *Science Advances*, 12, eads2157. [Paper](https://doi.org/10.1126/sciadv.ads2157) · [Data](https://doi.org/10.5281/zenodo.18226363) · [Code](https://github.com/jinlx/Fresh-smoke-chemistry-packages)
   <br><strong>Media:</strong> [NSF](https://www.nsf.gov/geo/updates/researchers-improve-ability-predict-wildfire-smoke-impacts) · [UM News](https://www.umt.edu/news/2026/03/030326smok.php) · [NBC Montana](https://nbcmontana.com/newsletter-daily/um-graduate-publishes-in-science-advances) · [WeChat feature (Chinese)](https://mp.weixin.qq.com/s/LuKFe-23Xa6CxjPyr1epcg)

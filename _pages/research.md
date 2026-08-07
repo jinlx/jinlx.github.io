@@ -34,7 +34,7 @@ Wildfire smoke is not a single pollutant. Its air-quality and health impacts dep
 
 **Implication.** Standard models therefore understate wildfire contributions to regional air pollution and downwind exposure. Correcting emissions improves primary gases in aged smoke, but accurate air-quality and health predictions also require improved VOC chemistry and aerosol representation.
 
-**Related publications.** [Jin et al., 2023, *ACP*](https://doi.org/10.5194/acp-23-5969-2023) · [Jin et al., 2026, *ACP* (accepted; preprint)](https://doi.org/10.5194/egusphere-2026-114)
+**Related publications.** [Jin et al., 2023, *ACP*](https://doi.org/10.5194/acp-23-5969-2023) · [Jin et al., 2026, *ACP*](https://doi.org/10.5194/acp-26-11047-2026)
 
 ## 2. Wildfire smoke chemistry evolves rapidly during transport {#smoke-evolution}
 
@@ -46,7 +46,7 @@ Wildfire smoke is not a single pollutant. Its air-quality and health impacts dep
 
 **Implication.** Predicting downwind ozone and chemical exposure requires models to represent both the initial wildfire VOC mixture and its evolving chemistry throughout transport.
 
-**Related publications.** [Jin et al., 2026, *Science Advances*](https://doi.org/10.1126/sciadv.ads2157) · [Jin et al., 2026, *ACP* (accepted; preprint)](https://doi.org/10.5194/egusphere-2026-114)
+**Related publications.** [Jin et al., 2026, *Science Advances*](https://doi.org/10.1126/sciadv.ads2157) · [Jin et al., 2026, *ACP*](https://doi.org/10.5194/acp-26-11047-2026)
 
 **Current direction.** I am extending this plume-scale framework to regional ozone using satellite and surface observations, trajectory analysis, and CMAQ.
 
@@ -74,6 +74,6 @@ Wildfire smoke is not a single pollutant. Its air-quality and health impacts dep
 
 **Implication.** In this screening-level assessment, PM₂.₅-based estimates captured most of the cancer risk but missed the gaseous hazardous air pollutants that dominated noncancer risk. Chemically resolved observations and improved atmospheric models are therefore needed for a more complete assessment of wildfire-smoke exposure.
 
-**Related publication.** [Jin et al., 2026, *ACP* (accepted; preprint)](https://doi.org/10.5194/egusphere-2026-114)
+**Related publication.** [Jin et al., 2026, *ACP*](https://doi.org/10.5194/acp-26-11047-2026)
 
 If you are interested in collaboration on wildfire emissions, smoke chemistry, satellite integration, atmospheric modeling, or exposure and health applications, please use my [contact page](/contact/).

@@ -26,6 +26,16 @@ bundle exec jekyll serve
 
 Then open `http://localhost:4000`.
 
+## Keeping the CV in sync
+
+The PDF at `files/CV_Lixu.pdf` is a copy of the authoritative CV maintained at `Dropbox/jinlx/Personal_materials/Application_materials/CV_resume/CV_Lixu.pdf`. After updating that file, refresh the site copy with:
+
+```powershell
+.\scripts\sync-cv.ps1
+```
+
+Then commit and push the updated PDF as usual. The script fails loudly if the source is missing or the copy does not match.
+
 ## Automated checks
 
 Pull requests and pushes to `master` automatically build the Jekyll site and verify that generated internal links resolve. The workflow is defined in `.github/workflows/site-check.yml`.
