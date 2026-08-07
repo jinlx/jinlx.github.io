@@ -1,0 +1,15 @@
+# Normalize line endings: store LF in the repository on all platforms
+* text=auto
+
+# Explicitly mark binary formats so they are never converted
+*.eot binary
+*.gif binary
+*.ico binary
+*.jpeg binary
+*.jpg binary
+*.pdf binary
+*.png binary
+*.svg binary
+*.ttf binary
+*.woff binary
+*.woff2 binary
