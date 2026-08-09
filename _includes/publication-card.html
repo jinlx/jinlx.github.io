@@ -1,0 +1,78 @@
+{% assign publication = include.publication %}
+<article
+  class="publication-card{% if publication.image %} publication-card--with-image{% endif %}{% if publication.summaries %} publication-card--with-summary{% endif %}"
+  aria-labelledby="publication-{{ publication.slug }}"
+>
+  {% if publication.image %}
+    <figure class="publication-card__visual">
+      <img
+        src="{{ site.baseurl }}{{ publication.image }}"
+        alt="{{ publication.image_alt | escape }}"
+        width="{{ publication.image_width }}"
+        height="{{ publication.image_height }}"
+        decoding="async"
+      />
+    </figure>
+  {% endif %}
+
+  <div class="publication-card__content">
+    <div class="publication-card__meta">
+      <span class="publication-card__year">{{ publication.year }}</span>
+      {% if publication.summaries %}
+        <span class="publication-card__badge">Plain-language summaries</span>
+      {% endif %}
+    </div>
+
+    <h3 id="publication-{{ publication.slug }}">{{ publication.title }}</h3>
+
+    <p class="publication-card__citation">
+      <strong>{{ publication.lead_author }}</strong>, <em>{{ publication.coauthors }}</em>
+      ({{ publication.year }}). <em>{{ publication.venue }}</em>, {{ publication.volume_pages }}.
+    </p>
+
+    {% if publication.summary %}
+      <p class="publication-card__summary">{{ publication.summary }}</p>
+    {% endif %}
+
+    {% if publication.key_points %}
+      <ul class="publication-card__highlights">
+        {% for point in publication.key_points %}
+          <li>{{ point }}</li>
+        {% endfor %}
+      </ul>
+    {% endif %}
+
+    {% if publication.summaries %}
+      <div class="publication-card__actions" aria-label="Plain-language summaries for {{ publication.title | escape }}">
+        {% for summary in publication.summaries %}
+          <a
+            class="btn btn--info btn--small"
+            href="{{ site.baseurl }}{{ summary.url }}"
+            lang="{{ summary.lang }}"
+            hreflang="{{ summary.lang }}"
+            type="application/pdf"
+            aria-label="{{ summary.aria_label | escape }}"
+          >
+            {{ summary.label }} <span class="publication-card__filetype">{{ summary.format }}</span>
+          </a>
+        {% endfor %}
+      </div>
+    {% endif %}
+
+    <nav class="publication-card__resources" aria-label="Research links for {{ publication.title | escape }}">
+      <span class="publication-card__link-label">Research</span>
+      <a href="{{ publication.paper_url }}">Journal article</a>
+      {% if publication.data_url %}<a href="{{ publication.data_url }}">Data archive</a>{% endif %}
+      {% if publication.code_url %}<a href="{{ publication.code_url }}">Analysis code</a>{% endif %}
+    </nav>
+
+    {% if publication.media %}
+      <div class="publication-card__media">
+        <span class="publication-card__link-label">Media</span>
+        {% for item in publication.media %}
+          <a href="{{ item.url }}">{{ item.label }}</a>
+        {% endfor %}
+      </div>
+    {% endif %}
+  </div>
+</article>
