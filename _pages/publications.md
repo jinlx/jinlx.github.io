@@ -11,10 +11,6 @@ excerpt: "Selected peer-reviewed studies of wildfire emissions, smoke chemistry,
 ## First-author publications
 
 - **Jin, L.\***, *et al.* (2026). Characterizing emissions, chemistry, and health impacts of aged wildfire smoke in a western US city. *Atmospheric Chemistry and Physics*, 26, 11047–11066. [Paper](https://doi.org/10.5194/acp-26-11047-2026) · [Data](https://doi.org/10.5281/zenodo.18209324) · [Code](https://github.com/jinlx/Aged-wildfire-smoke-emission-chemistry-health)
-  <span class="publication-summary-inline">
-    <a class="publication-summary-inline__thumb-link" href="{{ '/images/publications/2026-aged-wildfire-smoke/card.png' | relative_url }}" aria-label="View the paper's key figure at full size"><img class="publication-summary-inline__thumb" src="{{ '/images/publications/2026-aged-wildfire-smoke/card.png' | relative_url }}" alt="" width="600" height="518" loading="lazy" decoding="async"></a>
-    <span class="publication-summary-inline__text"><strong>Plain-language summaries:</strong><span class="publication-summary-inline__links"><a href="{{ '/files/publications/2026-aged-wildfire-smoke/summary-en.pdf' | relative_url }}" hreflang="en" type="application/pdf">English summary (PDF)</a><span aria-hidden="true">·</span><a href="{{ '/files/publications/2026-aged-wildfire-smoke/summary-zh.pdf' | relative_url }}" lang="zh-CN" hreflang="zh-CN" type="application/pdf">中文解读（PDF）</a></span></span>
-  </span>
 
 - **Jin, L.\***, *et al.* (2026). Ozone photochemistry in fresh biomass burning smoke over the United States. *Science Advances*, 12, eads2157. [Paper](https://doi.org/10.1126/sciadv.ads2157) · [Data](https://doi.org/10.5281/zenodo.18226363) · [Code](https://github.com/jinlx/Fresh-smoke-chemistry-packages)
   <br><strong>Media:</strong> [NSF](https://www.nsf.gov/geo/updates/researchers-improve-ability-predict-wildfire-smoke-impacts) · [UM News](https://www.umt.edu/news/2026/03/030326smok.php) · [NBC Montana](https://nbcmontana.com/newsletter-daily/um-graduate-publishes-in-science-advances) · [WeChat feature (Chinese)](https://mp.weixin.qq.com/s/LuKFe-23Xa6CxjPyr1epcg)
