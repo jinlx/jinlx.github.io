@@ -60,8 +60,16 @@ $(document).ready(function(){
     $(this).attr("aria-expanded", (!expanded).toString());
   });
 
-  // init smooth scroll
-  $("a").smoothScroll({offset: -20});
+  // Keep the keyboard skip link native and move focus into the main content.
+  $(".screen-reader-shortcut").on("click", function() {
+    var target = $(this.getAttribute("href"));
+    if (target.length) {
+      target.focus();
+    }
+  });
+
+  // init smooth scroll for ordinary in-page links
+  $("a:not(.screen-reader-shortcut)").smoothScroll({offset: -20});
 
   // add lightbox class to all image links
   $("a[href$='.jpg'],a[href$='.jpeg'],a[href$='.JPG'],a[href$='.png'],a[href$='.gif']").addClass("image-popup");

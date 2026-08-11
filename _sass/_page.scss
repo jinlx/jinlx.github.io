@@ -58,7 +58,13 @@
   }
 
   figcaption {
+    color: mix(#fff, $text-color, 20%);
     text-align: center;
+
+    a {
+      color: $link-color;
+      text-decoration: underline;
+    }
   }
 }
 
@@ -75,6 +81,15 @@
     li + li {
       margin-top: 0.25em;
     }
+  }
+}
+
+@include breakpoint(max-width $small) {
+  .page__content .btn {
+    display: inline-flex;
+    min-height: 44px;
+    align-items: center;
+    justify-content: center;
   }
 }
 
@@ -280,9 +295,9 @@
 
 .page__updated {
   margin: -0.5em 0 1.5em;
-  color: mix(#fff, $gray, 30%);
+  color: mix(#fff, $text-color, 20%);
   font-family: $sans-serif;
-  font-size: $type-size-7;
+  font-size: 0.8rem;
   line-height: 1.4;
 }
 

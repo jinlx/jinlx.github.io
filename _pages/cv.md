@@ -29,13 +29,13 @@ excerpt: "Academic CV of Lixu Jin, a Postdoctoral Scholar at Rutgers University 
 - Chemical-mechanism development for reactive wildfire VOCs
 - Aircraft, surface, and satellite integration for regional plume analysis
 - Chemically resolved exposure and screening-level health-risk assessment
-- OH exposure, photochemical-age diagnostics, and VOC-NOx ozone isopleths
+- OH exposure, photochemical-age diagnostics, and VOC–NOₓ ozone isopleths
 - GEOS-Chem, CMAQ, F0AM, HYSPLIT, and model-to-observation sampling
 
 ## Selected appointments
 
-- **2019-2025:** Teaching and Graduate Research Assistant, University of Montana
+- **2019–2025:** Teaching and Graduate Research Assistant, University of Montana
 - **2018:** Visiting Student, University of Washington
-- **2016-2019:** Undergraduate Research Assistant, Lanzhou University
+- **2016–2019:** Undergraduate Research Assistant, Lanzhou University
 
 For publications, honors, grants, professional service, and presentations, please use the downloadable PDF above. My persistent researcher identifier is [ORCID 0000-0003-1346-5352](https://orcid.org/0000-0003-1346-5352).
