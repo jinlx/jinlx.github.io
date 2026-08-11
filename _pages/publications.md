@@ -6,16 +6,19 @@ classes: publications-page
 excerpt: "Selected peer-reviewed studies of wildfire emissions, smoke chemistry, atmospheric modeling, and air quality."
 ---
 
-<p class="page__updated">Updated August 9, 2026 · * Corresponding author</p>
+<p class="page__updated">Updated August 10, 2026 · * Corresponding author</p>
 
 ## First-author publications
 
 - **Jin, L.\***, *et al.* (2026). Characterizing emissions, chemistry, and health impacts of aged wildfire smoke in a western US city. *Atmospheric Chemistry and Physics*, 26, 11047–11066. [Paper](https://doi.org/10.5194/acp-26-11047-2026) · [Data](https://doi.org/10.5281/zenodo.18209324) · [Code](https://github.com/jinlx/Aged-wildfire-smoke-emission-chemistry-health)
+  {% include plain-language-summary-links.html slug="2026-aged-wildfire-smoke" title="the 2026 ACP aged-smoke paper" %}
 
 - **Jin, L.\***, *et al.* (2026). Ozone photochemistry in fresh biomass burning smoke over the United States. *Science Advances*, 12, eads2157. [Paper](https://doi.org/10.1126/sciadv.ads2157) · [Data](https://doi.org/10.5281/zenodo.18226363) · [Code](https://github.com/jinlx/Fresh-smoke-chemistry-packages)
+  {% include plain-language-summary-links.html slug="2026-fresh-smoke-ozone" title="the 2026 Science Advances fresh-smoke paper" %}
   <br><strong>Media:</strong> [NSF](https://www.nsf.gov/geo/updates/researchers-improve-ability-predict-wildfire-smoke-impacts) · [UM News](https://www.umt.edu/news/2026/03/030326smok.php) · [NBC Montana](https://nbcmontana.com/newsletter-daily/um-graduate-publishes-in-science-advances) · [WeChat feature (Chinese)](https://mp.weixin.qq.com/s/LuKFe-23Xa6CxjPyr1epcg)
 
 - **Jin, L.\***, *et al.* (2023). Constraining emissions of volatile organic compounds from western US wildfires with WE-CAN and FIREX-AQ airborne observations. *Atmospheric Chemistry and Physics*, 23, 5969–5991. [Paper](https://doi.org/10.5194/acp-23-5969-2023) · [Data](https://doi.org/10.5281/zenodo.15021583) · [Code](https://github.com/jinlx/Wildfire-pollutants-emission-packages)
+  {% include plain-language-summary-links.html slug="2023-wildfire-voc-emissions" title="the 2023 ACP wildfire-emissions paper" %}
   <br><strong>Media:</strong> [NOAA Climate.gov feature](https://www.climate.gov/news-features/feed/understanding-volatile-organic-compound-emissions-wildfires-western-united)
 
 ## Selected coauthored publications
