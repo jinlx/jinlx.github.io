@@ -19,7 +19,7 @@ excerpt: "Academic CV of Lixu Jin, a Postdoctoral Scholar at Rutgers University 
 
 ## Education
 
-- Ph.D. in Chemistry, University of Montana, 2025 *(worked with Prof. Lu Hu and Prof. Robert J. Yokelson)*
+- Ph.D. in Chemistry, University of Montana, 2025 *(worked with Profs. Lu Hu and Robert J. Yokelson)*
 - B.S. (Honors) in Atmospheric Science, Lanzhou University, 2019
 
 ## Research expertise
