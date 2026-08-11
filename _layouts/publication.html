@@ -1,0 +1,19 @@
+---
+layout: single
+---
+
+{% include publication-header.html %}
+
+<div id="english-summary" class="publication-story">
+  {{ content }}
+</div>
+
+<section class="publication-abstract" aria-labelledby="official-abstract">
+  <h2 id="official-abstract">Official abstract</h2>
+  <p>{{ page.abstract }}</p>
+</section>
+
+<section class="publication-citation" aria-labelledby="recommended-citation">
+  <h2 id="recommended-citation">Recommended citation</h2>
+  <p>{{ page.citation }}</p>
+</section>

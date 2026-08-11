@@ -7,4 +7,8 @@
 <meta name="theme-color" content="#ffffff">
 <link rel="stylesheet" href="{{ base_path }}/assets/css/academicons.css"/>
 
+{% if page.collection == "publications" %}
+  {% include publication-meta.html %}
+{% endif %}
+
 <!-- end custom head snippets -->
