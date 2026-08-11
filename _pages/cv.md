@@ -13,9 +13,10 @@ excerpt: "Academic CV of Lixu Jin, a Postdoctoral Scholar at Rutgers University 
 
 ## Current position
 
-**Postdoctoral Scholar**, Rutgers University, 2026–present<br>
-Research group: Prof. Xiaomeng Jin<br>
-Focus: wildfire-smoke chemistry, satellite-observation integration, air quality, and health-relevant pollutant exposure
+**Postdoctoral Scholar**, Rutgers University, 2026–present
+
+- **Research group:** Prof. Xiaomeng Jin
+- **Research focus:** Wildfire-smoke chemistry, satellite–model integration, air quality, and health-relevant pollutant exposure
 
 ## Education
 
