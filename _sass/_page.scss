@@ -116,6 +116,18 @@
   }
 }
 
+.presentations-page {
+  .page__content {
+    > ul > li {
+      margin-bottom: 0;
+    }
+
+    > ul > li > p {
+      margin-bottom: 0.75em;
+    }
+  }
+}
+
 @include breakpoint(max-width $small) {
   .page__content .btn {
     display: inline-flex;
@@ -128,8 +140,13 @@
 .page__content {
 
   h2 {
+    margin-top: 1.6em;
     padding-bottom: 0.5em;
     border-bottom: 1px solid $border-color;
+  }
+
+  .page__updated + h2 {
+    margin-top: 1.25em;
   }
 
   p, li, dl {

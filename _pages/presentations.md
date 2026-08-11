@@ -2,6 +2,7 @@
 title: "Talks & Posters"
 permalink: /presentations/
 author_profile: true
+classes: presentations-page
 excerpt: "Invited talks, conference presentations, and posters on wildfire smoke, atmospheric chemistry, and air quality."
 ---
 
