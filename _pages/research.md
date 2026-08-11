@@ -2,6 +2,7 @@
 title: "Research"
 permalink: /research/
 author_profile: true
+classes: research-page
 excerpt: "Four connected research themes spanning wildfire-smoke emissions, evolving chemistry, chemical mechanisms, and health-relevant pollutant exposure."
 redirect_from:
   - /researches/
