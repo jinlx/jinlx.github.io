@@ -13,14 +13,13 @@ excerpt: "Academic CV of Lixu Jin, a Postdoctoral Scholar at Rutgers University 
 
 ## Current position
 
-**Postdoctoral Scholar**, Rutgers University, 2026–present
+**Postdoctoral Scholar**, Rutgers University, 2026–present *(working with Prof. Xiaomeng Jin)*
 
-- **Research group:** Prof. Xiaomeng Jin
 - **Research focus:** Wildfire-smoke chemistry, satellite–model integration, air quality, and health-relevant pollutant exposure
 
 ## Education
 
-- Ph.D. in Chemistry, University of Montana, 2025
+- Ph.D. in Chemistry, University of Montana, 2025 *(worked with Prof. Lu Hu and Prof. Robert J. Yokelson)*
 - B.S. (Honors) in Atmospheric Science, Lanzhou University, 2019
 
 ## Research expertise
