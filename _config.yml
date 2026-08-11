@@ -202,6 +202,20 @@ defaults:
     values:
       layout: single
       author_profile: true
+  # _publications
+  - scope:
+      path: ""
+      type: publications
+    values:
+      layout: publication
+      author_profile: false
+      classes: publication-detail-page
+
+# Paper landing pages
+collections:
+  publications:
+    output: true
+    permalink: /publications/:name/
 
 # Sass/SCSS
 sass:

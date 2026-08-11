@@ -1,0 +1,64 @@
+{% assign publication_url = page.url | absolute_url %}
+{% assign publication_image = page.key_figure | absolute_url %}
+
+<meta name="citation_title" content="{{ page.title | escape }}">
+{% for author in page.authors %}
+  <meta name="citation_author" content="{{ author.citation_name | default: author.name | escape }}">
+{% endfor %}
+<meta name="citation_publication_date" content="{{ page.publication_date | date: '%Y/%m/%d' }}">
+<meta name="citation_journal_title" content="{{ page.journal | escape }}">
+{% if page.publisher %}<meta name="citation_publisher" content="{{ page.publisher | escape }}">{% endif %}
+{% if page.issn %}<meta name="citation_issn" content="{{ page.issn | escape }}">{% endif %}
+{% if page.volume %}<meta name="citation_volume" content="{{ page.volume | escape }}">{% endif %}
+{% if page.issue %}<meta name="citation_issue" content="{{ page.issue | escape }}">{% endif %}
+{% if page.article_number %}
+  <meta name="citation_firstpage" content="{{ page.article_number | escape }}">
+{% elsif page.first_page %}
+  <meta name="citation_firstpage" content="{{ page.first_page | escape }}">
+{% endif %}
+{% if page.last_page %}<meta name="citation_lastpage" content="{{ page.last_page | escape }}">{% endif %}
+<meta name="citation_doi" content="{{ page.doi | escape }}">
+<meta name="citation_language" content="en">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": ["Article", "ScholarlyArticle"],
+  "@id": {{ publication_url | append: "#article" | jsonify }},
+  "headline": {{ page.title | jsonify }},
+  "description": {{ page.description | jsonify }},
+  "abstract": {{ page.abstract | jsonify }},
+  "datePublished": {{ page.publication_date | date: "%Y-%m-%d" | jsonify }},
+  {% if page.last_modified_at %}"dateModified": {{ page.last_modified_at | date: "%Y-%m-%d" | jsonify }},{% endif %}
+  "author": [
+    {% for author in page.authors %}
+      {
+        "@type": "Person",
+        "name": {{ author.name | jsonify }}{% if author.orcid %},
+        "sameAs": {{ author.orcid | jsonify }}{% endif %}
+      }{% unless forloop.last %},{% endunless %}
+    {% endfor %}
+  ],
+  "identifier": {
+    "@type": "PropertyValue",
+    "propertyID": "DOI",
+    "value": {{ page.doi | jsonify }}
+  },
+  "sameAs": {{ page.paper_url | jsonify }},
+  "url": {{ publication_url | jsonify }},
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": {{ publication_url | jsonify }}
+  },
+  "inLanguage": "en",
+  "keywords": {{ page.keywords | jsonify }},
+  "pagination": {{ page.pagination | jsonify }},
+  "image": {{ publication_image | jsonify }},
+  "license": {{ page.license_url | jsonify }},
+  "isPartOf": {
+    "@type": "Periodical",
+    "name": {{ page.journal | jsonify }},
+    "issn": {{ page.issn | jsonify }}
+  }
+}
+</script>

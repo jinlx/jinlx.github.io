@@ -6,7 +6,11 @@
 {% endif %}
 {% assign seo_url = seo_url | default: site.github.url %}
 
-{% if page.title %}
+{% if page.seo_title %}
+  {% assign seo_title = page.seo_title %}
+{% elsif page.collection == "publications" %}
+  {% assign seo_title = page.title %}
+{% elsif page.title %}
   {% assign seo_title = page.title | append: " " | append: site.title_separator | append: " " | append: site.title %}
 {% endif %}
 
@@ -24,6 +28,10 @@
 {% if seo_description %}
   {% assign seo_description = seo_description | markdownify | strip_html | strip_newlines | escape_once %}
   <meta name="description" content="{{ seo_description }}">
+{% endif %}
+
+{% if page.robots %}
+  <meta name="robots" content="{{ page.robots | escape_once }}">
 {% endif %}
 
 {% assign seo_author = page.author | default: page.author[0] | default: site.author[0] %}
@@ -59,13 +67,16 @@
   <meta name="twitter:description" content="{{ seo_description }}">
   <meta name="twitter:url" content="{{ canonical_url }}">
 
-  {% if page.header.image or page.header.overlay_image or site.og_image %}
+  {% if page.key_figure or page.header.image or page.header.overlay_image or site.og_image %}
     <meta name="twitter:card" content="summary_large_image">
   {% else %}
     <meta name="twitter:card" content="summary">
   {% endif %}
 
-  {% if page.header.image %}
+  {% if page.key_figure %}
+    <meta name="twitter:image" content="{{ page.key_figure | absolute_url }}">
+    {% if page.key_figure_alt %}<meta name="twitter:image:alt" content="{{ page.key_figure_alt | escape_once }}">{% endif %}
+  {% elsif page.header.image %}
     <meta name="twitter:image" content="{% if page.header.image contains "://" %}{{ page.header.image }}{% else %}{{ page.header.image | prepend: "/images/" | prepend: base_path }}{% endif %}">
   {% elsif page.header.overlay_image %}
     <meta name="twitter:image" content="{% if page.header.overlay_image contains "://" %}{{ page.header.overlay_image }}{% else %}{{ page.header.overlay_image | prepend: "/images/" | prepend: base_path }}{% endif %}">
@@ -89,7 +100,10 @@
   {% endif %}
 {% endif %}
 
-{% if page.header.image %}
+{% if page.key_figure %}
+  <meta property="og:image" content="{{ page.key_figure | absolute_url }}">
+  {% if page.key_figure_alt %}<meta property="og:image:alt" content="{{ page.key_figure_alt | escape_once }}">{% endif %}
+{% elsif page.header.image %}
   <meta property="og:image" content="{% if page.header.image contains "://" %}{{ page.header.image }}{% else %}{{ page.header.image | prepend: "/images/" | prepend: base_path }}{% endif %}">
 {% elsif page.header.overlay_image %}
   <meta property="og:image" content="{% if page.header.overlay_image contains "://" %}{{ page.header.overlay_image }}{% else %}{{ page.header.overlay_image | prepend: "/images/" | prepend: base_path }}{% endif %}">
@@ -98,9 +112,13 @@
   {% if site.og_image_alt %}<meta property="og:image:alt" content="{{ site.og_image_alt | escape_once }}">{% endif %}
 {% endif %}
 
-{% if page.date %}
+{% if page.date or page.collection == "publications" %}
   <meta property="og:type" content="article">
-  <meta property="article:published_time" content="{{ page.date | date_to_xmlschema }}">
+  {% if page.publication_date %}
+    <meta property="article:published_time" content="{{ page.publication_date | date_to_xmlschema }}">
+  {% else %}
+    <meta property="article:published_time" content="{{ page.date | date_to_xmlschema }}">
+  {% endif %}
 {% else %}
   <meta property="og:type" content="website">
 {% endif %}

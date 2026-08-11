@@ -1,6 +1,7 @@
 ---
 permalink: /
 title: "Wildfire Smoke, Atmospheric Chemistry, and Air Quality"
+seo_title: "Lixu Jin | Wildfire Smoke and Atmospheric Chemistry"
 excerpt: "Lixu Jin is a Postdoctoral Scholar at Rutgers University studying wildfire-smoke emissions, chemistry, air quality, and health-relevant pollutant exposure."
 author_profile: true
 redirect_from:

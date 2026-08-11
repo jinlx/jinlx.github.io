@@ -36,7 +36,7 @@ Wildfire smoke is a changing mixture. Its effects on air quality and health-rele
 
 **Implication.** In these cases, finding the fires was not enough to quantify the gases they released. A separate aged-smoke test showed that tripling modeled biomass-burning VOC and CO emissions improved several gases but could not correct gases and PM₂.₅ at the same time.
 
-**Related publications.** [Jin et al., 2023, *ACP*](https://doi.org/10.5194/acp-23-5969-2023) · [Jin et al., 2026, *ACP*](https://doi.org/10.5194/acp-26-11047-2026)
+**Related publications.** [Jin et al., 2023, *ACP*](/publications/2023-wildfire-voc-emissions/) ([publisher](https://doi.org/10.5194/acp-23-5969-2023)) · [Jin et al., 2026, *ACP*](/publications/2026-aged-wildfire-smoke/) ([publisher](https://doi.org/10.5194/acp-26-11047-2026))
 
 ## 2. How quickly does smoke chemistry change? {#smoke-evolution}
 
@@ -48,7 +48,7 @@ Wildfire smoke is a changing mixture. Its effects on air quality and health-rele
 
 **Implication.** Predicting downwind ozone and the pollutants communities breathe requires models to represent both the initial wildfire VOC mixture and how that mixture changes during transport.
 
-**Related publications.** [Jin et al., 2026, *Science Advances*](https://doi.org/10.1126/sciadv.ads2157) · [Jin et al., 2026, *ACP*](https://doi.org/10.5194/acp-26-11047-2026)
+**Related publications.** [Jin et al., 2026, *Science Advances*](/publications/2026-fresh-smoke-ozone/) ([publisher](https://doi.org/10.1126/sciadv.ads2157)) · [Jin et al., 2026, *ACP*](/publications/2026-aged-wildfire-smoke/) ([publisher](https://doi.org/10.5194/acp-26-11047-2026))
 
 **Current direction.** I am extending this plume-scale framework to regional ozone using satellite and surface observations, trajectory analysis, and CMAQ.
 
@@ -62,7 +62,7 @@ Wildfire smoke is a changing mixture. Its effects on air quality and health-rele
 
 **Implication.** At the sampled plume centers, the detailed gas-phase mechanism reproduced much of the inferred OH and observed ozone behavior when supplied with a fuller VOC mixture. Improving the VOC representation in reduced mechanisms is therefore a focused path toward better predictions of smoke oxidation and secondary pollution.
 
-**Published foundation.** [Jin et al., 2026, *Science Advances*](https://doi.org/10.1126/sciadv.ads2157) · [Permar et al., 2023, *Environmental Science: Atmospheres*](https://doi.org/10.1039/D2EA00063F)
+**Published foundation.** [Jin et al., 2026, *Science Advances*](/publications/2026-fresh-smoke-ozone/) ([publisher](https://doi.org/10.1126/sciadv.ads2157)) · [Permar et al., 2023, *Environmental Science: Atmospheres*](https://doi.org/10.1039/D2EA00063F)
 
 **Project outputs.** [AGU 2024 abstract](https://agu.confex.com/agu/agu24/meetingapp.cgi/Paper/1649115) · [IGC11 slides](/files/IGC11-D3-P05-Jin.pdf) · Furanoid mechanism manuscript in preparation
 
@@ -76,6 +76,6 @@ Wildfire smoke is a changing mixture. Its effects on air quality and health-rele
 
 **Implication.** In this screening-level assessment, PM₂.₅ accounted for most of the estimated cancer risk but not the gaseous pollutants that dominated the chronic noncancer estimate. Chemically resolved observations and improved atmospheric models are therefore needed for a more complete assessment of wildfire-smoke exposure.
 
-**Related publication.** [Jin et al., 2026, *ACP*](https://doi.org/10.5194/acp-26-11047-2026)
+**Related publication.** [Jin et al., 2026, *ACP*](/publications/2026-aged-wildfire-smoke/) ([publisher](https://doi.org/10.5194/acp-26-11047-2026))
 
 If you are interested in collaboration on wildfire emissions, smoke chemistry, satellite integration, atmospheric modeling, or exposure and health applications, please use my [contact page](/contact/).
