@@ -8,7 +8,7 @@
         <ul class="visible-links">
           <li class="masthead__menu-item masthead__menu-item--lg">
             <a class="site-brand" href="{{ base_path }}/" aria-label="{{ site.title }}">
-              <img class="site-brand__icon" src="{{ base_path }}/images/site-logo.png?v=5" alt="" aria-hidden="true">
+              <img class="site-brand__icon" src="{{ base_path }}/images/site-logo-64.png?v=1" srcset="{{ base_path }}/images/site-logo-64.png?v=1 1x, {{ base_path }}/images/site-logo-180.png?v=1 2x" width="64" height="64" alt="" aria-hidden="true">
               <span class="site-brand__name" aria-hidden="true">Lixu Jin</span>
             </a>
           </li>
@@ -18,7 +18,7 @@
               {% else %}
               {% assign domain = base_path %}
             {% endif %}
-            <li class="masthead__menu-item"><a href="{{ domain }}{{ link.url }}">{{ link.title }}</a></li>
+            <li class="masthead__menu-item"><a href="{{ domain }}{{ link.url }}"{% if page.url == link.url %} aria-current="page"{% endif %}>{{ link.title }}</a></li>
           {% endfor %}
         </ul>
         <ul id="site-nav-hidden-links" class="hidden-links hidden"></ul>

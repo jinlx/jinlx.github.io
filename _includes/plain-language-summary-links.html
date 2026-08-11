@@ -1,8 +1,8 @@
 {% capture summary_root %}/files/publications/{{ include.slug }}{% endcapture %}
 <span class="publication-summary-inline" role="group" aria-label="Plain-language summaries for {{ include.title }}">
-  <span class="publication-summary-inline__label">Plain-language summary</span>
+  <span class="publication-summary-inline__label">Plain-language (PDF):</span>
   <span class="publication-summary-inline__links">
-    <a class="publication-summary-inline__link" href="{{ summary_root | append: '/summary-en.pdf' | relative_url }}" hreflang="en" type="application/pdf" aria-label="Open the English plain-language summary as a PDF">English PDF</a>
-    <a class="publication-summary-inline__link" href="{{ summary_root | append: '/summary-zh.pdf' | relative_url }}" lang="zh-CN" hreflang="zh-CN" type="application/pdf" aria-label="打开中文论文解读 PDF">中文 PDF</a>
+    <a class="publication-summary-inline__link" href="{{ summary_root | append: '/summary-en.pdf' | relative_url }}" hreflang="en" type="application/pdf" aria-label="Open the English plain-language summary as a PDF">English</a>
+    <a class="publication-summary-inline__link" href="{{ summary_root | append: '/summary-zh.pdf' | relative_url }}" lang="zh-CN" hreflang="zh-CN" type="application/pdf" aria-label="打开中文论文解读 PDF">中文</a>
   </span>
 </span>
