@@ -2,18 +2,26 @@
 layout: single
 ---
 
-{% include publication-header.html %}
+{% assign publication = page %}
+{% if page.collection == "publications_zh" %}
+  {% assign publication_matches = site.publications | where: "summary_slug", page.translation_of %}
+  {% assign publication = publication_matches | first %}
+{% endif %}
 
-<div id="english-summary" class="publication-story">
+{% include publication-header.html publication=publication %}
+
+<div id="{% if page.collection == 'publications_zh' %}chinese-summary{% else %}english-summary{% endif %}" class="publication-story"{% if page.collection == 'publications_zh' %} lang="zh-CN"{% endif %}>
   {{ content }}
 </div>
 
+{% if page.collection == "publications" %}
 <section class="publication-abstract" aria-labelledby="official-abstract">
   <h2 id="official-abstract">Official abstract</h2>
   <p>{{ page.abstract }}</p>
 </section>
+{% endif %}
 
 <section class="publication-citation" aria-labelledby="recommended-citation">
-  <h2 id="recommended-citation">Recommended citation</h2>
-  <p>{{ page.citation }}</p>
+  <h2 id="recommended-citation">{% if page.collection == "publications_zh" %}论文引用{% else %}Recommended citation{% endif %}</h2>
+  <p>{{ publication.citation }}</p>
 </section>

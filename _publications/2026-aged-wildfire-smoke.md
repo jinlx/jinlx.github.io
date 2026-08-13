@@ -70,24 +70,3 @@ Large collaborative field campaigns have produced detailed measurements of wildf
   <li><strong>Particles and gases shaped different screening-level risks.</strong> PM₂.₅ drove most of the estimated cancer risk, while measured hazardous gases drove most of the chronic non-cancer estimate.</li>
   <li><strong>Getting the smoke timing right was not enough.</strong> GEOS-Chem captured the first two events but underestimated many ground-level pollutants and the resulting screening-level risk estimates.</li>
 </ul>
-
-<section id="chinese-summary" class="publication-story__chinese" lang="zh-CN" markdown="1">
-
-<p class="publication-story__label">中文解读</p>
-
-## 野火烟雾漂了几天后发生了什么？
-
-<p class="publication-story__deck">逐时地面观测读出了烟雾漂流数日后的化学变化。</p>
-
-这些大型联合观测让我们对火场附近以及飞机所能采到的烟雾有了丰富认识，但烟雾漂流数日后真正抵达地面时还带着什么，相关观测仍然少得多。可等它真正漂进城市、来到人们呼吸的高度，往往已经在大气中漂了几天。一路上的稀释和反应不断改变它的成分。2020年9月，米苏拉接连经历了3次烟雾事件。受烟雾影响时，PM₂.₅平均浓度达到43 µg/m³，约为当地背景的7倍，小时峰值达到120 µg/m³。相当一部分烟雾在抵达米苏拉前已经经历了数日输送和反应，不过附近火灾也可能有所贡献。
-
-### 四个主要发现
-
-<ul class="publication-highlights">
-  <li><strong>地面观测留下了烟雾沿途变化的线索。</strong> 苯和甲苯随化学年龄稳定下降，几种含氧气体却下降得更慢。模式算出的OH暴露约为地面数据推算值的2倍。</li>
-  <li><strong>烟雾颗粒更多时臭氧不一定更高。</strong> 轻烟下臭氧升高，进入重烟阶段后却趋平或下降；GEOS-Chem和AIRPACT都没有再现这一转折。</li>
-  <li><strong>颗粒物和有害气体主导了不同类型的风险估算。</strong> PM₂.₅主导癌症风险估算，实测有害气体则主导慢性非癌症风险估算。</li>
-  <li><strong>算对烟雾到达时间还不够。</strong> GEOS-Chem抓住了前两次事件，却低估了多种地面污染物和相应的筛查层面健康风险。</li>
-</ul>
-
-</section>

@@ -1,39 +1,62 @@
-<nav class="publication-back" aria-label="Publication navigation">
-  <a href="{{ '/publications/' | relative_url }}">&larr; All publications</a>
-  <span class="publication-language-links" role="group" aria-label="Summary language">
-    <a href="#english-summary" hreflang="en">English</a>
-    <span aria-hidden="true">&middot;</span>
-    <a href="#chinese-summary" lang="zh-CN" hreflang="zh-CN">中文</a>
+{% assign publication = include.publication | default: page %}
+{% assign english_path = '/publications/' | append: publication.summary_slug | append: '/' %}
+{% assign chinese_path = '/zh/publications/' | append: publication.summary_slug | append: '/' %}
+{% assign is_chinese = false %}
+{% if page.collection == 'publications_zh' %}{% assign is_chinese = true %}{% endif %}
+
+<nav class="publication-back" aria-label="{% if is_chinese %}论文页面导航{% else %}Publication navigation{% endif %}">
+  <a href="{{ '/publications/' | relative_url }}">&larr; {% if is_chinese %}全部论文{% else %}All publications{% endif %}</a>
+  <span class="publication-language-links" role="group" aria-label="{% if is_chinese %}选择语言{% else %}Choose language{% endif %}">
+    {% if is_chinese %}
+      <a href="{{ english_path | relative_url }}" hreflang="en">English</a>
+      <span aria-hidden="true">&middot;</span>
+      <span class="publication-language-links__current" lang="zh-CN" aria-current="page">中文</span>
+    {% else %}
+      <span class="publication-language-links__current" aria-current="page">English</span>
+      <span aria-hidden="true">&middot;</span>
+      <a id="chinese-summary" href="{{ chinese_path | relative_url }}" lang="zh-CN" hreflang="zh-CN">中文</a>
+    {% endif %}
   </span>
 </nav>
 
 <section class="publication-record" aria-label="Paper information">
-  <p class="publication-record__authors">
-    {% for author in page.authors %}
-      {% if author.orcid %}<a href="{{ author.orcid }}">{{ author.name }}</a>{% else %}{{ author.name }}{% endif %}{% unless forloop.last %}, {% endunless %}
-    {% endfor %}
-  </p>
+  <p class="publication-record__label">{% if is_chinese %}论文信息{% else %}About the paper{% endif %}</p>
+  <p class="publication-record__title">{{ publication.title }}</p>
   <p class="publication-record__journal">
-    <em>{{ page.journal }}</em>{% if page.volume %}, {{ page.volume }}{% endif %}{% if page.issue %}({{ page.issue }}){% endif %}{% if page.pagination %}, {{ page.pagination }}{% endif %} ({{ page.publication_date | date: "%Y" }}).
-    DOI: {{ page.doi }}
+    Jin et al. <span aria-hidden="true">&middot;</span> <em>{{ publication.journal }}</em> ({{ publication.publication_date | date: "%Y" }}) <span aria-hidden="true">&middot;</span> DOI: {{ publication.doi }}
   </p>
 
   <nav class="publication-resources" aria-label="Paper resources">
-    <a href="{{ page.paper_url }}">Paper</a>
-    {% if page.data_url %}<a href="{{ page.data_url }}">Data</a>{% endif %}
-    {% if page.code_url %}<a href="{{ page.code_url }}">Code</a>{% endif %}
-    {% if page.supplement_url %}<a href="{{ page.supplement_url }}">Supplement</a>{% endif %}
-    <a href="#recommended-citation">Cite</a>
-    <a href="{{ '/files/publications/' | append: page.summary_slug | append: '/summary-en.pdf' | relative_url }}" type="application/pdf">English summary PDF</a>
-    <a href="{{ '/files/publications/' | append: page.summary_slug | append: '/summary-zh.pdf' | relative_url }}" lang="zh-CN" hreflang="zh-CN" type="application/pdf">中文解读 PDF</a>
+    <a href="{{ publication.paper_url }}">{% if is_chinese %}论文{% else %}Paper{% endif %}</a>
+    {% if publication.data_url %}<a href="{{ publication.data_url }}">{% if is_chinese %}数据{% else %}Data{% endif %}</a>{% endif %}
+    {% if publication.code_url %}<a href="{{ publication.code_url }}">{% if is_chinese %}代码{% else %}Code{% endif %}</a>{% endif %}
+    {% if publication.supplement_url %}<a href="{{ publication.supplement_url }}">{% if is_chinese %}补充材料{% else %}Supplement{% endif %}</a>{% endif %}
+    <a href="#recommended-citation">{% if is_chinese %}引用{% else %}Cite{% endif %}</a>
   </nav>
 </section>
 
-{% if page.key_figure %}
+{% assign summary_language = 'en' %}
+{% if is_chinese %}{% assign summary_language = 'zh' %}{% endif %}
+{% assign pdf_path = '/files/publications/' | append: publication.summary_slug | append: '/summary-' | append: summary_language | append: '.pdf' %}
+{% assign pdf_cover_path = '/images/publications/' | append: publication.summary_slug | append: '/summary-' | append: summary_language | append: '-cover.png' %}
+<aside class="publication-pdf" aria-label="{% if is_chinese %}完整中文图文解读{% else %}Full illustrated plain-language summary{% endif %}">
+  <a class="publication-pdf__cover" href="{{ pdf_path | relative_url }}" type="application/pdf">
+    <img src="{{ pdf_cover_path | relative_url }}" alt="{% if is_chinese %}中文图文解读 PDF 首页预览{% else %}First page of the illustrated English summary{% endif %}" width="408" height="528" loading="lazy" />
+  </a>
+  <div class="publication-pdf__body">
+    <p class="publication-pdf__label">{% if is_chinese %}图文版 &middot; PDF{% else %}Illustrated summary &middot; PDF{% endif %}</p>
+    <p class="publication-pdf__title">{% if is_chinese %}阅读完整中文图文解读{% else %}Read the full illustrated summary{% endif %}</p>
+    <p class="publication-pdf__text">{% if is_chinese %}打开精心排版的 5 页图文版。{% else %}Open the complete five-page visual story.{% endif %}</p>
+    <a class="publication-pdf__button" href="{{ pdf_path | relative_url }}" type="application/pdf">{% if is_chinese %}打开图文版 PDF{% else %}Open illustrated PDF{% endif %}</a>
+  </div>
+</aside>
+
+{% if publication.key_figure %}
   <figure class="publication-key-figure">
-    <a class="publication-key-figure__link" href="{{ page.key_figure | relative_url }}" aria-label="Open the full-size figure">
-      <img src="{{ page.key_figure | relative_url }}" alt="{{ page.key_figure_alt }}"{% if page.key_figure_width %} width="{{ page.key_figure_width }}"{% endif %}{% if page.key_figure_height %} height="{{ page.key_figure_height }}"{% endif %} loading="eager" />
+    <a class="publication-key-figure__link" href="{{ publication.key_figure | relative_url }}" aria-label="{% if is_chinese %}打开原尺寸图片{% else %}Open the full-size figure{% endif %}">
+      <img src="{{ publication.key_figure | relative_url }}" alt="{{ page.key_figure_alt | default: publication.key_figure_alt }}"{% if publication.key_figure_width %} width="{{ publication.key_figure_width }}"{% endif %}{% if publication.key_figure_height %} height="{{ publication.key_figure_height }}"{% endif %} loading="eager" />
     </a>
-    {% if page.key_figure_caption %}<figcaption>{{ page.key_figure_caption }}</figcaption>{% endif %}
+    {% assign figure_caption = page.key_figure_caption | default: publication.key_figure_caption %}
+    {% if figure_caption %}<figcaption>{{ figure_caption }}</figcaption>{% endif %}
   </figure>
 {% endif %}

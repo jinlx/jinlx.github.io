@@ -1,0 +1,18 @@
+{% assign translation_url = page.url | absolute_url %}
+{% assign english_path = "/publications/" | append: page.translation_of | append: "/" %}
+{% assign english_url = english_path | absolute_url %}
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "@id": {{ translation_url | append: "#webpage" | jsonify }},
+  "url": {{ translation_url | jsonify }},
+  "name": {{ page.title | jsonify }},
+  "description": {{ page.description | jsonify }},
+  "inLanguage": "zh-CN",
+  "about": {
+    "@id": {{ english_url | append: "#article" | jsonify }}
+  }
+}
+</script>

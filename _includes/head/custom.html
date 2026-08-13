@@ -9,6 +9,8 @@
 
 {% if page.collection == "publications" %}
   {% include publication-meta.html %}
+{% elsif page.collection == "publications_zh" %}
+  {% include publication-translation-meta.html %}
 {% endif %}
 
 <!-- end custom head snippets -->

@@ -210,12 +210,25 @@ defaults:
       layout: publication
       author_profile: false
       classes: publication-detail-page
+      lang: en
+  # _publications_zh
+  - scope:
+      path: ""
+      type: publications_zh
+    values:
+      layout: publication
+      author_profile: false
+      classes: publication-detail-page publication-detail-page--zh
+      lang: zh-CN
 
 # Paper landing pages
 collections:
   publications:
     output: true
     permalink: /publications/:name/
+  publications_zh:
+    output: true
+    permalink: /zh/publications/:name/
 
 # Sass/SCSS
 sass:

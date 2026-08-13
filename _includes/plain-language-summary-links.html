@@ -1,8 +1,9 @@
 {% capture story_url %}/publications/{{ include.slug }}/{% endcapture %}
+{% capture story_zh_url %}/zh/publications/{{ include.slug }}/{% endcapture %}
 <span class="publication-summary-inline" role="group" aria-label="Plain-language summaries for {{ include.title }}">
   <span class="publication-summary-inline__label">Plain-language:</span>
   <span class="publication-summary-inline__links">
-    <a class="publication-summary-inline__link" href="{{ story_url | relative_url }}#english-summary" hreflang="en">English</a>
-    <a class="publication-summary-inline__link" href="{{ story_url | relative_url }}#chinese-summary" lang="zh-CN" hreflang="zh-CN">中文</a>
+    <a class="publication-summary-inline__link" href="{{ story_url | relative_url }}" hreflang="en">English</a>
+    <a class="publication-summary-inline__link" href="{{ story_zh_url | relative_url }}" lang="zh-CN" hreflang="zh-CN">中文</a>
   </span>
 </span>

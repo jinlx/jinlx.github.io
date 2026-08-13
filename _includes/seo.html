@@ -8,7 +8,7 @@
 
 {% if page.seo_title %}
   {% assign seo_title = page.seo_title %}
-{% elsif page.collection == "publications" %}
+{% elsif page.collection == "publications" or page.collection == "publications_zh" %}
   {% assign seo_title = page.title %}
 {% elsif page.title %}
   {% assign seo_title = page.title | append: " " | append: site.title_separator | append: " " | append: site.title %}
@@ -48,13 +48,33 @@
   {% assign seo_author_twitter = seo_author_twitter | replace: "@", "" %}
 {% endif %}
 
-<meta property="og:locale" content="{{ site.locale | default: "en" }}">
+{% if page.lang == "zh-CN" %}
+  <meta property="og:locale" content="zh_CN">
+{% else %}
+  <meta property="og:locale" content="{{ site.locale | default: "en_US" | replace: "-", "_" }}">
+{% endif %}
 <meta property="og:site_name" content="{{ site.title }}">
 <meta property="og:title" content="{{ page.title | default: site.title | markdownify | strip_html | strip_newlines | escape_once }}">
 
 {% if seo_url %}
   <link rel="canonical" href="{{ page.url | prepend: seo_url | replace: "/index.html", "/" }}">
   <meta property="og:url" content="{{ page.url | prepend: seo_url | replace: "/index.html", "/" }}">
+{% endif %}
+
+{% if page.collection == "publications" %}
+  {% assign alternate_en_url = page.url | absolute_url %}
+  {% assign alternate_zh_path = "/zh/publications/" | append: page.summary_slug | append: "/" %}
+  {% assign alternate_zh_url = alternate_zh_path | absolute_url %}
+  <link rel="alternate" hreflang="en" href="{{ alternate_en_url }}">
+  <link rel="alternate" hreflang="zh-CN" href="{{ alternate_zh_url }}">
+  <link rel="alternate" hreflang="x-default" href="{{ alternate_en_url }}">
+{% elsif page.collection == "publications_zh" %}
+  {% assign alternate_en_path = "/publications/" | append: page.translation_of | append: "/" %}
+  {% assign alternate_en_url = alternate_en_path | absolute_url %}
+  {% assign alternate_zh_url = page.url | absolute_url %}
+  <link rel="alternate" hreflang="en" href="{{ alternate_en_url }}">
+  <link rel="alternate" hreflang="zh-CN" href="{{ alternate_zh_url }}">
+  <link rel="alternate" hreflang="x-default" href="{{ alternate_en_url }}">
 {% endif %}
 
 {% if seo_description %}
@@ -112,7 +132,7 @@
   {% if site.og_image_alt %}<meta property="og:image:alt" content="{{ site.og_image_alt | escape_once }}">{% endif %}
 {% endif %}
 
-{% if page.date or page.collection == "publications" %}
+{% if page.date or page.collection == "publications" or page.collection == "publications_zh" %}
   <meta property="og:type" content="article">
   {% if page.publication_date %}
     <meta property="article:published_time" content="{{ page.publication_date | date_to_xmlschema }}">
