@@ -18,7 +18,13 @@
               {% else %}
               {% assign domain = base_path %}
             {% endif %}
-            <li class="masthead__menu-item"><a href="{{ domain }}{{ link.url }}"{% if page.url == link.url %} aria-current="page"{% endif %}>{{ link.title }}</a></li>
+            {% assign current_link = false %}
+            {% if page.url == link.url %}
+              {% assign current_link = true %}
+            {% elsif link.url == '/publications/' and page.url contains '/publications/' %}
+              {% assign current_link = true %}
+            {% endif %}
+            <li class="masthead__menu-item"><a href="{{ domain }}{{ link.url }}"{% if current_link %} aria-current="page"{% endif %}>{{ link.title }}</a></li>
           {% endfor %}
         </ul>
         <ul id="site-nav-hidden-links" class="hidden-links hidden"></ul>

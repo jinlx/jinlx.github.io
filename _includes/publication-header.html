@@ -1,6 +1,6 @@
 <nav class="publication-back" aria-label="Publication navigation">
   <a href="{{ '/publications/' | relative_url }}">&larr; All publications</a>
-  <span class="publication-language-links" aria-label="Summary language">
+  <span class="publication-language-links" role="group" aria-label="Summary language">
     <a href="#english-summary" hreflang="en">English</a>
     <span aria-hidden="true">&middot;</span>
     <a href="#chinese-summary" lang="zh-CN" hreflang="zh-CN">中文</a>
@@ -23,6 +23,7 @@
     {% if page.data_url %}<a href="{{ page.data_url }}">Data</a>{% endif %}
     {% if page.code_url %}<a href="{{ page.code_url }}">Code</a>{% endif %}
     {% if page.supplement_url %}<a href="{{ page.supplement_url }}">Supplement</a>{% endif %}
+    <a href="#recommended-citation">Cite</a>
     <a href="{{ '/files/publications/' | append: page.summary_slug | append: '/summary-en.pdf' | relative_url }}" type="application/pdf">English summary PDF</a>
     <a href="{{ '/files/publications/' | append: page.summary_slug | append: '/summary-zh.pdf' | relative_url }}" lang="zh-CN" hreflang="zh-CN" type="application/pdf">中文解读 PDF</a>
   </nav>

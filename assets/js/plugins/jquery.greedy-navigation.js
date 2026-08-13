@@ -11,8 +11,31 @@ var $vlinks = $('#site-nav .visible-links');
 var $hlinks = $('#site-nav .hidden-links');
 
 var breaks = [];
+var compactMode = false;
+var compactNavMaxWidth = 600;
 
 function updateNav() {
+
+  var useCompactNav = window.innerWidth <= compactNavMaxWidth;
+
+  if(useCompactNav) {
+    while($vlinks.children().length > 1) {
+      $vlinks.children().last().prependTo($hlinks);
+    }
+    compactMode = true;
+    breaks = [];
+    $btn.removeClass('hidden');
+    $btn.attr('count', $hlinks.children().length);
+    return;
+  }
+
+  if(compactMode) {
+    while($hlinks.children().length) {
+      $hlinks.children().first().appendTo($vlinks);
+    }
+    compactMode = false;
+    breaks = [];
+  }
 
   var availableSpace = $btn.hasClass('hidden') ? $nav.width() : $nav.width() - $btn.width() - 30;
 
