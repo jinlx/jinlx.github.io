@@ -2,7 +2,7 @@
 title: "Constraining emissions of volatile organic compounds from western US wildfires with WE-CAN and FIREX-AQ airborne observations"
 description: "Aircraft and ground observations show that standard fire inventories captured sampled fires but underestimated their CO and VOC emissions and represented only part of the measured VOC mixture."
 publication_date: "2023-05-31"
-last_modified_at: "2026-08-11"
+last_modified_at: "2026-08-13"
 authors:
   - name: "Lixu Jin"
     citation_name: "Jin, Lixu"
@@ -87,8 +87,8 @@ Wildfire-smoke modeling often begins with satellite observations. Satellites can
 ### Four findings
 
 <ul class="publication-highlights">
-  <li><strong>Similar total VOC emissions hid very different molecular mixtures.</strong> For the 14 VOC groups represented in GEOS-Chem, the three inventories differed by only about 30%–40% in total, but estimates for individual compounds differed by as much as fivefold.</li>
-  <li><strong>The sampled fires were detected, but the modeled gas signals were too weak.</strong> Fire-related increases in CO, propane, benzene, and toluene were only about one-third to one-seventh as large as the increases measured by aircraft.</li>
-  <li><strong>Tripling fire emissions improved primary gases but not every oxygenated VOC.</strong> The remaining gaps pointed to missing precursor emissions, incomplete chemistry that forms oxygenated gases downwind, or both.</li>
-  <li><strong>Aircraft and ground observations pointed in the same direction.</strong> The model underestimated fire-related CO, and its 14 biomass-burning VOC groups represented only about half of the total measured VOC-to-CO ratio across 161 compounds.</li>
+  <li><strong>Similar VOC totals hid very different chemical mixtures.</strong> For the 14 VOC groups represented in GEOS-Chem, the three inventories differed by only about 30%–40% in total, but estimates for individual compounds differed by as much as fivefold.</li>
+  <li><strong>The inventories included the fires linked to the sampled plumes, but the modeled increases in gas concentrations were too small.</strong> Fire-related increases in CO, propane, benzene, and toluene were only about one-third to one-seventh as large as the increases measured by aircraft.</li>
+  <li><strong>Tripling fire emissions brought primary gases closer to the observations but did not close the gap for every oxygenated VOC.</strong> The remaining gaps pointed to missing precursor emissions, incomplete treatment of chemistry that forms oxygenated gases downwind, or both.</li>
+  <li><strong>Aircraft and ground observations supported the same conclusion.</strong> Both showed that the model underestimated fire-related CO. In the aircraft data, the model’s 14 biomass-burning VOC groups accounted for only about half of the total VOC-to-CO ratio measured across 161 compounds.</li>
 </ul>

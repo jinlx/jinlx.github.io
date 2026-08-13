@@ -2,7 +2,7 @@
 title: "Ozone photochemistry in fresh biomass burning smoke over the United States"
 description: "Aircraft observations show unusually rapid oxidation in fresh wildfire smoke and how incomplete VOC representation limits modeled OH, ozone, and organic nitrate chemistry."
 publication_date: "2026-02-06"
-last_modified_at: "2026-08-11"
+last_modified_at: "2026-08-13"
 authors:
   - name: "Lixu Jin"
     citation_name: "Jin, Lixu"
@@ -79,13 +79,13 @@ citation: "Jin, L., Coggon, M. M., Permar, W., Juncosa Calahorrano, J. F., Palm,
 
 <p class="publication-story__deck">Aircraft observations reveal unusually rapid chemistry during the first two hours after emission.</p>
 
-Wildfire smoke does not carry a clock, but its chemistry does. In five selected daytime plumes, the first two hours unfolded in fast-forward: after one hour of travel, the smoke had experienced about as much oxidation as it would in three to four hours under typical background conditions. Observations from three major US aircraft campaigns captured each plume near the fire and again farther downwind, giving us snapshots of how the plume-center chemistry changed during the first five hours after emission.
+Wildfire smoke does not carry a clock, but its chemistry does. In five selected daytime plumes, the first two hours unfolded in fast-forward: after one hour of travel, the smoke had experienced about as much oxidation as it would in three to four hours under typical background conditions. Research aircraft from three major US campaigns sampled each plume near the fire and again farther downwind, giving us snapshots of how the plume-center chemistry changed during the first five hours after emission.
 
 ### Four findings
 
 <ul class="publication-highlights">
-  <li><strong>The source of reactive radicals changed quickly.</strong> HONO supplied most of the estimated radical production during the first hour. Oxygenated organic gases and ozone became more important as the smoke aged.</li>
-  <li><strong>Chemical age organized the plume-to-plume differences.</strong> It explained about two-thirds of the variation in ozone enhancement and roughly 40%–70% of the differences in VOC loss and ozone and PAN formation.</li>
-  <li><strong>Ozone control could shift within two hours.</strong> At least two of the five plumes moved from VOC-limited or transitional conditions toward NOₓ-limited conditions as they aged.</li>
-  <li><strong>Models performed best with a fuller wildfire-VOC representation.</strong> Reduced VOC sets produced larger errors in OH, ozone, and organic nitrates, pointing to specific chemistry that current simplified mechanisms should improve.</li>
+  <li><strong>The chemicals supplying reactive radicals changed quickly.</strong> During the first hour, HONO supplied most of the estimated radical production; as the smoke aged, oxygenated organic gases and ozone became more important.</li>
+  <li><strong>Chemical age explained much of the plume-to-plume variability.</strong> It accounted for about two-thirds of the variation in ozone enhancement and roughly 40%–70% of the differences in VOC loss and in ozone and PAN formation.</li>
+  <li><strong>What controlled ozone production could shift within two hours.</strong> In at least two of the five plumes, conditions shifted from VOC-limited or transitional toward NOₓ-limited as the smoke aged.</li>
+  <li><strong>Models worked better when they represented more of the wildfire VOC mixture.</strong> Reduced VOC sets produced larger errors in OH, ozone, and organic nitrates, pointing to parts of the chemistry that current simplified mechanisms need to represent better.</li>
 </ul>
