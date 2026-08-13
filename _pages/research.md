@@ -15,16 +15,26 @@ redirect_from:
 Wildfire smoke is a changing mixture. Its effects on air quality and health-relevant pollutant exposure depend on what fires emit, how those emissions react and mix during transport, where secondary pollutants such as ozone form, and what ultimately reaches communities. I combine aircraft, surface, and satellite observations with chemical box models and three-dimensional atmospheric models to follow smoke from its source to the air people breathe.
 
 <figure class="research-figure">
-  <img
-    src="/images/research_theme.jpg"
-    alt="Schematic linking satellite, aircraft, and surface observations with atmospheric models to trace wildfire smoke from emissions to community exposure."
-    width="871"
-    height="400"
-  />
-  <figcaption>From plumes to people: observations and atmospheric models connect wildfire emissions to downwind air quality and health-relevant pollutant exposure. <a href="/images/research_theme.jpg">Open the full-size schematic</a>.</figcaption>
+  <a class="research-figure__link" href="/images/research_theme.jpg" data-no-lightbox aria-label="Open the full-size research schematic">
+    <img
+      src="/images/research_theme.jpg"
+      alt="Schematic linking satellite, aircraft, and surface observations with atmospheric models to trace wildfire smoke from emissions to community exposure."
+      width="871"
+      height="400"
+    />
+  </a>
+  <figcaption>From plumes to people: observations and atmospheric models connect wildfire emissions to downwind air quality and health-relevant pollutant exposure. <a href="/images/research_theme.jpg" data-no-lightbox>Open the full-size schematic</a>. <span class="research-figure__mobile-hint">Tap the figure to enlarge it.</span></figcaption>
 </figure>
 
-*[Emissions](#emissions) · [Smoke evolution](#smoke-evolution) · [Furanoid chemistry](#furanoid-chemistry) · [Exposure and health](#exposure-health)*
+<nav class="research-jump-links" aria-label="Research topics">
+  <a href="#emissions">Emissions</a>
+  <span aria-hidden="true">·</span>
+  <a href="#smoke-evolution">Smoke evolution</a>
+  <span aria-hidden="true">·</span>
+  <a href="#furanoid-chemistry">Furanoid chemistry</a>
+  <span aria-hidden="true">·</span>
+  <a href="#exposure-health">Exposure and health</a>
+</nav>
 
 ## 1. How much do western U.S. wildfires emit? {#emissions}
 
