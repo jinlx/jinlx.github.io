@@ -24,6 +24,8 @@ Across these stages, I also investigate [which reactive VOCs and chemical pathwa
 
 Across my work, I integrate aircraft, surface, and satellite observations with GEOS-Chem, CMAQ, chemical box models, trajectory analysis, and data-driven methods.
 
+**Open science.** Whenever permissions allow, I make the data and code supporting my research openly available and link them with each publication.
+
 [Research](/research/){: .btn .btn--primary }
 [Publications](/publications/){: .btn .btn--primary }
-[Download CV](/files/CV_Lixu.pdf){: .btn .btn--primary }
+[View CV (PDF)](/files/CV_Lixu.pdf){: .btn .btn--primary }
