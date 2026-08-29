@@ -8,7 +8,7 @@ redirect_from:
   - /researches/
 ---
 
-<p class="page__updated">Updated August 10, 2026</p>
+<p class="page__updated">Updated August 29, 2026</p>
 
 ## From plumes to people
 
@@ -82,7 +82,7 @@ Wildfire smoke is a changing mixture. Its effects on air quality and health-rele
 
 **Approach.** I combine long-term air-quality records, hourly measurements of 75 VOCs, chemical transport modeling, and toxicity-based exposure metrics.
 
-**Key finding.** During September 2020, much of the regional smoke reaching Missoula had spent several days traveling and reacting, although smaller nearby fires may also have contributed. Smoke periods increased CO, fine particulate matter (PM₂.₅), and measured VOCs by factors of 2–8. In an upper-bound screening scenario that assumed a person experienced a 2020-like smoke season every year for 70 years, PM₂.₅ accounted for about 90% of the estimated cancer risk, whereas measured hazardous air pollutants dominated the chronic noncancer risk estimate.
+**Key finding.** During September 2020, much of the regional smoke reaching Missoula had spent several days traveling and reacting, although smaller nearby fires may also have contributed. During smoke periods, CO, fine particulate matter (PM₂.₅), and measured VOCs were 2–8 times their background levels. In an upper-bound screening scenario that assumed a person experienced a 2020-like smoke season every year for 70 years, PM₂.₅ accounted for about 90% of the estimated cancer risk, whereas measured hazardous air pollutants dominated the chronic noncancer risk estimate.
 
 **Implication.** In this screening-level assessment, PM₂.₅ accounted for most of the estimated cancer risk but not the gaseous pollutants that dominated the chronic noncancer estimate. Chemically resolved observations and improved atmospheric models are therefore needed for a more complete assessment of wildfire-smoke exposure.
 

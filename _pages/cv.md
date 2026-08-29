@@ -7,7 +7,7 @@ classes: cv-page
 excerpt: "Academic CV of Lixu Jin, a Postdoctoral Scholar at Rutgers University studying wildfire smoke, air quality, and health-relevant pollutant exposure."
 ---
 
-<p class="page__updated">Updated August 10, 2026</p>
+<p class="page__updated">Updated August 29, 2026</p>
 
 [Download the current CV (PDF)](/files/CV_Lixu.pdf){: .btn .btn--primary }
 
@@ -27,7 +27,7 @@ excerpt: "Academic CV of Lixu Jin, a Postdoctoral Scholar at Rutgers University 
 - Wildfire-emission constraints and model evaluation
 - Fresh- and aged-smoke chemistry, including ozone formation and chemical aging
 - Chemical-mechanism development for reactive wildfire VOCs
-- Aircraft, surface, and satellite integration for regional plume analysis
+- Integration of aircraft, surface, and satellite observations with atmospheric models
 - Chemically resolved exposure and screening-level health-risk assessment
 - OH exposure, photochemical-age diagnostics, and VOC–NOₓ ozone isopleths
 - GEOS-Chem, CMAQ, F0AM, HYSPLIT, and model-to-observation sampling

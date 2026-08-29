@@ -30,6 +30,7 @@
     <a href="{{ publication.paper_url }}">{% if is_chinese %}论文{% else %}Paper{% endif %}</a>
     {% if publication.data_url %}<a href="{{ publication.data_url }}">{% if is_chinese %}数据{% else %}Data{% endif %}</a>{% endif %}
     {% if publication.code_url %}<a href="{{ publication.code_url }}">{% if is_chinese %}代码{% else %}Code{% endif %}</a>{% endif %}
+    {% if publication.code_archive_url %}<a href="{{ publication.code_archive_url }}">{% if is_chinese %}代码存档{% else %}Code archive{% endif %}</a>{% endif %}
     {% if publication.supplement_url %}<a href="{{ publication.supplement_url }}">{% if is_chinese %}补充材料{% else %}Supplement{% endif %}</a>{% endif %}
     <a href="#recommended-citation">{% if is_chinese %}引用{% else %}Cite{% endif %}</a>
   </nav>

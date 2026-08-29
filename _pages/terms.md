@@ -1,11 +1,9 @@
 ---
 permalink: /terms/
-title: "Terms and Privacy Policy"
+title: "Privacy"
 author_profile: false
-modified: 2026-07-31
+modified: 2026-08-29
 ---
-
-## Privacy Policy
 
 This is a static professional website hosted by GitHub Pages. It does not currently use an analytics service, advertising service, comment form, or account system, and it does not directly collect personal information from visitors.
 

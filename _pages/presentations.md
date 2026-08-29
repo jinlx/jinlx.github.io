@@ -6,10 +6,10 @@ classes: presentations-page
 excerpt: "Invited talks, conference presentations, and posters on wildfire smoke, atmospheric chemistry, and air quality."
 ---
 
-<p class="page__updated">Updated August 10, 2026</p>
+<p class="page__updated">Updated August 29, 2026</p>
 
 ## Invited Talks
-- **L. Jin** (2027): When and Why Wildfire Smoke Increases the Risk of Ozone Exceedances across the United States. *Invited presentation in the Regional Air Quality session, [29th Conference on Atmospheric Chemistry, 107th AMS Annual Meeting](https://annual.ametsoc.org/2027/program-events/conferences-and-symposia/29th-conference-on-atmospheric-chemistry/), Denver, CO, January 10–14, 2027.*
+- **Upcoming:** **L. Jin** (2027): When and Why Wildfire Smoke Increases the Risk of Ozone Exceedances across the United States. *Invited presentation in the Regional Air Quality session, [29th Conference on Atmospheric Chemistry, 107th AMS Annual Meeting](https://annual.ametsoc.org/2027/program-events/conferences-and-symposia/29th-conference-on-atmospheric-chemistry/), Denver, CO, January 10–14, 2027.*
 
 - **L. Jin** *et al.* (2026): Plumes to People: Constraining Wildfire Smoke Emissions, Chemistry, and Health Impacts. *Rutgers University departmental seminar, New Brunswick, NJ, May 2026.*
 
@@ -24,7 +24,7 @@ excerpt: "Invited talks, conference presentations, and posters on wildfire smoke
 
 - **L. Jin** *et al.* (2024): [Global chemical impacts of furanoids: model analysis and constraints from in-situ observations](/files/IGC11-D3-P05-Jin.pdf). *11th International GEOS-Chem Meeting (IGC11), June 2024.*
 
-- **L. Jin** *et al.* (2023): [Underestimated Fire Emissions in Inventories: Evidence from Model Simulations and Aircraft Observations](https://www.epa.gov/system/files/documents/2023-11/0900am_lixu.pdf). *EPA Emissions Inventory Conference (EIC), September 2023.*  ([Video Record](https://www.youtube.com/watch?v=YSYVgQEXJys))
+- **L. Jin** *et al.* (2023): [Underestimated Fire Emissions in Inventories: Evidence from Model Simulations and Aircraft Observations](https://www.epa.gov/system/files/documents/2023-11/0900am_lixu.pdf). *EPA Emissions Inventory Conference (EIC), September 2023.* ([Video recording](https://www.youtube.com/watch?v=YSYVgQEXJys))
 
 - **L. Jin** *et al.* (2022): [Constraining VOC emission from western US wildfires with WE-CAN and FIREX-AQ airborne observations](/files/IGC10_JIN.pdf). *10th International GEOS-Chem Meeting (IGC10), June 2022.*
 

@@ -16,15 +16,17 @@ I earned my Ph.D. in Chemistry from the University of Montana, where I worked wi
 
 ## From fire to communities
 
-- [**At the source**](/research/#emissions): Do fire inventories assign enough carbon monoxide (CO) and VOC emissions to the fires they detect?
+- [**At the source**](/research/#emissions): Do fire-emission inventories estimate enough carbon monoxide (CO) and VOCs for the fires they detect?
 - [**During the first hours**](/research/#smoke-evolution): How quickly do smoke oxidation and ozone formation proceed?
-- [**Days downwind**](/research/#exposure-health): What remains in multi-day smoke when it reaches communities at ground level?
+- [**Days downwind**](/research/#exposure-health): What remains when smoke reaches communities after days of travel and chemical change?
 
 Across these stages, I also investigate [which reactive VOCs and chemical pathways are missing from reduced atmospheric mechanisms](/research/#furanoid-chemistry).
 
-Across my work, I integrate aircraft, surface, and satellite observations with GEOS-Chem, CMAQ, chemical box models, trajectory analysis, and data-driven methods.
+To answer these questions, I integrate aircraft, surface, and satellite observations with GEOS-Chem, CMAQ, chemical box models, trajectory analysis, and data-driven methods.
 
 **Open science.** Whenever permissions allow, I share the data and code behind my research on the corresponding [publication pages]({{ '/publications/' | relative_url }}).
+
+**In the media.** I spoke with [Montana Public Radio](https://www.mtpr.org/montana-news/2026-08-28/why-does-wildfire-season-smell-like-this) about what gives wildfire smoke its smell and why smell and the Air Quality Index do not always match.
 
 [Research](/research/){: .btn .btn--primary }
 [Publications](/publications/){: .btn .btn--primary }

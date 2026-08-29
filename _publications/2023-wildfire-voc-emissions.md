@@ -1,8 +1,9 @@
 ---
 title: "Constraining emissions of volatile organic compounds from western US wildfires with WE-CAN and FIREX-AQ airborne observations"
+display_title: "Aircraft Measurements Reveal Missing Wildfire CO and VOC Emissions"
 description: "Aircraft and ground observations show that standard fire inventories captured sampled fires but underestimated their CO and VOC emissions and represented only part of the measured VOC mixture."
 publication_date: "2023-05-31"
-last_modified_at: "2026-08-13"
+last_modified_at: "2026-08-29"
 authors:
   - name: "Lixu Jin"
     citation_name: "Jin, Lixu"
@@ -78,17 +79,15 @@ citation: "Jin, L., Permar, W., Selimovic, V., Ketcherside, D., Yokelson, R. J.,
 
 <p class="publication-story__label">Plain-language summary</p>
 
-## Aircraft Measurements Reveal Missing Wildfire CO and VOC Emissions
-
 <p class="publication-story__deck">The fires were detected, but their modeled CO and VOC emissions were too low.</p>
 
 Wildfire-smoke modeling often begins with satellite observations. Satellites can show where fires are burning, but a fire-emission inventory must still estimate how much fuel burned and how much of each gas entered the atmosphere. We tested those estimates using measurements from two major aircraft campaigns and a network of ground monitors across the western United States.
 
-### Four findings
+## Four findings
 
 <ul class="publication-highlights">
   <li><strong>Similar VOC totals hid very different chemical mixtures.</strong> For the 14 VOC groups represented in GEOS-Chem, the three inventories differed by only about 30%–40% in total, but estimates for individual compounds differed by as much as fivefold.</li>
-  <li><strong>The inventories included the fires linked to the sampled plumes, but the modeled increases in gas concentrations were too small.</strong> Fire-related increases in CO, propane, benzene, and toluene were only about one-third to one-seventh as large as the increases measured by aircraft.</li>
+  <li><strong>The inventories included the sampled fires but underestimated their gas emissions.</strong> Fire-related increases in CO, propane, benzene, and toluene were only about one-third to one-seventh as large as the increases measured by aircraft.</li>
   <li><strong>Tripling fire emissions brought primary gases closer to the observations but did not close the gap for every oxygenated VOC.</strong> The remaining gaps pointed to missing precursor emissions, incomplete treatment of chemistry that forms oxygenated gases downwind, or both.</li>
-  <li><strong>Aircraft and ground observations supported the same conclusion.</strong> Both showed that the model underestimated fire-related CO. In the aircraft data, the model’s 14 biomass-burning VOC groups accounted for only about half of the total VOC-to-CO ratio measured across 161 compounds.</li>
+  <li><strong>Aircraft and ground observations supported the same conclusion.</strong> Both showed that the model underestimated fire-related CO. In the aircraft data, the model’s 14 biomass-burning VOC groups accounted for only about half of the total VOC-to-CO ratio measured across 161 compounds. After accounting for both the weak modeled fire signal and the VOCs missing from the model, we estimated that wildfires supplied about 45% of western U.S. primary VOC emissions during the intense 2018 fire season and about 10% in 2019.</li>
 </ul>

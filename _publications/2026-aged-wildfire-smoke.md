@@ -1,8 +1,9 @@
 ---
 title: "Characterizing emissions, chemistry, and health impacts of aged wildfire smoke in a western US city"
-description: "Hourly ground measurements in Missoula reveal how multi-day wildfire smoke changed chemically, affected ozone and screening-level health risks, and challenged GEOS-Chem."
+display_title: "What Happens to Wildfire Smoke After Days in the Air?"
+description: "Hourly ground measurements in Missoula show how multi-day wildfire smoke changed chemically, how ozone varied during the event, and where GEOS-Chem underestimated pollutants and screening-level risk estimates."
 publication_date: "2026-08-07"
-last_modified_at: "2026-08-13"
+last_modified_at: "2026-08-29"
 authors:
   - name: "Lixu Jin"
     citation_name: "Jin, Lixu"
@@ -33,6 +34,7 @@ doi: "10.5194/acp-26-11047-2026"
 paper_url: "https://doi.org/10.5194/acp-26-11047-2026"
 data_url: "https://doi.org/10.5281/zenodo.18209324"
 code_url: "https://github.com/jinlx/Aged-wildfire-smoke-emission-chemistry-health"
+code_archive_url: "https://doi.org/10.5281/zenodo.21703742"
 supplement_url: "https://doi.org/10.5194/acp-26-11047-2026-supplement"
 summary_slug: "2026-aged-wildfire-smoke"
 key_figure: "/images/publications/2026-aged-wildfire-smoke/key-figure.png"
@@ -56,17 +58,15 @@ citation: "Jin, L., Tan, L., Ketcherside, D. T., Selimovic, V., Nauman, K., Yoke
 
 <p class="publication-story__label">Plain-language summary</p>
 
-## What Happens to Wildfire Smoke After Days in the Air?
-
 <p class="publication-story__deck">Hourly ground measurements reveal what multi-day-old smoke brought to Missoula.</p>
 
 Much of what we know in detail about wildfire smoke comes from large collaborative field campaigns near fires and aboard research aircraft. We know far less about what remains after smoke has traveled and reacted for several days before reaching the air people breathe. In September 2020, Missoula, Montana, experienced three smoke events. When smoke affected the city, PM₂.₅ averaged 43 µg/m³—about seven times the local background—and reached an hourly peak of 120 µg/m³. Much of the regional smoke had traveled and reacted for several days, although nearby fires may also have contributed. We asked what was still in the smoke when it reached the city and how its chemistry had changed along the way.
 
-### Four findings
+## Four findings
 
 <ul class="publication-highlights">
   <li><strong>Ground measurements revealed clues to how the smoke had changed along the way.</strong> As the smoke chemically aged, benzene and toluene declined in a predictable way, while several oxygenated gases declined more slowly. The model indicated about twice as much OH exposure as the ground-based chemical clock.</li>
-  <li><strong>More smoke particles did not always mean more ozone.</strong> Ozone rose under lighter smoke, then leveled off or fell in the heaviest smoke. Both GEOS-Chem and AIRPACT missed this change.</li>
-  <li><strong>Particles and gases dominated different screening-level risk estimates.</strong> PM₂.₅ accounted for most of the estimated cancer risk, while measured hazardous gases accounted for most of the estimated chronic non-cancer risk.</li>
+  <li><strong>More smoke particles did not always mean more ozone.</strong> During this September 2020 event, ozone rose under lighter smoke, then leveled off or fell in the heaviest smoke. Both GEOS-Chem and AIRPACT missed this change.</li>
+  <li><strong>Particles and gases dominated different screening-level estimates.</strong> This was an upper-bound comparison, not an estimate of observed illness. We assumed that a smoke season like 2020 occurred every year for 70 years. Under that scenario, PM₂.₅ accounted for most of the estimated cancer risk, while measured hazardous gases accounted for most of the chronic noncancer estimate.</li>
   <li><strong>Getting the smoke timing right was not enough.</strong> GEOS-Chem reproduced the timing of the first two smoke events but underestimated many ground-level pollutants and the resulting screening-level risk estimates.</li>
 </ul>
