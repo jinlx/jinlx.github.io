@@ -37,6 +37,8 @@
 
 {% assign summary_language = 'en' %}
 {% if is_chinese %}{% assign summary_language = 'zh' %}{% endif %}
+{% assign summary_anchor = '#english-summary' %}
+{% if is_chinese %}{% assign summary_anchor = '#chinese-summary' %}{% endif %}
 {% assign pdf_path = '/files/publications/' | append: publication.summary_slug | append: '/summary-' | append: summary_language | append: '.pdf' %}
 {% assign pdf_cover_path = '/images/publications/' | append: publication.summary_slug | append: '/summary-' | append: summary_language | append: '-cover.png' %}
 <aside class="publication-pdf" aria-label="{% if is_chinese %}完整中文图文解读{% else %}Full illustrated plain-language summary{% endif %}">
@@ -47,7 +49,10 @@
     <p class="publication-pdf__label">{% if is_chinese %}图文版 &middot; PDF{% else %}Illustrated summary &middot; PDF{% endif %}</p>
     <p class="publication-pdf__title">{% if is_chinese %}阅读完整中文图文解读{% else %}Read the full illustrated summary{% endif %}</p>
     <p class="publication-pdf__text">{% if is_chinese %}打开精心排版的 5 页图文版。{% else %}Open the complete five-page visual story.{% endif %}</p>
-    <a class="publication-pdf__button" href="{{ pdf_path | relative_url }}" type="application/pdf">{% if is_chinese %}打开图文版 PDF{% else %}Open illustrated PDF{% endif %}</a>
+    <div class="publication-pdf__actions">
+      <a class="publication-pdf__button" href="{{ pdf_path | relative_url }}" type="application/pdf">{% if is_chinese %}打开图文版 PDF{% else %}Open illustrated PDF{% endif %}</a>
+      <a class="publication-pdf__online" href="{{ summary_anchor }}">{% if is_chinese %}继续阅读网页版 &darr;{% else %}Read the web summary &darr;{% endif %}</a>
+    </div>
   </div>
 </aside>
 
