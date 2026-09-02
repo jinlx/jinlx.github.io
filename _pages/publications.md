@@ -4,9 +4,10 @@ permalink: /publications/
 author_profile: true
 classes: publications-page
 excerpt: "Selected peer-reviewed studies of wildfire emissions, smoke chemistry, atmospheric modeling, and air quality."
+last_modified_at: "2026-09-02"
 ---
 
-<p class="page__updated">Updated August 29, 2026 · * Corresponding author</p>
+<p class="page__updated">Updated September 2, 2026 · * Corresponding author</p>
 
 ## First-author publications
 
@@ -15,6 +16,7 @@ excerpt: "Selected peer-reviewed studies of wildfire emissions, smoke chemistry,
     <strong>Jin, L.*</strong>, <em>et al.</em> (2026). <a href="{{ '/publications/2026-aged-wildfire-smoke/' | relative_url }}">Characterizing emissions, chemistry, and health impacts of aged wildfire smoke in a western US city</a>. <em>Atmospheric Chemistry and Physics</em>, 26, 11047–11066. <a href="https://doi.org/10.5194/acp-26-11047-2026">Publisher</a> <span aria-hidden="true">·</span> <a href="https://doi.org/10.5281/zenodo.18209324">Data</a> <span aria-hidden="true">·</span> <a href="https://github.com/jinlx/Aged-wildfire-smoke-emission-chemistry-health">Code</a> <span aria-hidden="true">·</span> <a href="https://doi.org/10.5281/zenodo.21703742">Code archive</a>
     <div class="publication-secondary">
       {% include plain-language-summary-links.html slug="2026-aged-wildfire-smoke" title="the 2026 ACP aged-smoke paper" %}
+      <span class="publication-media-inline"><span class="publication-media-inline__label">Media:</span> <a href="https://www.mtpr.org/montana-news/2026-08-28/why-does-wildfire-season-smell-like-this">Montana Public Radio</a></span>
     </div>
   </li>
   <li>

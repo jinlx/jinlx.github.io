@@ -3,7 +3,7 @@ title: "Characterizing emissions, chemistry, and health impacts of aged wildfire
 display_title: "What Happens to Wildfire Smoke After Days in the Air?"
 description: "Hourly ground measurements in Missoula show how multi-day wildfire smoke changed chemically, how ozone varied during the event, and where GEOS-Chem underestimated pollutants and screening-level risk estimates."
 publication_date: "2026-08-07"
-last_modified_at: "2026-08-29"
+last_modified_at: "2026-09-02"
 authors:
   - name: "Lixu Jin"
     citation_name: "Jin, Lixu"
@@ -36,6 +36,9 @@ data_url: "https://doi.org/10.5281/zenodo.18209324"
 code_url: "https://github.com/jinlx/Aged-wildfire-smoke-emission-chemistry-health"
 code_archive_url: "https://doi.org/10.5281/zenodo.21703742"
 supplement_url: "https://doi.org/10.5194/acp-26-11047-2026-supplement"
+media:
+  - label: "Montana Public Radio"
+    url: "https://www.mtpr.org/montana-news/2026-08-28/why-does-wildfire-season-smell-like-this"
 summary_slug: "2026-aged-wildfire-smoke"
 key_figure: "/images/publications/2026-aged-wildfire-smoke/key-figure.png"
 key_figure_width: 600

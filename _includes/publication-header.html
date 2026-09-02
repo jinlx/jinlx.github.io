@@ -34,6 +34,14 @@
     {% if publication.supplement_url %}<a href="{{ publication.supplement_url }}">{% if is_chinese %}补充材料{% else %}Supplement{% endif %}</a>{% endif %}
     <a href="#recommended-citation">{% if is_chinese %}引用{% else %}Cite{% endif %}</a>
   </nav>
+  {% if publication.media %}
+    <p class="publication-record__media">
+      <strong>{% if is_chinese %}媒体：{% else %}Media:{% endif %}</strong>
+      {% for item in publication.media %}
+        <a href="{{ item.url }}"{% if item.lang %} lang="{{ item.lang }}" hreflang="{{ item.lang }}"{% endif %}>{{ item.label }}</a>{% unless forloop.last %}<span aria-hidden="true"> &middot; </span>{% endunless %}
+      {% endfor %}
+    </p>
+  {% endif %}
 </section>
 
 {% assign summary_language = 'en' %}

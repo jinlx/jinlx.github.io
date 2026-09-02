@@ -193,6 +193,14 @@
     line-height: 1.35;
   }
 
+  .publication-record__media {
+    margin: 0.45rem 0 0;
+
+    strong {
+      color: $text-color;
+    }
+  }
+
   .publication-resources {
     display: flex;
     flex-wrap: wrap;

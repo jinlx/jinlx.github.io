@@ -3,7 +3,7 @@ title: "野火烟雾漂了几天后发生了什么？"
 description: "烟雾抵达地面时污染依然很重，化学组成却已与离开火场时大不相同。"
 translation_of: "2026-aged-wildfire-smoke"
 publication_date: "2026-08-07"
-last_modified_at: "2026-08-29"
+last_modified_at: "2026-09-02"
 key_figure_alt: "老化野火烟雾的污染水平、筛查层面健康风险估算及模式偏差示意图"
 key_figure_caption: "概念图展示老化烟雾抵达城市后的颗粒物和有害气体，以及相应的筛查层面健康风险估算和模式评估结果。改编自 Jin 等（2026），CC BY 4.0。"
 ---
