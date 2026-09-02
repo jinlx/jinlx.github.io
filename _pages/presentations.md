@@ -6,10 +6,10 @@ classes: presentations-page
 excerpt: "Invited talks, conference presentations, and posters on wildfire smoke, atmospheric chemistry, and air quality."
 ---
 
-<p class="page__updated">Updated August 29, 2026</p>
+<p class="page__updated">Updated September 2, 2026</p>
 
 ## Invited Talks
-- **Upcoming:** **L. Jin** (2027): When and Why Wildfire Smoke Increases the Risk of Ozone Exceedances across the United States. *Invited presentation in the Regional Air Quality session, [29th Conference on Atmospheric Chemistry, 107th AMS Annual Meeting](https://annual.ametsoc.org/2027/program-events/conferences-and-symposia/29th-conference-on-atmospheric-chemistry/), Denver, CO, January 10–14, 2027.*
+- **L. Jin** (2027): When and Why Wildfire Smoke Increases the Risk of Ozone Exceedances across the United States. *Invited presentation in the Regional Air Quality session, [29th Conference on Atmospheric Chemistry, 107th AMS Annual Meeting](https://annual.ametsoc.org/2027/program-events/conferences-and-symposia/29th-conference-on-atmospheric-chemistry/), Denver, CO, January 10–14, 2027.*
 
 - **L. Jin** *et al.* (2026): Plumes to People: Constraining Wildfire Smoke Emissions, Chemistry, and Health Impacts. *Rutgers University departmental seminar, New Brunswick, NJ, May 2026.*
 
