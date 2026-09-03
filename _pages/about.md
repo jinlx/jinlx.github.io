@@ -26,8 +26,6 @@ To answer these questions, I integrate aircraft, surface, and satellite observat
 
 **Open science.** Whenever permissions allow, I share the data and code behind my research on the corresponding [publication pages]({{ '/publications/' | relative_url }}).
 
-**In the media.** I spoke with [Montana Public Radio](https://www.mtpr.org/montana-news/2026-08-28/why-does-wildfire-season-smell-like-this) about what gives wildfire smoke its smell and why smell and the Air Quality Index do not always match.
-
 [Research](/research/){: .btn .btn--primary }
 [Publications](/publications/){: .btn .btn--primary }
 [View CV (PDF)](/files/CV_Lixu.pdf){: .btn .btn--primary }
