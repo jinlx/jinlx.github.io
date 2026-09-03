@@ -39,6 +39,8 @@ supplement_url: "https://doi.org/10.5194/acp-26-11047-2026-supplement"
 media:
   - label: "Montana Public Radio"
     url: "https://www.mtpr.org/montana-news/2026-08-28/why-does-wildfire-season-smell-like-this"
+  - label: "Forbes"
+    url: "https://www.forbes.com/sites/lauriewinkless/2026/08/31/wildfires-have-left-the-forest-and-moved-into-the-city/"
 summary_slug: "2026-aged-wildfire-smoke"
 key_figure: "/images/publications/2026-aged-wildfire-smoke/key-figure.png"
 key_figure_width: 600
