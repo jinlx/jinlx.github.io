@@ -12,7 +12,8 @@ The site presents research on wildfire-smoke emissions and chemistry, atmospheri
 - `_pages/research.md`: detailed research overview
 - `_pages/publications.md`: selected publications
 - `_pages/presentations.md`: talks and posters
-- `_pages/cv.md`: web CV and PDF download
+- `_pages/cv.md`: web CV template rendered from the structured CV data
+- `_data/cv.yml`: machine-readable public CV source for the web page
 - `_pages/contact.md`: professional contact information
 - `files/CV_Lixu.pdf`: current public CV
 
@@ -28,13 +29,13 @@ Then open `http://localhost:4000`.
 
 ## Keeping the CV in sync
 
-The PDF at `files/CV_Lixu.pdf` is a copy of the authoritative CV maintained at `Dropbox/jinlx/Personal_materials/Application_materials/CV_resume/CV_Lixu.pdf`. After updating that file, refresh the site copy with:
+The web CV is rendered from `_data/cv.yml`. The public PDF at `files/CV_Lixu.pdf` keeps its existing layout and is synchronized from the local CV master with a SHA-256 check. Keep the local source path outside the repository, then refresh the site copy with:
 
 ```powershell
-.\scripts\sync-cv.ps1
+.\scripts\sync-cv.ps1 -Source "C:\path\to\CV_Lixu.pdf"
 ```
 
-Then commit and push the updated PDF as usual. The script fails loudly if the source is missing or the copy does not match.
+The sync script also runs `scripts/check-cv.ps1`, which checks the structured CV sections, confirms that the web page reads from `_data/cv.yml`, validates the PDF header, and verifies the source/PDF hashes when a local source is supplied. The GitHub Actions site check runs the same public-content checks before the Jekyll build.
 
 ## Automated checks
 

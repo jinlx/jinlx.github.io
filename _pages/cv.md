@@ -8,35 +8,112 @@ excerpt: "Academic CV of Lixu Jin, a Postdoctoral Scholar at Rutgers University 
 last_modified_at: "2026-09-02"
 ---
 
-<p class="page__updated">Updated September 2, 2026</p>
+{% assign cv = site.data.cv %}
 
-[Download the current CV (PDF)](/files/CV_Lixu.pdf){: .btn .btn--primary }
+<p class="page__updated">Updated {{ cv.updated_display }}</p>
+
+[Download the current CV (PDF)]({{ cv.pdf_url }}){: .btn .btn--primary }
 
 ## Current position
 
-**Postdoctoral Scholar**, Rutgers University, 2026–present *(working with Prof. Xiaomeng Jin)*
+**{{ cv.current_position.title }}**, {{ cv.current_position.institution }}, {{ cv.current_position.years }}{% if cv.current_position.note %} *({{ cv.current_position.note }})*{% endif %}
 
-- **Research focus:** Wildfire-smoke chemistry, satellite–model integration, air quality, and health-relevant pollutant exposure
+- **Research focus:** {{ cv.current_position.focus }}
 
 ## Education
 
-- Ph.D. in Chemistry, University of Montana, 2025 *(worked with Profs. Lu Hu and Robert J. Yokelson)*
-- B.S. (Honors) in Atmospheric Science, Lanzhou University, 2019
+{% for item in cv.education %}
+- {{ item.degree }}, {{ item.institution }}, {{ item.year }}{% if item.note %} *({{ item.note }})*{% endif %}
+{% endfor %}
+
+## Research interests
+
+{% for item in cv.research_interests %}
+- {{ item }}
+{% endfor %}
 
 ## Research expertise
 
-- Wildfire-emission constraints and model evaluation
-- Fresh- and aged-smoke chemistry, including ozone formation and chemical aging
-- Chemical-mechanism development for reactive wildfire VOCs
-- Integration of aircraft, surface, and satellite observations with atmospheric models
-- Chemically resolved exposure and screening-level health-risk assessment
-- OH exposure, photochemical-age diagnostics, and VOC–NOₓ ozone isopleths
-- GEOS-Chem, CMAQ, F0AM, HYSPLIT, and model-to-observation sampling
+{% for item in cv.research_expertise %}
+- {{ item }}
+{% endfor %}
 
-## Selected appointments
+## Research experience
 
-- **2019–2025:** Teaching and Graduate Research Assistant, University of Montana
-- **2018:** Visiting Student, University of Washington
-- **2016–2019:** Undergraduate Research Assistant, Lanzhou University
+{% for item in cv.research_experience %}
+### {{ item.institution }}, {{ item.location }}
 
-For publications, honors, grants, professional service, and presentations, please use the downloadable PDF above. My persistent researcher identifier is [ORCID 0000-0003-1346-5352](https://orcid.org/0000-0003-1346-5352).
+**{{ item.role }}**, {{ item.years }}{% if item.note %} *({{ item.note }})*{% endif %}
+
+{% for contribution in item.contributions %}
+- {{ contribution }}
+{% endfor %}
+{% endfor %}
+
+## Teaching experience
+
+{% for item in cv.teaching_experience %}
+- {{ item }}
+{% endfor %}
+
+## Publications
+
+### In preparation
+
+{% for item in cv.publications.in_preparation %}
+- {{ item.citation }}
+{% endfor %}
+
+### Peer-reviewed
+
+#### First-author
+
+{% for item in cv.publications.first_author %}
+- {{ item.citation }}{% if item.doi %} [DOI]({{ item.doi }}){% endif %}{% if item.note %} ({{ item.note }}){% endif %}{% if item.media %} (Featured by {% for outlet in item.media %}[{{ outlet.label }}]({{ outlet.url }}){% unless forloop.last %} and {% endunless %}{% endfor %}){% endif %}
+{% endfor %}
+
+#### Co-author
+
+{% for item in cv.publications.co_author %}
+- {{ item.citation }}{% if item.doi %} [DOI]({{ item.doi }}){% endif %}{% if item.note %} ({{ item.note }}){% endif %}
+{% endfor %}
+
+## Presentations
+
+### Invited talks
+
+{% for item in cv.presentations.invited_talks %}
+- {{ item }}
+{% endfor %}
+
+### Conferences
+
+{% for item in cv.presentations.conferences %}
+- {{ item }}
+{% endfor %}
+
+## Honors and awards
+
+{% for item in cv.awards %}
+- {{ item.name }}{% if item.amount %} ({{ item.amount }}){% endif %}, {{ item.institution }}, {{ item.years }}
+{% endfor %}
+
+## Grants and funding
+
+{% for item in cv.grants %}
+- **{{ item.role }}:** {{ item.title }}. {{ item.program }} ({{ item.amount }}), {{ item.institution }}, {{ item.years }}, with {{ item.collaborator }}.
+{% endfor %}
+
+## Professional activity and outreach
+
+{% for item in cv.professional_activity %}
+- **{{ item.label }}:** {{ item.details }}
+{% endfor %}
+
+## Skills
+
+{% for item in cv.skills %}
+- **{{ item.category }}:** {{ item.items }}
+{% endfor %}
+
+My persistent researcher identifier is [ORCID {{ cv.contact.orcid }}](https://orcid.org/{{ cv.contact.orcid }}).

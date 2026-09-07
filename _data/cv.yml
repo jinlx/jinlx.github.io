@@ -1,0 +1,193 @@
+name: "Lixu Jin"
+updated: "2026-09-02"
+updated_display: "September 2, 2026"
+pdf_url: "/files/CV_Lixu.pdf"
+
+contact:
+  email: "lixu.jin@rutgers.edu"
+  website: "https://jinlx.github.io/"
+  orcid: "0000-0003-1346-5352"
+
+current_position:
+  title: "Postdoctoral Scholar"
+  institution: "Rutgers University"
+  years: "2026–present"
+  note: "working with Prof. Xiaomeng Jin"
+  focus: "Wildfire-smoke chemistry, satellite–model integration, air quality, and health-relevant pollutant exposure"
+
+research_interests:
+  - "Wildfire emissions and smoke aging"
+  - "Ozone photochemistry and VOC–NOₓ sensitivity"
+  - "Reactive VOC chemistry"
+  - "Health-relevant pollutant exposure"
+  - "Integration of aircraft, surface, and satellite observations"
+  - "OH exposure and photochemical-age diagnostics"
+  - "Atmospheric modeling and data-driven analysis"
+
+education:
+  - degree: "Ph.D. in Chemistry"
+    institution: "University of Montana"
+    year: "2025"
+    note: "worked with Profs. Lu Hu and Robert J. Yokelson"
+  - degree: "B.S. (Honors) in Atmospheric Science"
+    institution: "Lanzhou University"
+    year: "2019"
+
+research_expertise:
+  - "Wildfire-emission constraints and model evaluation"
+  - "Fresh- and aged-smoke chemistry, including ozone formation and chemical aging"
+  - "Chemical-mechanism development for reactive wildfire VOCs"
+  - "Integration of aircraft, surface, and satellite observations with atmospheric models"
+  - "Chemically resolved exposure and screening-level health-risk assessment"
+  - "OH exposure, photochemical-age diagnostics, and VOC–NOₓ ozone isopleths"
+  - "GEOS-Chem, CMAQ, F0AM, HYSPLIT, and model-to-observation sampling"
+
+research_experience:
+  - institution: "Rutgers University"
+    location: "New Brunswick, NJ"
+    role: "Postdoctoral Scholar"
+    years: "2026–present"
+    note: "with Prof. Xiaomeng Jin"
+    contributions:
+      - "Integrating satellite, aircraft, and surface observations with atmospheric models to quantify wildfire-smoke impacts on air quality and public health."
+      - "Developing satellite-sampled along-plume and cross-plume transect workflows that account for pixel quality, overpass timing, plume geometry, winds, and model sampling."
+  - institution: "University of Montana"
+    location: "Missoula, MT"
+    role: "Graduate Research and Teaching Assistant"
+    years: "2019–2025"
+    note: "with Profs. Lu Hu and Robert J. Yokelson"
+    contributions:
+      - "Developed the interface between 3-D GEOS-Chem CTM and 0-D F0AM box model."
+      - "Led GEOS-Chem and F0AM simulations with multiple chemical mechanisms under wildfire-targeted observational constraints."
+      - "Developed a wildfire-targeted 3-D GEOS-Chem CTM, quantified organic-carbon emission budgets, and assessed air-quality impacts and associated health implications."
+  - institution: "University of Washington"
+    location: "Seattle, WA"
+    role: "Visiting Student"
+    years: "2018"
+    note: "with Prof. Daniel A. Jaffe"
+    contributions:
+      - "Developed F0AM simulations of traffic emissions in Boise, ID."
+  - institution: "Lanzhou University"
+    location: "Lanzhou, China"
+    role: "Undergraduate Research Assistant"
+    years: "2016–2019"
+    note: "with Profs. Jiankai Zhang and Jiali Luo"
+    contributions:
+      - "Designed data analysis experiments and investigated the interaction between tropopause folds and extreme weather in China using physical and statistical analysis."
+
+teaching_experience:
+  - "Teaching Assistant / Laboratory Instructor: Led laboratory sections for CHEM 142 and CHEM 144 at the University of Montana in Fall 2021 and Fall 2024 (about 120 students total)."
+
+publications:
+  in_preparation:
+    - citation: >-
+        Jin, L., Coggon, M. M., Permar, W., Orlando, J., Yokelson, R. J., and Hu, L.: Global chemical impacts of furanoids: 3-D model analysis and constraints from in situ observations, in preparation.
+  first_author:
+    - citation: >-
+        Jin, L., Tan, L., Ketcherside, D. T., Selimovic, V., Nauman, K., Yokelson, R. J., and Hu, L.: Characterizing emissions, chemistry, and health impacts of aged wildfire smoke in a western US city, Atmos. Chem. Phys., 26, 11047–11066, 2026.
+      doi: "https://doi.org/10.5194/acp-26-11047-2026"
+      media:
+        - label: "Forbes"
+          url: "https://www.forbes.com/sites/lauriewinkless/2026/08/31/wildfires-have-left-the-forest-and-moved-into-the-city/"
+        - label: "Montana Public Radio"
+          url: "https://www.mtpr.org/montana-news/2026-08-28/why-does-wildfire-season-smell-like-this"
+    - citation: >-
+        Jin, L., Coggon, M. M., Permar, W., Juncosa Calahorrano, J. F., Palm, B., Gkatzelis, G. I., Robinson, M. A., Bourgeois, I., Hall, S. R., Peischl, J., Ullmann, K., Thornton, J. A., Warneke, C., Flocke, F., Fischer, E. V., Yokelson, R. J., and Hu, L.: Ozone Photochemistry in Fresh Biomass Burning Smoke Over the United States, Sci. Adv., 12, eads2157, 2026.
+      doi: "https://doi.org/10.1126/sciadv.ads2157"
+      note: "Featured by NBC Montana and NSF GEO"
+    - citation: >-
+        Jin, L., Permar, W., Selimovic, V., Ketcherside, D., Yokelson, R. J., Hornbrook, R. S., Apel, E. C., Ku, I.-T., Collett Jr., J. L., Sullivan, A. P., Jaffe, D. A., Pierce, J. R., Fried, A., Coggon, M. M., Gkatzelis, G. I., Warneke, C., Fischer, E. V., and Hu, L.: Constraining emissions of volatile organic compounds from western US wildfires with WE-CAN and FIREX-AQ airborne observations, Atmos. Chem. Phys., 23, 5969–5991, 2023.
+      doi: "https://doi.org/10.5194/acp-23-5969-2023"
+      note: "Highlighted by NOAA Climate.gov"
+  co_author:
+    - citation: >-
+        Cope, E. M., Ketcherside, D. T., Jin, L., Tan, L., Mansfield, M., Jones, C., Lyman, S., Jaffe, D., and Hu, L.: Sources of atmospheric volatile organic compounds during the Salt Lake regional smoke, ozone and aerosol study (SAMOZA) 2022, Journal of Geophysical Research: Atmospheres, 129(17), e2024JD041640, 2024.
+      doi: "https://doi.org/10.1029/2024JD041640"
+    - citation: >-
+        Jaffe, D., Ninneman, M., Nguyen, L., Lee, H., Hu, L., Ketcherside, D., Jin, L., Cope, E., Lyman, S., Jones, C., O’Neil, T., and Mansfield, M.: Key Results from the Salt Lake regional Smoke, Ozone and Aerosol Study (SAMOZA), Journal of the Air & Waste Management Association, 1–18, 2024.
+      doi: "https://doi.org/10.1080/10962247.2024.2301956"
+    - citation: >-
+        Permar, W., Jin, L., Peng, Q., O’Dell, K., Lill, E., Selimovic, V., Yokelson, R. J., Hornbrook, R. S., Hills, A. J., Apel, E. C., Ku, I.-T., Zhou, Y., Sive, B. C., Sullivan, A. P., Collett Jr., J. L., Palm, B. B., Thornton, J. A., Flocke, F., Fischer, E. V., and Hu, L.: Atmospheric OH reactivity in the western United States determined from comprehensive gas-phase measurements during WE-CAN, Environmental Science: Atmospheres, 3, 97–114, 2023.
+      doi: "https://doi.org/10.1039/D2EA00063F"
+      note: "Wildfire impacts on atmospheric composition – Topic Highlight collection"
+    - citation: >-
+        Permar, W., Wielgasz, C., Jin, L., Chen, X., Coggon, M. M., Garofalo, L. A., Gkatzelis, G. I., Ketcherside, D., Millet, D. B., Palm, B. B., Peng, Q., Robinson, M. A., Thornton, J. A., Yokelson, R. J., Veres, P., Warneke, C., Fischer, E. V., and Hu, L.: Assessing formic and acetic acid emissions and chemistry in western U.S. wildfire smoke: implications for atmospheric modeling, Environmental Science: Atmospheres, 3, 1620–1641, 2023.
+      doi: "https://doi.org/10.1039/D3EA00098B"
+      note: "Highlighted by NOAA Climate Program Office"
+
+presentations:
+  invited_talks:
+    - "American Meteorological Society, Regional Air Quality session, 29th Conference on Atmospheric Chemistry, Denver, CO: “When and Why Wildfire Smoke Increases the Risk of Ozone Exceedances across the United States,” January 2027 (in person)."
+    - "Rutgers University, Departmental seminar, New Brunswick, NJ: “Plumes to People: Constraining Wildfire Smoke Emissions, Chemistry, and Health Impacts,” May 2026 (in person)."
+    - "Rutgers University, RAQL lab, New Brunswick, NJ: “Constraining the emissions, chemistry, and health impacts of western U.S. smoke,” August 2025 (online)."
+    - "NCAR ACOM TropChem meeting, Boulder, CO: “Improving fire VOC representations of emissions and chemistry in air quality models,” July 2024 (in person)."
+    - "Westlake University, ACCESS Lab, Hangzhou, ZJ, China: “Constraining fire emission and chemistry in 3-D and 0-D atmospheric models,” May 2023 (in person)."
+  conferences:
+    - "“Characterizing emissions, chemistry, and health impacts of aged wildfire smoke in Missoula, Montana: constraints from surface observations and GEOS-Chem,” 12th International GEOS-Chem Meeting, June 2026 (poster)."
+    - "“Characterizing Emissions, Chemistry, and Health Impacts of Aged Biomass Burning Smoke in Wildland Urban Interface: A Missoula, Montana Case Study,” AGU Fall Meeting, December 2025 (poster)."
+    - "“Global emissions and chemistry of furanoids: 3-D model analysis and constraints from in situ observations,” AGU Fall Meeting, December 2024 (talk)."
+    - "“Evaluating Ozone Photochemistry in Biomass Burning Plumes: Insights from Aircraft Campaign Data,” AGU Fall Meeting, December 2024 (poster)."
+    - "“Global chemical impacts of furanoids: model analysis and constraints from in situ observations,” IGC11, June 2024 (talk)."
+    - "“Underestimated Fire Emissions in Inventories: Evidence from Model Simulations and Aircraft Observations,” EPA EIC, September 2023 (talk)."
+    - "“Improving Biomass Burning Representation of Volatile Organic Compounds (VOCs) in GEOS-Chem,” AGU Fall Meeting, December 2022 (poster)."
+    - "“Constraining VOC emissions from western US wildfires with WE-CAN and FIREX-AQ airborne observations,” IGC10, June 2022 (talk)."
+
+awards:
+  - name: "Graduate Doctoral Fellowship"
+    amount: "$1,000"
+    institution: "University of Montana"
+    years: "2024, 2025"
+  - name: "Cicerone Visiting Fellowship"
+    amount: "$3,500"
+    institution: "NCAR ACOM"
+    years: "2024"
+  - name: "Bertha Morton Scholarship"
+    amount: "$3,000"
+    institution: "University of Montana"
+    years: "2024"
+  - name: "Fred Shafizadeh Memorial Scholarship"
+    amount: "$3,200"
+    institution: "University of Montana"
+    years: "2022, 2023"
+  - name: "Stewart Scholarship"
+    amount: "$1,000"
+    institution: "University of Montana"
+    years: "2019"
+  - name: "Chemistry Scholarship Award"
+    amount: "$1,000"
+    institution: "University of Montana"
+    years: "2019, 2024, 2025"
+  - name: "Outstanding Graduate Award"
+    institution: "Lanzhou University"
+    years: "2019"
+  - name: "Excellent Student Scholarship"
+    amount: "¥3,000"
+    institution: "Lanzhou University"
+    years: "2016, 2018, 2019"
+
+grants:
+  - role: "Co-PI"
+    title: "Understanding wildfire smoke through a transdisciplinary convergence framework integrating ecosystems, atmospheric chemistry, and human health"
+    program: "NJAES/SEBS Convergence Research Seed Grant Program"
+    amount: "$49,986"
+    institution: "Rutgers University"
+    years: "2026–2027"
+    collaborator: "Xiaomeng Jin (PI)"
+
+professional_activity:
+  - label: "Convener"
+    details: "Impacts of Wildfires on Atmospheric Chemistry: From Surface to Stratosphere, 29th Conference on Atmospheric Chemistry, 107th AMS Annual Meeting, Denver, CO, January 2027."
+  - label: "Ad hoc reviewer"
+    details: "Atmospheric Environment (2021, 2024); ACS Earth and Space Chemistry (2023); Atmospheric Chemistry and Physics (2023, 2024); Environmental Science & Technology (2024); Environmental Science & Technology Letters (2023, 2024); and Journal of Advances in Modeling Earth Systems (2024, 2025)."
+
+skills:
+  - category: "Programming and computing"
+    items: "Python | R | MATLAB | Git | HPC/SLURM"
+  - category: "Models and observations"
+    items: "GEOS-Chem | F0AM | HYSPLIT | TROPOMI"
+  - category: "Measurements"
+    items: "PTR-ToF-MS | TOGA"
+  - category: "Analysis"
+    items: "data visualization | statistical analysis | machine-learning workflows"
+  - category: "Collaboration"
+    items: "scientific writing | cross-functional collaboration | project management"

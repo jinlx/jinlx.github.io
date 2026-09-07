@@ -1,9 +1,14 @@
 param(
-    [string]$Source = "$env:USERPROFILE\Dropbox\jinlx\Personal_materials\Application_materials\CV_resume\CV_Lixu.pdf",
+    [string]$Source = $env:CV_SOURCE_PDF,
     [string]$Destination = "$PSScriptRoot\..\files\CV_Lixu.pdf"
 )
 
 $ErrorActionPreference = "Stop"
+
+if ([string]::IsNullOrWhiteSpace($Source)) {
+    Write-Error "Provide the local CV source with -Source or set the CV_SOURCE_PDF environment variable."
+    exit 1
+}
 
 $SourceFull = [System.IO.Path]::GetFullPath($Source)
 $DestFull = [System.IO.Path]::GetFullPath($Destination)
@@ -22,6 +27,8 @@ if ($srcHash -ne $dstHash) {
     Write-Error "Copy failed: hashes do not match."
     exit 1
 }
+
+& (Join-Path $PSScriptRoot "check-cv.ps1") -SourcePdf $SourceFull
 
 Write-Host "CV synced from $SourceFull"
 Write-Host "Synced to   $DestFull"
