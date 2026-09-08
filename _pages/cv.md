@@ -113,7 +113,7 @@ last_modified_at: "2026-09-02"
 ## Skills
 
 {% for item in cv.skills %}
-- {{ item.category }}: {{ item.items }}
+- {{ item.category }}: {{ item.items | replace: "|", "&#124;" }}
 {% endfor %}
 
 My persistent researcher identifier is [ORCID {{ cv.contact.orcid }}](https://orcid.org/{{ cv.contact.orcid }}).
