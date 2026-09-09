@@ -32,12 +32,6 @@ last_modified_at: "2026-09-02"
 - {{ item.category }}: {{ item.items | replace: "|", "&#124;" }}
 {% endfor %}
 
-## Selected publications
-
-{% for item in cv.publications.first_author %}
-- {{ item.citation }}{% if item.doi %} [DOI]({{ item.doi }}){% endif %}{% if item.note %} ({{ item.note }}){% endif %}{% if item.media %} (Media: {% for outlet in item.media %}[{{ outlet.label }}]({{ outlet.url }}){% unless forloop.last %}; {% endunless %}{% endfor %}){% endif %}
-{% endfor %}
-
-For appointments, research experience, teaching, awards, grants, presentations, service, and co-authored publications, please see the [full CV (PDF)]({{ cv.pdf_url }}).
+For the complete record of appointments, research experience, teaching, publications, awards, grants, presentations, and service, please see the [full CV (PDF)]({{ cv.pdf_url }}).
 
 My persistent researcher identifier is [ORCID {{ cv.contact.orcid }}](https://orcid.org/{{ cv.contact.orcid }}).
