@@ -185,7 +185,7 @@ skills:
     items: "Python | R | MATLAB | Git | HPC/SLURM"
   - category: "Models and observations"
     items: "GEOS-Chem | F0AM | HYSPLIT | TROPOMI"
-  - category: "Measurements"
+  - category: "Instrument analysis"
     items: "PTR-ToF-MS | TOGA"
   - category: "Analysis"
     items: "data visualization | statistical analysis | machine-learning workflows"
