@@ -3,16 +3,41 @@ layout: single
 title: "Curriculum Vitae"
 permalink: /cv/
 author_profile: true
-classes: cv-page cv-pdf-redirect
+classes: cv-page
 excerpt: "Academic CV of Lixu Jin, a Postdoctoral Scholar at Rutgers University studying wildfire smoke, air quality, and health-relevant pollutant exposure."
 last_modified_at: "2026-09-02"
 ---
 
 {% assign cv = site.data.cv %}
 
-<meta http-equiv="refresh" content="0; url={{ cv.pdf_url }}" />
-<script>
-  window.location.replace("{{ cv.pdf_url }}");
-</script>
+<p class="page__updated">Updated {{ cv.updated_display }}</p>
 
-<p>Opening the full CV as a PDF. If you are not redirected, <a href="{{ cv.pdf_url }}">open the PDF manually</a>.</p>
+[Download the full CV (PDF)]({{ cv.pdf_url }}){: .btn .btn--primary }
+
+## Current position
+
+**{{ cv.current_position.title }}**, {{ cv.current_position.institution }}, {{ cv.current_position.years }}{% if cv.current_position.note %} *({{ cv.current_position.note }})*{% endif %}
+
+{{ cv.current_position.focus }}
+
+## Education
+
+{% for item in cv.education %}
+- {{ item.degree }}, {{ item.institution }}, {{ item.year }}{% if item.note %} *({{ item.note }})*{% endif %}
+{% endfor %}
+
+## Skills
+
+{% for item in cv.skills %}
+- {{ item.category }}: {{ item.items | replace: "|", "&#124;" }}
+{% endfor %}
+
+## Selected publications
+
+{% for item in cv.publications.first_author %}
+- {{ item.citation }}{% if item.doi %} [DOI]({{ item.doi }}){% endif %}{% if item.note %} ({{ item.note }}){% endif %}{% if item.media %} (Media: {% for outlet in item.media %}[{{ outlet.label }}]({{ outlet.url }}){% unless forloop.last %}; {% endunless %}{% endfor %}){% endif %}
+{% endfor %}
+
+For appointments, research experience, teaching, awards, grants, presentations, service, and co-authored publications, please see the [full CV (PDF)]({{ cv.pdf_url }}).
+
+My persistent researcher identifier is [ORCID {{ cv.contact.orcid }}](https://orcid.org/{{ cv.contact.orcid }}).
