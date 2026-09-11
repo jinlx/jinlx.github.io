@@ -35,11 +35,12 @@
     <img src="{{ pdf_cover_path | relative_url }}" alt="{% if is_chinese %}中文图文解读 PDF 首页预览{% else %}First page of the illustrated English summary{% endif %}" width="408" height="528" />
   </a>
   <div class="publication-pdf__body">
-    <p class="publication-pdf__title">{% if is_chinese %}阅读图文解读{% else %}Read the illustrated summary{% endif %}</p>
-    <p class="publication-pdf__text">{% if is_chinese %}用 5 页图文，讲清这项研究。{% else %}Five pages of figures and plain-language explanations.{% endif %}</p>
+    <p class="publication-pdf__label">{% if is_chinese %}图文版 &middot; PDF{% else %}Illustrated summary &middot; PDF{% endif %}</p>
+    <p class="publication-pdf__title">{% if is_chinese %}阅读完整中文图文解读{% else %}Read the full illustrated summary{% endif %}</p>
+    <p class="publication-pdf__text">{% if is_chinese %}阅读完整的 5 页图文解读。{% else %}Explore the findings in a five-page illustrated summary.{% endif %}</p>
     <div class="publication-pdf__actions">
-      <a class="publication-pdf__button" href="{{ pdf_path | relative_url }}" type="application/pdf">{% if is_chinese %}打开 PDF{% else %}Open PDF{% endif %}</a>
-      <a class="publication-pdf__online" href="{{ summary_anchor }}">{% if is_chinese %}阅读网页版{% else %}Read online{% endif %}</a>
+      <a class="publication-pdf__button" href="{{ pdf_path | relative_url }}" type="application/pdf">{% if is_chinese %}打开图文版 PDF{% else %}Open illustrated PDF{% endif %}</a>
+      <a class="publication-pdf__online" href="{{ summary_anchor }}">{% if is_chinese %}继续阅读网页版 &darr;{% else %}Read the web summary &darr;{% endif %}</a>
       <a class="publication-pdf__online" href="#paper-details">{% if is_chinese %}论文与资源{% else %}Paper &amp; resources{% endif %}</a>
     </div>
   </div>
