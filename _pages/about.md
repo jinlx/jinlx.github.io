@@ -12,17 +12,18 @@ redirect_from:
 
 I am a Postdoctoral Scholar at Rutgers University in [Prof. Xiaomeng Jin's group](https://scholar.google.com/citations?user=RoWh6MEAAAAJ). I study how wildfire emissions and atmospheric chemistry shape air quality and health-relevant pollutant exposure. My work follows smoke from the fire through its first hours of chemical change to the aged mixture communities breathe days later.
 
-I earned my Ph.D. in Chemistry from the University of Montana, where I worked with [Prof. Lu Hu](https://scholar.google.com/citations?user=7WP7T3QAAAAJ&hl=en) and [Prof. Robert Yokelson](https://scholar.google.com/citations?user=aHNl6RwAAAAJ&hl=en) on wildfire volatile organic compound (VOC) emissions and smoke photochemistry. I received my B.S. in Atmospheric Science (Honors) from Lanzhou University and was a visiting student in [Prof. Dan Jaffe's group](https://scholar.google.com/citations?user=iDUkPfAAAAAJ&hl=en) at the University of Washington.
-
 ## From fire to communities
 
-- [**At the source**](/research/#emissions): Do fire-emission inventories estimate enough carbon monoxide (CO) and VOCs for the fires they detect?
+- [**At the source**](/research/#emissions): Do fire-emission inventories estimate enough carbon monoxide (CO) and volatile organic compounds (VOCs) for the fires they detect?
 - [**During the first hours**](/research/#smoke-evolution): How quickly do smoke oxidation and ozone formation proceed?
 - [**Days downwind**](/research/#exposure-health): What remains when smoke reaches communities after days of travel and chemical change?
 
 Across these stages, I also investigate [which reactive VOCs and chemical pathways are missing from reduced atmospheric mechanisms](/research/#furanoid-chemistry).
 
 To answer these questions, I integrate aircraft, surface, and satellite observations with GEOS-Chem, CMAQ, chemical box models, trajectory analysis, and data-driven methods.
+
+I earned my Ph.D. in Chemistry from the University of Montana, where I worked with [Prof. Lu Hu](https://scholar.google.com/citations?user=7WP7T3QAAAAJ&hl=en) and [Prof. Robert Yokelson](https://scholar.google.com/citations?user=aHNl6RwAAAAJ&hl=en) on wildfire VOC emissions and smoke photochemistry. I received my B.S. in Atmospheric Science (Honors) from Lanzhou University and was a visiting student in [Prof. Dan Jaffe's group](https://scholar.google.com/citations?user=iDUkPfAAAAAJ&hl=en) at the University of Washington.
+{: .home-background }
 
 **Open science.** Whenever permissions allow, I share the data and code behind my research on the corresponding [publication pages]({{ '/publications/' | relative_url }}).
 

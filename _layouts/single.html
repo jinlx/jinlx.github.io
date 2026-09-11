@@ -14,7 +14,7 @@ layout: default
   {% endunless %}
 {% endif %}
 
-<div id="main" role="main" tabindex="-1">
+<div id="main" class="{% if page.author_profile or layout.author_profile or page.sidebar %}profile-layout{% else %}reading-layout{% endif %}" role="main" tabindex="-1">
   {% include sidebar.html %}
 
   <article class="page{% if page.classes %} {{ page.classes }}{% endif %}" itemscope itemtype="http://schema.org/CreativeWork">

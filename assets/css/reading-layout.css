@@ -1,0 +1,227 @@
+/* Compact profile layout; standalone summaries retain a centered column. */
+html {
+  font-size: 100%;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 112.5%;
+  }
+}
+
+.masthead__inner-wrap {
+  padding-top: 0.7em;
+  padding-bottom: 0.7em;
+}
+
+#main {
+  margin-top: 1.5rem;
+}
+
+#main .page__content > p {
+  margin-bottom: 0.95rem;
+}
+
+#main .page__content h2 {
+  margin-top: 1.35rem;
+  margin-bottom: 0.7rem;
+  padding-bottom: 0.35rem;
+}
+
+#main .page__content .page__updated {
+  margin-bottom: 1rem;
+}
+
+.profile-layout .page__inner-wrap {
+  float: none;
+  display: flow-root;
+}
+
+.sidebar .author__name {
+  font-size: 1rem;
+}
+
+.sidebar p,
+.sidebar li {
+  line-height: 1.4;
+}
+
+@media (min-width: 1200px) {
+  /* Keep the theme's original left alignment. Only citation lists widen. */
+  #main.profile-layout > .publications-page,
+  #main.profile-layout > .presentations-page {
+    padding-right: 2rem;
+  }
+
+  .profile-layout > .publications-page .page__inner-wrap,
+  .profile-layout > .presentations-page .page__inner-wrap {
+    max-width: 50rem;
+  }
+
+  .author__avatar img {
+    max-width: 148px;
+  }
+
+  .author__name {
+    margin-top: 0.45rem;
+    margin-bottom: 0.35rem;
+  }
+
+  .author__bio {
+    margin-top: 0.35rem;
+    margin-bottom: 0.65rem;
+  }
+
+  .author__urls a {
+    display: flex;
+    align-items: center;
+    gap: 0.25em;
+    min-height: 28px;
+    margin-bottom: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+
+  .author__urls li {
+    margin-bottom: 0.15rem;
+  }
+
+  .author__urls li:first-child {
+    margin-bottom: 0.5rem;
+  }
+}
+
+#main.reading-layout > .page,
+#main.reading-layout > .archive {
+  float: none;
+  width: 100%;
+  max-width: 44rem;
+  margin: 0 auto;
+  padding: 0;
+}
+
+#main.reading-layout > .publications-page,
+#main.reading-layout > .presentations-page {
+  max-width: 48rem;
+}
+
+.reading-layout .page__inner-wrap {
+  float: none;
+  display: flow-root;
+}
+
+.publications-page .publication-list > li {
+  margin-bottom: 0.6rem;
+}
+
+.publications-page .publication-secondary {
+  margin: 0 0 0.2rem;
+}
+
+#main .publications-page .page__content h2 {
+  margin-top: 1rem;
+  margin-bottom: 0.55rem;
+}
+
+#main .publications-page .page__content .page__updated {
+  margin-bottom: 0.65rem;
+}
+
+.publications-page .page__content > ul:not(.publication-list) > li > p {
+  margin-bottom: 0.65rem;
+}
+
+@media (min-width: 768px) {
+  #main .publications-page .page__content {
+    font-size: 0.944444rem;
+    line-height: 1.45;
+  }
+
+  .publications-page .publication-secondary,
+  .publications-page .publication-list > li > a[href^="https://doi.org/"],
+  .publications-page .publication-list > li > a[href^="https://github.com/"],
+  .publications-page .page__content > ul:not(.publication-list) a[href^="https://doi.org/"] {
+    font-size: 0.833333rem;
+  }
+}
+
+.reading-layout .publication-detail-page .page__date {
+  margin: 0 0 0.7rem;
+  font-size: 0.875rem;
+}
+
+.reading-layout .publication-detail-page .publication-back {
+  margin-bottom: 0.55rem;
+}
+
+.reading-layout .publication-detail-page .publication-pdf {
+  grid-template-columns: 5.5rem minmax(0, 1fr);
+  gap: 1rem;
+  padding: 0.9rem 1rem;
+  margin-bottom: 1.35rem;
+  box-shadow: none;
+}
+
+.reading-layout .publication-detail-page .publication-pdf__title {
+  margin-bottom: 0.3rem;
+}
+
+.reading-layout .publication-detail-page .publication-pdf__text {
+  margin-bottom: 0.4rem;
+  font-size: 0.875rem;
+}
+
+.reading-layout .publication-detail-page .publication-pdf__actions {
+  gap: 0.2rem 0.85rem;
+}
+
+.reading-layout .publication-detail-page .publication-pdf__online {
+  font-weight: 400;
+}
+
+.home-page .home-background {
+  margin-top: 1.4rem;
+  padding-top: 1.1rem;
+  border-top: 1px solid #f2f3f3;
+}
+
+@media (max-width: 600px) {
+  .sidebar {
+    margin-bottom: 0.75rem;
+  }
+
+  .author-profile {
+    gap: 0.25rem 0.65rem;
+  }
+
+  #main.reading-layout {
+    margin-top: 1.5rem;
+  }
+
+  .reading-layout .publication-detail-page .publication-pdf {
+    grid-template-columns: 4.25rem minmax(0, 1fr);
+    gap: 0.75rem;
+    padding: 0.85rem;
+    align-items: start;
+  }
+
+  .reading-layout .publication-detail-page .publication-pdf__actions {
+    grid-column: 1 / -1;
+    gap: 0.1rem 0.7rem;
+  }
+
+  .reading-layout .publication-detail-page .publication-pdf__body {
+    display: contents;
+  }
+
+  .reading-layout .publication-detail-page .publication-pdf__cover {
+    grid-column: 1;
+    grid-row: 1 / span 2;
+  }
+
+  .reading-layout .publication-detail-page .publication-pdf__title,
+  .reading-layout .publication-detail-page .publication-pdf__text {
+    grid-column: 2;
+    margin: 0;
+  }
+}
