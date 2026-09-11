@@ -6,9 +6,9 @@ classes: presentations-page
 excerpt: "Invited talks, conference presentations, and posters on wildfire smoke, atmospheric chemistry, and air quality."
 ---
 
-<p class="page__updated">Updated September 2, 2026</p>
+<p class="page__updated">Updated September 11, 2026</p>
 
-## Invited Talks
+## Invited talks
 - **L. Jin** (2027): When and Why Wildfire Smoke Increases the Risk of Ozone Exceedances across the United States. *Invited presentation in the Regional Air Quality session, 29th Conference on Atmospheric Chemistry, 107th AMS Annual Meeting, Denver, CO, January 10–14, 2027.*
 
 - **L. Jin** *et al.* (2026): Plumes to People: Constraining Wildfire Smoke Emissions, Chemistry, and Health Impacts. *Rutgers University departmental seminar, New Brunswick, NJ, May 2026.*
@@ -19,7 +19,7 @@ excerpt: "Invited talks, conference presentations, and posters on wildfire smoke
 
 - **L. Jin** *et al.* (2023): Constraining fire emission and chemistry in 3D and 0D atmospheric models. *Westlake University, ACCESS Lab, Hangzhou, China, May 2023.*
 
-## Conference Talks
+## Conference talks
 - **L. Jin** *et al.* (2024): [Global emissions and chemistry of furanoids: 3-D model analysis and constraints from in-situ observations](https://agu.confex.com/agu/agu24/meetingapp.cgi/Paper/1649115). *AGU Fall Meeting, December 2024.*
 
 - **L. Jin** *et al.* (2024): [Global chemical impacts of furanoids: model analysis and constraints from in-situ observations](/files/IGC11-D3-P05-Jin.pdf). *11th International GEOS-Chem Meeting (IGC11), June 2024.*

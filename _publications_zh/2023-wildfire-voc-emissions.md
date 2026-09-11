@@ -1,18 +1,17 @@
 ---
 title: "飞机观测显示模式少算了野火释放的CO和VOCs"
+summary_intro: "飞机采到的烟羽都有对应火灾记录，模式却把CO和VOCs算得太少。"
 description: "飞机采到的烟羽都有对应火灾记录，模式却把CO和VOCs算得太少。"
 translation_of: "2023-wildfire-voc-emissions"
 publication_date: "2023-05-31"
-last_modified_at: "2026-08-29"
+last_modified_at: "2026-09-11"
 key_figure_alt: "WE-CAN飞机观测与三套标准模拟以及GFAS火灾排放放大3倍试验的CO垂直廓线"
 key_figure_caption: "飞机测得的CO明显高于三套标准模拟；在GFAS敏感性试验中将火灾排放放大3倍后，模拟与观测的差距明显缩小。改编自 Jin 等（2023），CC BY 4.0。"
 ---
 
-<p class="publication-story__label">中文解读</p>
-
-<p class="publication-story__deck">飞机采到的烟羽都有对应火灾记录，模式却把CO和VOCs算得太少。</p>
-
 野火烟雾预报，往往从卫星“看见”火开始。可知道哪里在烧，只是第一步。排放清单还要回答两个问题：烧掉了多少植被？又释放了多少一氧化碳（CO）和挥发性有机物（VOCs）？我们把两次大型飞机观测和美国西部地面站的CO记录放在一起，检验模式能不能把这些气体算准。
+
+{% include publication-figure.html %}
 
 ## 四个主要发现
 

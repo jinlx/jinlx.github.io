@@ -1,0 +1,14 @@
+{% assign figure_publication = page %}
+{% if page.collection == 'publications_zh' %}
+  {% assign figure_matches = site.publications | where: 'summary_slug', page.translation_of %}
+  {% assign figure_publication = figure_matches | first %}
+{% endif %}
+{% if figure_publication.key_figure %}
+<figure class="publication-key-figure">
+  <a class="publication-key-figure__link" href="{{ figure_publication.key_figure | relative_url }}" aria-label="{% if page.collection == 'publications_zh' %}打开原尺寸图片{% else %}Open the full-size figure{% endif %}">
+    <img src="{{ figure_publication.key_figure | relative_url }}" alt="{{ page.key_figure_alt | default: figure_publication.key_figure_alt }}"{% if figure_publication.key_figure_width %} width="{{ figure_publication.key_figure_width }}"{% endif %}{% if figure_publication.key_figure_height %} height="{{ figure_publication.key_figure_height }}"{% endif %} loading="lazy" />
+  </a>
+  {% assign figure_caption = page.key_figure_caption | default: figure_publication.key_figure_caption %}
+  {% if figure_caption %}<figcaption>{{ figure_caption }}</figcaption>{% endif %}
+</figure>
+{% endif %}

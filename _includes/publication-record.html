@@ -1,0 +1,28 @@
+{% assign publication = include.publication | default: page %}
+{% assign is_chinese = false %}
+{% if page.collection == 'publications_zh' %}{% assign is_chinese = true %}{% endif %}
+
+<section id="paper-details" class="publication-record" aria-label="{% if is_chinese %}论文信息{% else %}Paper information{% endif %}">
+  <p class="publication-record__label">{% if is_chinese %}论文信息{% else %}About the paper{% endif %}</p>
+  <p class="publication-record__title">{{ publication.title }}</p>
+  <p class="publication-record__journal">
+    Jin et al. <span aria-hidden="true">&middot;</span> <em>{{ publication.journal }}</em> ({{ publication.publication_date | date: "%Y" }}) <span aria-hidden="true">&middot;</span> DOI: {{ publication.doi }}
+  </p>
+
+  <nav class="publication-resources" aria-label="{% if is_chinese %}论文资源{% else %}Paper resources{% endif %}">
+    <a href="{{ publication.paper_url }}">{% if is_chinese %}论文{% else %}Paper{% endif %}</a>
+    {% if publication.data_url %}<a href="{{ publication.data_url }}">{% if is_chinese %}数据{% else %}Data{% endif %}</a>{% endif %}
+    {% if publication.code_url %}<a href="{{ publication.code_url }}">{% if is_chinese %}代码{% else %}Code{% endif %}</a>{% endif %}
+    {% if publication.code_archive_url %}<a href="{{ publication.code_archive_url }}">{% if is_chinese %}代码存档{% else %}Code archive{% endif %}</a>{% endif %}
+    {% if publication.supplement_url %}<a href="{{ publication.supplement_url }}">{% if is_chinese %}补充材料{% else %}Supplement{% endif %}</a>{% endif %}
+    <a href="#recommended-citation">{% if is_chinese %}引用{% else %}Cite{% endif %}</a>
+  </nav>
+  {% if publication.media %}
+    <p class="publication-record__media">
+      <strong>{% if is_chinese %}媒体：{% else %}Media:{% endif %}</strong>
+      {% for item in publication.media %}
+        <a href="{{ item.url }}"{% if item.lang %} lang="{{ item.lang }}" hreflang="{{ item.lang }}"{% endif %}>{{ item.label }}</a>{% unless forloop.last %}<span aria-hidden="true"> &middot; </span>{% endunless %}
+      {% endfor %}
+    </p>
+  {% endif %}
+</section>

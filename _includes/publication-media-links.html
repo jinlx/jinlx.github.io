@@ -1,0 +1,5 @@
+{% assign media_matches = site.publications | where: 'summary_slug', include.slug %}
+{% assign media_publication = media_matches | first %}
+{% if media_publication.media %}
+<span class="publication-media-inline"><span class="publication-media-inline__label">Media:</span> {% for outlet in media_publication.media %}<a href="{{ outlet.url }}"{% if outlet.lang %} hreflang="{{ outlet.lang }}"{% endif %}>{{ outlet.label }}</a>{% unless forloop.last %} <span aria-hidden="true">&middot;</span> {% endunless %}{% endfor %}</span>
+{% endif %}

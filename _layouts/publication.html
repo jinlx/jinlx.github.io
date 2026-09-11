@@ -14,6 +14,8 @@ layout: single
   {{ content }}
 </div>
 
+{% include publication-record.html publication=publication %}
+
 {% if page.collection == "publications" %}
 <section class="publication-abstract" aria-labelledby="official-abstract">
   <h2 id="official-abstract">Official abstract</h2>

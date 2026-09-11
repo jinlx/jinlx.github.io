@@ -40,7 +40,7 @@
 
   p, li {
     font-family: $sans-serif;
-    font-size: $type-size-6;
+    font-size: 0.875rem;
     line-height: 1.5;
   }
 
@@ -111,10 +111,66 @@
 .author__name {
   margin: 0;
   font-weight: bold;
+  line-height: 1.3;
 
   @include breakpoint($large) {
     margin-top: 10px;
     margin-bottom: 10px;
+  }
+}
+
+.author__alternate-name {
+  display: inline-block;
+  white-space: nowrap;
+}
+
+@include breakpoint(max-width $small) {
+  .author-profile {
+    display: grid;
+    grid-template-columns: 40px minmax(0, 1fr);
+    gap: 0.55rem 0.75rem;
+    align-items: start;
+  }
+
+  .author-profile .author__avatar {
+    display: block;
+    width: 40px;
+  }
+
+  .author-profile .author__content {
+    display: block;
+    min-width: 0;
+    padding: 0;
+  }
+
+  .author-profile .author__urls-wrapper {
+    display: block;
+    grid-column: 2;
+
+    button {
+      min-height: 44px;
+      padding: 0.4rem 0.7rem;
+      font-size: 0.875rem;
+    }
+  }
+
+  .author-profile .author__urls {
+    right: auto;
+    left: 0;
+    max-width: calc(100vw - 5.25rem);
+
+    li {
+      white-space: normal;
+      overflow-wrap: anywhere;
+    }
+
+    a {
+      display: flex;
+      align-items: center;
+      gap: 0.35em;
+      min-height: 44px;
+      margin-bottom: 0;
+    }
   }
 }
 .sidebar .author__name {

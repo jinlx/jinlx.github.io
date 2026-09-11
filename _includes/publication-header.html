@@ -19,30 +19,10 @@
   </span>
 </nav>
 
-<section class="publication-record" aria-label="Paper information">
-  <p class="publication-record__label">{% if is_chinese %}论文信息{% else %}About the paper{% endif %}</p>
-  <p class="publication-record__title">{{ publication.title }}</p>
-  <p class="publication-record__journal">
-    Jin et al. <span aria-hidden="true">&middot;</span> <em>{{ publication.journal }}</em> ({{ publication.publication_date | date: "%Y" }}) <span aria-hidden="true">&middot;</span> DOI: {{ publication.doi }}
-  </p>
-
-  <nav class="publication-resources" aria-label="Paper resources">
-    <a href="{{ publication.paper_url }}">{% if is_chinese %}论文{% else %}Paper{% endif %}</a>
-    {% if publication.data_url %}<a href="{{ publication.data_url }}">{% if is_chinese %}数据{% else %}Data{% endif %}</a>{% endif %}
-    {% if publication.code_url %}<a href="{{ publication.code_url }}">{% if is_chinese %}代码{% else %}Code{% endif %}</a>{% endif %}
-    {% if publication.code_archive_url %}<a href="{{ publication.code_archive_url }}">{% if is_chinese %}代码存档{% else %}Code archive{% endif %}</a>{% endif %}
-    {% if publication.supplement_url %}<a href="{{ publication.supplement_url }}">{% if is_chinese %}补充材料{% else %}Supplement{% endif %}</a>{% endif %}
-    <a href="#recommended-citation">{% if is_chinese %}引用{% else %}Cite{% endif %}</a>
-  </nav>
-  {% if publication.media %}
-    <p class="publication-record__media">
-      <strong>{% if is_chinese %}媒体：{% else %}Media:{% endif %}</strong>
-      {% for item in publication.media %}
-        <a href="{{ item.url }}"{% if item.lang %} lang="{{ item.lang }}" hreflang="{{ item.lang }}"{% endif %}>{{ item.label }}</a>{% unless forloop.last %}<span aria-hidden="true"> &middot; </span>{% endunless %}
-      {% endfor %}
-    </p>
-  {% endif %}
-</section>
+<div class="publication-intro"{% if is_chinese %} lang="zh-CN"{% endif %}>
+  <p class="publication-story__label">{% if is_chinese %}中文解读{% else %}Plain-language summary{% endif %}</p>
+  <p class="publication-story__deck">{{ page.summary_intro }}</p>
+</div>
 
 {% assign summary_language = 'en' %}
 {% if is_chinese %}{% assign summary_language = 'zh' %}{% endif %}
@@ -52,25 +32,16 @@
 {% assign pdf_cover_path = '/images/publications/' | append: publication.summary_slug | append: '/summary-' | append: summary_language | append: '-cover.png' %}
 <aside class="publication-pdf" aria-label="{% if is_chinese %}完整中文图文解读{% else %}Full illustrated plain-language summary{% endif %}">
   <a class="publication-pdf__cover" href="{{ pdf_path | relative_url }}" type="application/pdf">
-    <img src="{{ pdf_cover_path | relative_url }}" alt="{% if is_chinese %}中文图文解读 PDF 首页预览{% else %}First page of the illustrated English summary{% endif %}" width="408" height="528" loading="lazy" />
+    <img src="{{ pdf_cover_path | relative_url }}" alt="{% if is_chinese %}中文图文解读 PDF 首页预览{% else %}First page of the illustrated English summary{% endif %}" width="408" height="528" />
   </a>
   <div class="publication-pdf__body">
     <p class="publication-pdf__label">{% if is_chinese %}图文版 &middot; PDF{% else %}Illustrated summary &middot; PDF{% endif %}</p>
     <p class="publication-pdf__title">{% if is_chinese %}阅读完整中文图文解读{% else %}Read the full illustrated summary{% endif %}</p>
-    <p class="publication-pdf__text">{% if is_chinese %}打开精心排版的 5 页图文版。{% else %}Open the complete five-page visual story.{% endif %}</p>
+    <p class="publication-pdf__text">{% if is_chinese %}阅读完整的 5 页图文解读。{% else %}Explore the findings in a five-page illustrated summary.{% endif %}</p>
     <div class="publication-pdf__actions">
       <a class="publication-pdf__button" href="{{ pdf_path | relative_url }}" type="application/pdf">{% if is_chinese %}打开图文版 PDF{% else %}Open illustrated PDF{% endif %}</a>
       <a class="publication-pdf__online" href="{{ summary_anchor }}">{% if is_chinese %}继续阅读网页版 &darr;{% else %}Read the web summary &darr;{% endif %}</a>
+      <a class="publication-pdf__online" href="#paper-details">{% if is_chinese %}论文与资源{% else %}Paper &amp; resources{% endif %}</a>
     </div>
   </div>
 </aside>
-
-{% if publication.key_figure %}
-  <figure class="publication-key-figure">
-    <a class="publication-key-figure__link" href="{{ publication.key_figure | relative_url }}" aria-label="{% if is_chinese %}打开原尺寸图片{% else %}Open the full-size figure{% endif %}">
-      <img src="{{ publication.key_figure | relative_url }}" alt="{{ page.key_figure_alt | default: publication.key_figure_alt }}"{% if publication.key_figure_width %} width="{{ publication.key_figure_width }}"{% endif %}{% if publication.key_figure_height %} height="{{ publication.key_figure_height }}"{% endif %} loading="eager" />
-    </a>
-    {% assign figure_caption = page.key_figure_caption | default: publication.key_figure_caption %}
-    {% if figure_caption %}<figcaption>{{ figure_caption }}</figcaption>{% endif %}
-  </figure>
-{% endif %}

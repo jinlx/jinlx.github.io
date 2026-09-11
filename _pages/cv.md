@@ -32,6 +32,6 @@ last_modified_at: "2026-09-02"
 - {{ item.category }}: {{ item.items | replace: "|", "&#124;" }}
 {% endfor %}
 
-For the complete record of appointments, research experience, teaching, publications, awards, grants, presentations, and service, please see the [full CV (PDF)]({{ cv.pdf_url }}).
+For my complete academic record, see the [full CV (PDF)]({{ cv.pdf_url }}).
 
-My persistent researcher identifier is [ORCID {{ cv.contact.orcid }}](https://orcid.org/{{ cv.contact.orcid }}).
+ORCID: [{{ cv.contact.orcid }}](https://orcid.org/{{ cv.contact.orcid }}).
