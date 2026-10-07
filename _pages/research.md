@@ -16,7 +16,7 @@ My research follows wildfire smoke from its source to the air people breathe. I 
 
 A question running through my work is where atmospheric models diverge from observations, and what those differences can tell us about wildfire emissions and smoke chemistry. I examine this question through studies of emission estimates, chemical mechanisms, and the evolution of fresh and aged smoke.
 
-My satellite work asks a complementary question: when and under what atmospheric conditions is wildfire smoke associated with changes in regional ozone?
+My satellite work extends the study of smoke and ozone beyond individual plumes. I combine satellite and surface observations to examine how smoke–ozone relationships vary across fires, regions, and atmospheric conditions, and to test how broadly plume-scale understanding applies.
 
 <figure class="research-figure">
   <a class="research-figure__link" href="/images/research_theme.jpg" data-no-lightbox aria-label="Open the full-size research schematic">
@@ -60,7 +60,7 @@ Smoke can react at very different rates from one fire to another. Across five se
 
 In a separate Missoula aged-smoke case, GEOS-Chem OH exposure was about twice the value inferred from ground-based chemical clocks, and the model underestimated several oxygenated VOCs. These comparisons test whether models capture both the initial wildfire VOC mixture and its evolution downwind.
 
-My current satellite work examines when and under what atmospheric conditions smoke is associated with changes in regional ozone. I combine satellite and surface observations with trajectory analysis and CMAQ to connect plume-scale chemistry with regional air-quality patterns.
+My current work combines satellite and surface observations with trajectory analysis and CMAQ to investigate when smoke is associated with changes in regional ozone and where plume-scale understanding may need refinement.
 
 **Related publications.** [Jin et al., 2026, *Science Advances*](/publications/2026-fresh-smoke-ozone/) ([paper](https://doi.org/10.1126/sciadv.ads2157)) · [Jin et al., 2026, *ACP*](/publications/2026-aged-wildfire-smoke/) ([paper](https://doi.org/10.5194/acp-26-11047-2026))
 
