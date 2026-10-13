@@ -40,7 +40,7 @@ research_expertise:
   - "Integration of aircraft, surface, and satellite observations with atmospheric models"
   - "Chemically resolved exposure and screening-level health-risk assessment"
   - "OH exposure, photochemical-age diagnostics, and VOC–NOₓ ozone isopleths"
-  - "GEOS-Chem, CMAQ, F0AM, HYSPLIT, and model-to-observation sampling"
+  - "GEOS-Chem, F0AM, HYSPLIT, and model-to-observation sampling"
 
 research_experience:
   - institution: "Rutgers University"
@@ -186,8 +186,8 @@ skills:
     items: "Python | R | MATLAB | Git | HPC/SLURM"
   - category: "Models and observations"
     items: "GEOS-Chem | F0AM | HYSPLIT | TROPOMI"
-  - category: "Instrument analysis"
-    items: "PTR-ToF-MS | TOGA"
+  - category: "Instrument data analysis"
+    items: "PTR-ToF-MS and TOGA datasets"
   - category: "Analysis"
     items: "data visualization | statistical analysis | machine-learning workflows"
   - category: "Collaboration"

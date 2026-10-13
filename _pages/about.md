@@ -20,7 +20,7 @@ I am an atmospheric chemist and a Postdoctoral Scholar at Rutgers University, wo
 
 Across these stages, I also investigate [which reactive VOCs and chemical pathways are missing from reduced atmospheric mechanisms](/research/#furanoid-chemistry).
 
-I bring together aircraft, surface, and satellite observations with chemical-mechanism development and atmospheric modeling. My tools include GEOS-Chem, CMAQ, chemical box models, trajectory analysis, and data-driven methods.
+I bring together aircraft, surface, and satellite observations with chemical-mechanism development and atmospheric modeling. My tools include GEOS-Chem, chemical box models, trajectory analysis, and data-driven methods.
 
 I earned my Ph.D. in Chemistry from the University of Montana, where I worked with [Prof. Lu Hu](https://scholar.google.com/citations?user=7WP7T3QAAAAJ&hl=en) and [Prof. Robert Yokelson](https://scholar.google.com/citations?user=aHNl6RwAAAAJ&hl=en) on wildfire volatile organic compound (VOC) emissions and smoke photochemistry. I received my B.S. in Atmospheric Science (Honors) from Lanzhou University and was a visiting student working with [Prof. Dan Jaffe](https://scholar.google.com/citations?user=iDUkPfAAAAAJ&hl=en) at the University of Washington.
 
