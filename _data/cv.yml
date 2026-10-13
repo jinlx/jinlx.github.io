@@ -1,6 +1,6 @@
 name: "Lixu Jin"
-updated: "2026-09-02"
-updated_display: "September 2, 2026"
+updated: "2026-10-12"
+updated_display: "October 12, 2026"
 pdf_url: "/files/CV_Lixu.pdf"
 
 contact:
@@ -49,17 +49,17 @@ research_experience:
     years: "2026–present"
     note: "with Prof. Xiaomeng Jin"
     contributions:
-      - "Integrating satellite, aircraft, and surface observations with atmospheric models to quantify wildfire-smoke impacts on air quality and public health."
-      - "Developing satellite-sampled along-plume and cross-plume transect workflows that account for pixel quality, overpass timing, plume geometry, winds, and model sampling."
+      - "Combining TROPOMI HCHO and NO₂ with surface ozone observations and model diagnostics to study wildfire-associated ozone enhancements and precursor sensitivity across the contiguous United States."
+      - "Developing satellite plume diagnostics to relate smoke age to inferred ozone sensitivity and urban surface ozone, and test whether plume findings apply across fires and regions."
   - institution: "University of Montana"
     location: "Missoula, MT"
     role: "Graduate Research and Teaching Assistant"
     years: "2019–2025"
     note: "with Profs. Lu Hu and Robert J. Yokelson"
     contributions:
-      - "Developed the interface between 3-D GEOS-Chem CTM and 0-D F0AM box model."
+      - "Developed an interface linking the 3-D GEOS-Chem chemical transport model with the 0-D F0AM box model for observation-constrained wildfire chemistry studies."
       - "Led GEOS-Chem and F0AM simulations with multiple chemical mechanisms under wildfire-targeted observational constraints."
-      - "Developed a wildfire-targeted 3-D GEOS-Chem CTM, quantified organic-carbon emission budgets, and assessed air-quality impacts and associated health implications."
+      - "Adapted GEOS-Chem for wildfire-focused simulations, quantified organic-carbon emission budgets, and assessed air-quality impacts and associated health implications."
   - institution: "University of Washington"
     location: "Seattle, WA"
     role: "Visiting Student"
@@ -82,6 +82,8 @@ publications:
   in_preparation:
     - citation: >-
         Jin, L., Coggon, M. M., Permar, W., Orlando, J., Yokelson, R. J., and Hu, L.: Global chemical impacts of furanoids: 3-D model analysis and constraints from in situ observations, in preparation.
+    - citation: >-
+        Jin, L., Jin, X., et al.: Satellite constraints on wildfire ozone chemistry and air quality across the contiguous United States, in preparation.
   first_author:
     - citation: >-
         Jin, L., Tan, L., Ketcherside, D. T., Selimovic, V., Nauman, K., Yokelson, R. J., and Hu, L.: Characterizing emissions, chemistry, and health impacts of aged wildfire smoke in a western US city, Atmos. Chem. Phys., 26, 11047–11066, 2026.

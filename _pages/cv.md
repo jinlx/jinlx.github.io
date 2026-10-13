@@ -5,7 +5,7 @@ permalink: /cv/
 author_profile: true
 classes: cv-page
 excerpt: "Academic CV of Lixu Jin, a Postdoctoral Scholar at Rutgers University studying wildfire smoke, air quality, and health-relevant pollutant exposure."
-last_modified_at: "2026-09-02"
+last_modified_at: "2026-10-12"
 ---
 
 {% assign cv = site.data.cv %}
