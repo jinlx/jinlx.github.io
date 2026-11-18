@@ -1,6 +1,6 @@
 name: "Lixu Jin"
-updated: "2026-10-12"
-updated_display: "October 12, 2026"
+updated: "2026-11-18"
+updated_display: "November 18, 2026"
 pdf_url: "/files/CV_Lixu.pdf"
 
 contact:
@@ -76,6 +76,7 @@ research_experience:
       - "Designed data analysis experiments and investigated the interaction between tropopause folds and extreme weather in China using physical and statistical analysis."
 
 teaching_experience:
+  - "Guest lecturer: Introduced students to our laboratory’s research in Seminar in Environmental Engineering (16:366:611), Rutgers University, October 2026."
   - "Teaching Assistant / Laboratory Instructor: Led laboratory sections for CHEM 142 and CHEM 144 at the University of Montana in Fall 2021 and Fall 2024 (about 120 students total)."
 
 publications:
@@ -181,7 +182,9 @@ professional_activity:
   - label: "Convener"
     details: "Impacts of Wildfires on Atmospheric Chemistry: From Surface to Stratosphere, 29th Conference on Atmospheric Chemistry, 107th AMS Annual Meeting, Denver, CO, January 2027."
   - label: "Ad hoc reviewer"
-    details: "Atmospheric Environment (2021, 2024); ACS Earth and Space Chemistry (2023); Atmospheric Chemistry and Physics (2023, 2024); Environmental Science & Technology (2024); Environmental Science & Technology Letters (2023, 2024); and Journal of Advances in Modeling Earth Systems (2024, 2025)."
+    details: "Atmospheric Environment (2021, 2024); ACS Earth and Space Chemistry (2023); Atmospheric Chemistry and Physics (2023, 2024); Environmental Science & Technology (2024); Environmental Science & Technology Letters (2023, 2024); Journal of Advances in Modeling Earth Systems (2024, 2025); and Nature Sustainability (2026)."
+  - label: "Mock interviewer"
+    details: "Conducted department-organized practice job interviews and provided feedback to graduate students (2026)."
 
 skills:
   - category: "Programming and computing"
